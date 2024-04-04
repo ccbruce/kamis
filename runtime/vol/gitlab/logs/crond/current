@@ -1,0 +1,4 @@
+2024-03-31_10:44:46.26788 time=2024-03-31T10:44:46Z level=info msg=starting go-crond version 23.12.0 (4f2e74e; go1.21.7) 
+2024-03-31_10:44:46.26803 time=2024-03-31T10:44:46Z level=info msg={"ShowVersion":false,"ShowOnlyVersion":false,"ShowHelp":false,"Cron":{"DefaultUser":"root","IncludeCronD":["/var/opt/gitlab/crond"],"Auto":false,"RunParts":null,"RunParts1m":null,"RunParts15m":null,"RunPartsHourly":null,"RunPartsDaily":null,"RunPartsWeekly":null,"RunPartsMonthly":null,"AllowUnprivileged":false,"WorkDir":"/","EnableUserSwitching":false},"Log":{"Verbose":false,"Json":false},"Server":{"Bind":"","ReadTimeout":5000000000,"WriteTimeout":10000000000,"Metrics":false},"Args":{"Crontabs":null}}
+2024-03-31_10:44:46.26844 time=2024-03-31T10:44:46Z level=info msg=start runner with 0 jobs
+2024-03-31_10:44:46.26845 
