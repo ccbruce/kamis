@@ -1,0 +1,2622 @@
+31 Mar 17:09:52 - [767] reading config file: ./config/config.js
+31 Mar 17:09:52 - server is up INFO
+Flushing stats at  Sun Mar 31 2024 17:19:53 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: {},
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Sun Mar 31 2024 17:29:53 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Sun Mar 31 2024 17:39:53 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Sun Mar 31 2024 17:49:53 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Sun Mar 31 2024 17:59:53 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Sun Mar 31 2024 18:09:53 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Sun Mar 31 2024 18:19:53 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Sun Mar 31 2024 18:29:53 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Sun Mar 31 2024 18:39:53 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Sun Mar 31 2024 18:49:53 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Sun Mar 31 2024 18:59:53 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Sun Mar 31 2024 19:09:53 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Sun Mar 31 2024 19:19:53 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Sun Mar 31 2024 19:29:53 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Sun Mar 31 2024 19:39:53 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Sun Mar 31 2024 19:49:53 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Sun Mar 31 2024 19:59:53 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Sun Mar 31 2024 20:09:53 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Sun Mar 31 2024 20:19:53 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Sun Mar 31 2024 20:29:53 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+31 Mar 20:31:17 - [768] reading config file: ./config/config.js
+31 Mar 20:31:17 - server is up INFO
+31 Mar 20:31:57 - [766] reading config file: ./config/config.js
+31 Mar 20:31:57 - server is up INFO
+31 Mar 20:33:53 - [766] reading config file: ./config/config.js
+31 Mar 20:33:53 - server is up INFO
+31 Mar 21:17:17 - [766] reading config file: ./config/config.js
+31 Mar 21:17:17 - server is up INFO
+31 Mar 21:20:48 - [769] reading config file: ./config/config.js
+31 Mar 21:20:48 - server is up INFO
+31 Mar 21:21:58 - [766] reading config file: ./config/config.js
+31 Mar 21:21:58 - server is up INFO
+31 Mar 21:27:18 - [767] reading config file: ./config/config.js
+31 Mar 21:27:18 - server is up INFO
+31 Mar 21:28:16 - [768] reading config file: ./config/config.js
+31 Mar 21:28:16 - server is up INFO
+31 Mar 21:30:07 - [766] reading config file: ./config/config.js
+31 Mar 21:30:07 - server is up INFO
+31 Mar 21:32:06 - [767] reading config file: ./config/config.js
+31 Mar 21:32:06 - server is up INFO
+31 Mar 21:36:15 - [767] reading config file: ./config/config.js
+31 Mar 21:36:15 - server is up INFO
+31 Mar 21:38:13 - [767] reading config file: ./config/config.js
+31 Mar 21:38:13 - server is up INFO
+31 Mar 21:43:41 - [766] reading config file: ./config/config.js
+31 Mar 21:43:41 - server is up INFO
+31 Mar 21:45:00 - [769] reading config file: ./config/config.js
+31 Mar 21:45:00 - server is up INFO
+31 Mar 21:50:37 - [766] reading config file: ./config/config.js
+31 Mar 21:50:37 - server is up INFO
+31 Mar 21:57:26 - [765] reading config file: ./config/config.js
+31 Mar 21:57:26 - server is up INFO
+31 Mar 22:04:12 - [766] reading config file: ./config/config.js
+31 Mar 22:04:12 - server is up INFO
+31 Mar 22:09:18 - [768] reading config file: ./config/config.js
+31 Mar 22:09:18 - server is up INFO
+31 Mar 22:25:04 - [768] reading config file: ./config/config.js
+31 Mar 22:25:04 - server is up INFO
+31 Mar 22:32:02 - [767] reading config file: ./config/config.js
+31 Mar 22:32:02 - server is up INFO
+31 Mar 22:36:35 - [767] reading config file: ./config/config.js
+31 Mar 22:36:35 - server is up INFO
+31 Mar 22:41:19 - [766] reading config file: ./config/config.js
+31 Mar 22:41:19 - server is up INFO
+31 Mar 22:41:54 - [767] reading config file: ./config/config.js
+31 Mar 22:41:54 - server is up INFO
+31 Mar 22:42:42 - [767] reading config file: ./config/config.js
+31 Mar 22:42:42 - server is up INFO
+31 Mar 22:45:35 - [767] reading config file: ./config/config.js
+31 Mar 22:45:35 - server is up INFO
+31 Mar 22:47:10 - [766] reading config file: ./config/config.js
+31 Mar 22:47:11 - server is up INFO
+31 Mar 22:51:44 - [769] reading config file: ./config/config.js
+31 Mar 22:51:44 - server is up INFO
+31 Mar 22:52:32 - [767] reading config file: ./config/config.js
+31 Mar 22:52:32 - server is up INFO
+31 Mar 22:58:42 - [768] reading config file: ./config/config.js
+31 Mar 22:58:42 - server is up INFO
+31 Mar 22:59:29 - [766] reading config file: ./config/config.js
+31 Mar 22:59:29 - server is up INFO
+31 Mar 23:00:17 - [767] reading config file: ./config/config.js
+31 Mar 23:00:17 - server is up INFO
+31 Mar 23:04:45 - [768] reading config file: ./config/config.js
+31 Mar 23:04:45 - server is up INFO
+31 Mar 23:05:43 - [767] reading config file: ./config/config.js
+31 Mar 23:05:43 - server is up INFO
+31 Mar 23:07:22 - [768] reading config file: ./config/config.js
+31 Mar 23:07:22 - server is up INFO
+31 Mar 23:10:39 - [766] reading config file: ./config/config.js
+31 Mar 23:10:39 - server is up INFO
+2 Apr 13:22:04 - [767] reading config file: ./config/config.js
+2 Apr 13:22:04 - server is up INFO
+Flushing stats at  Tue Apr 02 2024 13:32:04 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: {},
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 13:42:04 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 13:52:04 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 14:02:04 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 14:12:04 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 14:22:04 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 14:32:04 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 14:42:04 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 14:52:04 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 15:02:04 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 15:12:04 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 15:22:04 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 15:32:04 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 15:42:04 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 15:52:04 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 16:02:04 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 16:12:04 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 16:22:04 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+2 Apr 16:23:59 - [767] reading config file: ./config/config.js
+2 Apr 16:23:59 - server is up INFO
+2 Apr 16:26:16 - [766] reading config file: ./config/config.js
+2 Apr 16:26:16 - server is up INFO
+2 Apr 16:27:56 - [768] reading config file: ./config/config.js
+2 Apr 16:27:56 - server is up INFO
+Flushing stats at  Tue Apr 02 2024 16:37:56 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: {},
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 16:47:56 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 16:57:56 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 17:07:56 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 17:17:56 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+2 Apr 17:18:51 - [768] reading config file: ./config/config.js
+2 Apr 17:18:51 - server is up INFO
+2 Apr 17:19:35 - [768] reading config file: ./config/config.js
+2 Apr 17:19:35 - server is up INFO
+2 Apr 17:21:05 - [766] reading config file: ./config/config.js
+2 Apr 17:21:05 - server is up INFO
+2 Apr 17:28:16 - [768] reading config file: ./config/config.js
+2 Apr 17:28:16 - server is up INFO
+2 Apr 17:35:33 - [766] reading config file: ./config/config.js
+2 Apr 17:35:33 - server is up INFO
+2 Apr 17:38:34 - [768] reading config file: ./config/config.js
+2 Apr 17:38:34 - server is up INFO
+Flushing stats at  Tue Apr 02 2024 17:48:35 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: {},
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+2 Apr 17:55:53 - [766] reading config file: ./config/config.js
+2 Apr 17:55:53 - server is up INFO
+Flushing stats at  Tue Apr 02 2024 18:05:54 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: {},
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+2 Apr 18:13:08 - [767] reading config file: ./config/config.js
+2 Apr 18:13:08 - server is up INFO
+2 Apr 18:18:48 - [766] reading config file: ./config/config.js
+2 Apr 18:18:48 - server is up INFO
+2 Apr 18:28:18 - [768] reading config file: ./config/config.js
+2 Apr 18:28:18 - server is up INFO
+2 Apr 18:31:41 - [767] reading config file: ./config/config.js
+2 Apr 18:31:41 - server is up INFO
+Flushing stats at  Tue Apr 02 2024 18:41:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: {},
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+2 Apr 18:43:52 - [767] reading config file: ./config/config.js
+2 Apr 18:43:52 - server is up INFO
+2 Apr 18:45:52 - [767] reading config file: ./config/config.js
+2 Apr 18:45:52 - server is up INFO
+2 Apr 18:49:37 - [766] reading config file: ./config/config.js
+2 Apr 18:49:37 - server is up INFO
+2 Apr 18:50:50 - [767] reading config file: ./config/config.js
+2 Apr 18:50:50 - server is up INFO
+Flushing stats at  Tue Apr 02 2024 19:00:51 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: {},
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+2 Apr 19:06:36 - [767] reading config file: ./config/config.js
+2 Apr 19:06:36 - server is up INFO
+2 Apr 19:07:26 - [766] reading config file: ./config/config.js
+2 Apr 19:07:26 - server is up INFO
+Flushing stats at  Tue Apr 02 2024 19:17:27 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: {},
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+2 Apr 19:20:09 - [767] reading config file: ./config/config.js
+2 Apr 19:20:09 - server is up INFO
+2 Apr 19:27:21 - [766] reading config file: ./config/config.js
+2 Apr 19:27:21 - server is up INFO
+2 Apr 19:28:24 - [767] reading config file: ./config/config.js
+2 Apr 19:28:24 - server is up INFO
+2 Apr 19:30:18 - [766] reading config file: ./config/config.js
+2 Apr 19:30:18 - server is up INFO
+2 Apr 19:34:26 - [767] reading config file: ./config/config.js
+2 Apr 19:34:26 - server is up INFO
+2 Apr 19:35:17 - [768] reading config file: ./config/config.js
+2 Apr 19:35:17 - server is up INFO
+2 Apr 19:41:47 - [768] reading config file: ./config/config.js
+2 Apr 19:41:47 - server is up INFO
+Flushing stats at  Tue Apr 02 2024 19:51:47 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: {},
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 20:01:47 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 20:11:47 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+2 Apr 20:17:20 - [766] reading config file: ./config/config.js
+2 Apr 20:17:20 - server is up INFO
+2 Apr 20:21:05 - [766] reading config file: ./config/config.js
+2 Apr 20:21:05 - server is up INFO
+2 Apr 20:24:24 - [766] reading config file: ./config/config.js
+2 Apr 20:24:24 - server is up INFO
+Flushing stats at  Tue Apr 02 2024 20:34:25 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: {},
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 20:44:25 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+2 Apr 20:45:40 - [766] reading config file: ./config/config.js
+2 Apr 20:45:40 - server is up INFO
+2 Apr 20:48:40 - [769] reading config file: ./config/config.js
+2 Apr 20:48:40 - server is up INFO
+Flushing stats at  Tue Apr 02 2024 20:58:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: {},
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 21:08:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 21:18:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 21:28:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 21:38:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 21:48:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 21:58:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 22:08:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 22:18:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 22:28:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 22:38:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 22:48:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 22:58:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 23:08:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 23:18:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 23:28:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 23:38:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 23:48:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Tue Apr 02 2024 23:58:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 00:08:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 00:18:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 00:28:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 00:38:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 00:48:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 00:58:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 01:08:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 01:18:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 01:28:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 01:38:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 01:48:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 01:58:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 02:08:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 02:18:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 02:28:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 02:38:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 02:48:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 02:58:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 03:08:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 03:18:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 03:28:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 03:38:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 03:48:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 03:58:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 04:08:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 04:18:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 04:28:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 04:38:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 04:48:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 04:58:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 05:08:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 05:18:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 05:28:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 05:38:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 05:48:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 05:58:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 06:08:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 06:18:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 06:28:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 06:38:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 06:48:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 06:58:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 07:08:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 07:18:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 07:28:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 07:38:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 07:48:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 07:58:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 08:08:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 08:18:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 08:28:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 08:38:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 08:48:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 08:58:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 09:08:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 09:18:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 09:28:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 09:38:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 09:48:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 09:58:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 10:08:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 10:18:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 10:28:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 10:38:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 10:48:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}
+Flushing stats at  Wed Apr 03 2024 10:58:41 GMT+0000 (Coordinated Universal Time)
+{
+  counters: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  timers: {},
+  gauges: { 'statsd.timestamp_lag': 0 },
+  timer_data: {},
+  counter_rates: {
+    'statsd.bad_lines_seen': 0,
+    'statsd.packets_received': 0,
+    'statsd.metrics_received': 0
+  },
+  sets: {},
+  pctThreshold: [ 90 ]
+}

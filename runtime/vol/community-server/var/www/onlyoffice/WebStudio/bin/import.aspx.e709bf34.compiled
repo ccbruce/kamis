@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/ThirdParty/ImportContacts/Import.aspx" hash="fffffffc7e144ec8" filehash="ffffc349c005a235" flags="110000" assembly="ASC" type="ASP.thirdparty_importcontacts_import_aspx">
+  <filedeps>
+    <filedep name="/ThirdParty/ImportContacts/Import.aspx" />
+  </filedeps>
+</preserve>

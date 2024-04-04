@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Products/Community/Modules/Forum/Posts.aspx" hash="fffffffc7e144ec8" filehash="4c46439a5115b6b" flags="110000" assembly="ASC" type="ASP.products_community_modules_forum_posts_aspx">
+  <filedeps>
+    <filedep name="/Masters/BaseTemplate.master" />
+    <filedep name="/Masters/BodyScripts.ascx" />
+    <filedep name="/Masters/CommonBodyScripts.ascx" />
+    <filedep name="/Masters/CommonStyles.ascx" />
+    <filedep name="/Masters/FirstScripts.ascx" />
+    <filedep name="/Masters/HeadScripts.ascx" />
+    <filedep name="/Masters/HeadStyles.ascx" />
+    <filedep name="/Masters/ThemeStyles.ascx" />
+    <filedep name="/Products/Community/Master/Community.Master" />
+    <filedep name="/Products/Community/Modules/Forum/Forum.Master" />
+    <filedep name="/Products/Community/Modules/Forum/Posts.aspx" />
+  </filedeps>
+</preserve>

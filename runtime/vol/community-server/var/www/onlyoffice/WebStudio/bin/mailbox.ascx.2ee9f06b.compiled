@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/addons/mail/Controls/MailBox/MailBox.ascx" hash="fffffffc7e144ec8" filehash="fffffd7a84db4fc7" flags="110000" assembly="ASC" type="ASP.addons_mail_controls_mailbox_mailbox_ascx">
+  <filedeps>
+    <filedep name="/addons/mail/Controls/MailBox/MailBox.ascx" />
+  </filedeps>
+</preserve>

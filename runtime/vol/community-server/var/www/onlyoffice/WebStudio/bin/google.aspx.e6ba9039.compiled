@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/ThirdParty/Google.aspx" hash="fffffffc7e144ec8" filehash="de078934eca40507" flags="110000" assembly="ASC" type="ASP.thirdparty_google_aspx">
+  <filedeps>
+    <filedep name="/ThirdParty/Google.aspx" />
+    <filedep name="/ThirdParty/Login.Master" />
+  </filedeps>
+</preserve>

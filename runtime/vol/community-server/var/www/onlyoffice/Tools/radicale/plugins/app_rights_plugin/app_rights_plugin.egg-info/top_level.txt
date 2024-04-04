@@ -1,0 +1,1 @@
+app_rights_plugin

@@ -1,0 +1,9 @@
+<apps>
+	<web-application>
+		<name>daidakaram</name>
+		<vhost>*</vhost>
+		<vport>9000</vport>
+		<vpath>/</vpath>
+		<path>/var/www/onlyoffice/WebStudio/</path>
+	</web-application>
+</apps>

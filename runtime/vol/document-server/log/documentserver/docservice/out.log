@@ -1,0 +1,531 @@
+[2024-03-31T17:09:53.649] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T17:09:53.652] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T17:09:53.892] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T17:10:22.884] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T17:10:22.886] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T17:10:23.116] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T20:29:50.492] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-03-31T20:29:50.493] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-03-31T20:29:50.493] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-03-31T20:31:18.207] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T20:31:18.210] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T20:31:18.418] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T20:31:58.515] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T20:31:58.518] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T20:31:58.793] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T20:32:29.174] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T20:32:29.176] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T20:32:29.421] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T20:33:17.335] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-03-31T20:33:17.336] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-03-31T20:33:17.336] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-03-31T20:33:54.187] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T20:33:54.190] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T20:33:54.423] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T21:17:18.374] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T21:17:18.377] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T21:17:18.622] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T21:17:49.010] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T21:17:49.013] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T21:17:49.252] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T21:20:49.074] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T21:20:49.077] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T21:20:49.305] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T21:21:19.565] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T21:21:19.568] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T21:21:19.806] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T21:21:59.710] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T21:21:59.713] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T21:21:59.968] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T21:27:19.074] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T21:27:19.077] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T21:27:19.309] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T21:28:17.787] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T21:28:17.790] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T21:28:18.035] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T21:28:50.009] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T21:28:50.012] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T21:28:50.251] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T21:28:52.182] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-03-31T21:28:52.182] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-03-31T21:28:52.183] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-03-31T21:30:08.258] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T21:30:08.261] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T21:30:08.499] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T21:30:40.478] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T21:30:40.481] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T21:30:40.711] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T21:31:35.708] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-03-31T21:31:35.709] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-03-31T21:31:35.709] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-03-31T21:32:07.371] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T21:32:07.374] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T21:32:07.635] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T21:32:39.375] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T21:32:39.377] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T21:32:39.614] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T21:36:16.438] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T21:36:16.441] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T21:36:16.656] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T21:36:48.141] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T21:36:48.144] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T21:36:48.392] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T21:37:41.908] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-03-31T21:37:41.909] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-03-31T21:37:41.909] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-03-31T21:38:14.428] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T21:38:14.431] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T21:38:14.675] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T21:38:44.346] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T21:38:44.349] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T21:38:44.579] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T21:43:25.105] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-03-31T21:43:25.106] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-03-31T21:43:25.106] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-03-31T21:43:42.579] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T21:43:42.582] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T21:43:42.824] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T21:44:12.021] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T21:44:12.024] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T21:44:12.265] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T21:45:01.561] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T21:45:01.564] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T21:45:01.830] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T21:45:31.077] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T21:45:31.080] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T21:45:31.325] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T21:49:11.885] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-03-31T21:49:11.885] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-03-31T21:49:11.885] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-03-31T21:50:38.407] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T21:50:38.410] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T21:50:38.662] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T21:51:08.568] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T21:51:08.571] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T21:51:08.805] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T21:56:59.511] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-03-31T21:56:59.512] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-03-31T21:56:59.512] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-03-31T21:57:27.911] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T21:57:27.914] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T21:57:28.137] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T21:57:57.582] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T21:57:57.585] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T21:57:57.828] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T22:03:20.183] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-03-31T22:03:20.183] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-03-31T22:03:20.183] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-03-31T22:04:13.130] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T22:04:13.134] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T22:04:13.389] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T22:04:42.831] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T22:04:42.833] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T22:04:43.077] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T22:08:51.183] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-03-31T22:08:51.184] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-03-31T22:08:51.184] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-03-31T22:09:19.439] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T22:09:19.442] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T22:09:19.690] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T22:09:49.198] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T22:09:49.201] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T22:09:49.441] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T22:14:50.341] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-03-31T22:14:50.341] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-03-31T22:14:50.341] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-03-31T22:25:05.014] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T22:25:05.018] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T22:25:05.239] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T22:25:35.866] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T22:25:35.869] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T22:25:36.096] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T22:31:25.213] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-03-31T22:31:25.214] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-03-31T22:31:25.214] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-03-31T22:32:03.811] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T22:32:03.814] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T22:32:04.052] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T22:32:34.653] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T22:32:34.656] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T22:32:34.945] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T22:36:09.541] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-03-31T22:36:09.541] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-03-31T22:36:09.541] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-03-31T22:36:36.280] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T22:36:36.283] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T22:36:36.530] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T22:37:06.476] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T22:37:06.478] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T22:37:06.699] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T22:40:52.125] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-03-31T22:40:52.126] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-03-31T22:40:52.126] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-03-31T22:41:20.830] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T22:41:20.834] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T22:41:21.078] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T22:41:55.370] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T22:41:55.373] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T22:41:55.587] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T22:42:43.227] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T22:42:43.230] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T22:42:43.469] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T22:43:13.321] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T22:43:13.324] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T22:43:13.564] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T22:45:08.804] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-03-31T22:45:08.805] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-03-31T22:45:08.805] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-03-31T22:45:36.751] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T22:45:36.754] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T22:45:36.967] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T22:46:07.575] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T22:46:07.578] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T22:46:07.799] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T22:46:09.688] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-03-31T22:46:09.688] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-03-31T22:46:09.689] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-03-31T22:47:11.917] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T22:47:11.920] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T22:47:12.165] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T22:47:42.126] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T22:47:42.129] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T22:47:42.351] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T22:51:07.362] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-03-31T22:51:07.363] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-03-31T22:51:07.363] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-03-31T22:51:45.871] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T22:51:45.875] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T22:51:46.115] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T22:52:33.110] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T22:52:33.113] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T22:52:33.348] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T22:53:13.976] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T22:53:13.978] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T22:53:14.208] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T22:58:06.050] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-03-31T22:58:06.050] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-03-31T22:58:06.050] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-03-31T22:58:43.167] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T22:58:43.170] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T22:58:43.370] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T22:59:30.582] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T22:59:30.585] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T22:59:30.848] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T23:00:18.414] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T23:00:18.417] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T23:00:18.650] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T23:00:48.309] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T23:00:48.312] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T23:00:48.544] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T23:02:12.391] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-03-31T23:02:12.391] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-03-31T23:02:12.392] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-03-31T23:04:46.224] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T23:04:46.227] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T23:04:46.421] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T23:05:17.329] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T23:05:17.332] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T23:05:17.573] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T23:05:44.380] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T23:05:44.383] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T23:05:44.619] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T23:06:16.879] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T23:06:16.881] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T23:06:17.115] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T23:06:18.995] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-03-31T23:06:18.995] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-03-31T23:06:18.996] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-03-31T23:07:23.607] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T23:07:23.610] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T23:07:23.857] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T23:07:55.438] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T23:07:55.441] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T23:07:55.669] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T23:10:10.705] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-03-31T23:10:10.705] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-03-31T23:10:10.705] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-03-31T23:10:40.014] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T23:10:40.018] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T23:10:40.261] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T23:11:10.179] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-03-31T23:11:10.182] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-03-31T23:11:10.416] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-03-31T23:13:11.360] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-03-31T23:13:11.361] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-03-31T23:13:11.361] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-04-02T13:22:05.357] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T13:22:05.360] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T13:22:05.635] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T13:22:36.950] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T13:22:36.953] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T13:22:37.194] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T16:22:41.191] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-04-02T16:22:41.192] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-04-02T16:22:41.192] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-04-02T16:24:00.722] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T16:24:00.725] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T16:24:00.979] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T16:24:32.562] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T16:24:32.565] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T16:24:32.792] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T16:25:28.633] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-04-02T16:25:28.634] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-04-02T16:25:28.634] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-04-02T16:26:17.124] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T16:26:17.127] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T16:26:17.355] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T16:26:49.108] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T16:26:49.111] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T16:26:49.346] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T16:27:57.301] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T16:27:57.304] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T16:27:57.560] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T16:28:29.838] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T16:28:29.841] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T16:28:30.081] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T17:18:14.165] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-04-02T17:18:14.166] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-04-02T17:18:14.166] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-04-02T17:18:52.311] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T17:18:52.314] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T17:18:52.538] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T17:19:36.315] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T17:19:36.318] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T17:19:36.572] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T17:20:07.461] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T17:20:07.463] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T17:20:07.702] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T17:20:09.583] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-04-02T17:20:09.583] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-04-02T17:20:09.584] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-04-02T17:21:06.010] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T17:21:06.013] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T17:21:06.248] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T17:21:37.164] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T17:21:37.167] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T17:21:37.382] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T17:26:12.944] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-04-02T17:26:12.945] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-04-02T17:26:12.945] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-04-02T17:28:17.440] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T17:28:17.444] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T17:28:17.697] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T17:28:47.721] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T17:28:47.724] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T17:28:47.962] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T17:35:08.413] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-04-02T17:35:08.413] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-04-02T17:35:08.413] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-04-02T17:35:34.265] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T17:35:34.268] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T17:35:34.501] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T17:36:04.465] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T17:36:04.468] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T17:36:04.694] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T17:38:08.682] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-04-02T17:38:08.682] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-04-02T17:38:08.683] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-04-02T17:38:35.686] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T17:38:35.689] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T17:38:35.930] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T17:39:06.094] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T17:39:06.097] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T17:39:06.337] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T17:55:27.034] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-04-02T17:55:27.035] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-04-02T17:55:27.035] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-04-02T17:55:54.825] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T17:55:54.829] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T17:55:55.082] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T17:56:25.013] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T17:56:25.016] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T17:56:25.256] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T18:12:36.096] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-04-02T18:12:36.097] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-04-02T18:12:36.097] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-04-02T18:13:09.423] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T18:13:09.427] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T18:13:09.671] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T18:13:39.727] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T18:13:39.730] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T18:13:39.963] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T18:18:22.697] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-04-02T18:18:22.698] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-04-02T18:18:22.698] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-04-02T18:18:49.160] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T18:18:49.162] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T18:18:49.415] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T18:19:19.233] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T18:19:19.236] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T18:19:19.473] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T18:27:51.360] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-04-02T18:27:51.361] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-04-02T18:27:51.361] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-04-02T18:28:19.644] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T18:28:19.647] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T18:28:19.882] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T18:28:49.944] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T18:28:49.947] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T18:28:50.172] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T18:30:57.250] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-04-02T18:30:57.251] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-04-02T18:30:57.251] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-04-02T18:31:42.150] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T18:31:42.153] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T18:31:42.408] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T18:32:12.253] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T18:32:12.255] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T18:32:12.498] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T18:43:27.395] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-04-02T18:43:27.396] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-04-02T18:43:27.396] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-04-02T18:43:53.402] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T18:43:53.405] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T18:43:53.662] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T18:44:23.394] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T18:44:23.397] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T18:44:23.632] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T18:45:26.993] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-04-02T18:45:26.993] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-04-02T18:45:26.994] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-04-02T18:45:53.479] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T18:45:53.482] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T18:45:53.710] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T18:46:23.381] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T18:46:23.384] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T18:46:23.614] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T18:49:06.404] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-04-02T18:49:06.405] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-04-02T18:49:06.405] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-04-02T18:49:38.746] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T18:49:38.749] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T18:49:38.972] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T18:50:08.579] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T18:50:08.581] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T18:50:08.812] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T18:50:51.582] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T18:50:51.585] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T18:50:51.827] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T18:51:21.522] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T18:51:21.525] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T18:51:21.757] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T19:06:09.691] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-04-02T19:06:09.692] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-04-02T19:06:09.692] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-04-02T19:06:37.641] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T19:06:37.643] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T19:06:37.885] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T19:07:27.801] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T19:07:27.804] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T19:07:28.049] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T19:07:57.615] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T19:07:57.617] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T19:07:57.847] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T19:19:42.294] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-04-02T19:19:42.294] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-04-02T19:19:42.294] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-04-02T19:20:10.442] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T19:20:10.445] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T19:20:10.674] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T19:20:40.320] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T19:20:40.323] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T19:20:40.546] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T19:24:54.369] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-04-02T19:24:54.369] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-04-02T19:24:54.369] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-04-02T19:27:22.202] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T19:27:22.205] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T19:27:22.448] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T19:27:52.183] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T19:27:52.186] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T19:27:52.412] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T19:28:25.652] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T19:28:25.655] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T19:28:25.885] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T19:28:55.696] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T19:28:55.699] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T19:28:55.913] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T19:29:53.652] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-04-02T19:29:53.653] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-04-02T19:29:53.653] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-04-02T19:30:19.704] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T19:30:19.707] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T19:30:19.947] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T19:30:49.551] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T19:30:49.554] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T19:30:49.789] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T19:32:44.537] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-04-02T19:32:44.538] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-04-02T19:32:44.538] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-04-02T19:34:27.111] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T19:34:27.114] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T19:34:27.348] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T19:34:57.326] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T19:34:57.329] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T19:34:57.558] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T19:34:59.424] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-04-02T19:34:59.424] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-04-02T19:34:59.425] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-04-02T19:35:18.389] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T19:35:18.392] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T19:35:18.601] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T19:35:48.597] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T19:35:48.599] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T19:35:48.836] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T19:41:21.868] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-04-02T19:41:21.869] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-04-02T19:41:21.869] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-04-02T19:41:48.213] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T19:41:48.216] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T19:41:48.452] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T19:42:18.139] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T19:42:18.142] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T19:42:18.371] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T20:16:53.823] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-04-02T20:16:53.824] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-04-02T20:16:53.824] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-04-02T20:17:21.923] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T20:17:21.926] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T20:17:22.157] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T20:17:51.839] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T20:17:51.842] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T20:17:52.071] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T20:20:29.493] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-04-02T20:20:29.494] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-04-02T20:20:29.494] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-04-02T20:21:05.942] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T20:21:05.946] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T20:21:06.210] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T20:21:35.987] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T20:21:35.989] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T20:21:36.231] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T20:23:48.452] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-04-02T20:23:48.453] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-04-02T20:23:48.453] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-04-02T20:24:25.477] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T20:24:25.480] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T20:24:25.728] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T20:24:55.801] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T20:24:55.804] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T20:24:56.024] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T20:45:14.741] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-04-02T20:45:14.742] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-04-02T20:45:14.742] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-04-02T20:45:41.897] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T20:45:41.902] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T20:45:42.153] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T20:46:12.234] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T20:46:12.237] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T20:46:12.471] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T20:48:15.546] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-04-02T20:48:15.546] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-04-02T20:48:15.546] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown
+[2024-04-02T20:48:41.703] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T20:48:41.706] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T20:48:41.953] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-02T20:49:11.597] [WARN] [localhost] [docId] [userId] nodeJS - Express server starting...
+[2024-04-02T20:49:11.600] [WARN] [localhost] [docId] [userId] nodeJS - Failed to subscribe to plugin folder updates. When changing the list of plugins, you must restart the server. https://nodejs.org/docs/latest/api/fs.html#fs_availability
+[2024-04-02T20:49:11.834] [WARN] [localhost] [docId] [userId] nodeJS - Express server listening on port 8000 in production-linux mode. Version: 8.0.1. Build: 31
+[2024-04-03T11:00:44.460] [WARN] [localhost] [docId] [userId] nodeJS - start shutdown:%b true
+[2024-04-03T11:00:44.462] [WARN] [localhost] [docId] [userId] nodeJS - active connections: 0
+[2024-04-03T11:00:44.462] [WARN] [localhost] [docId] [userId] nodeJS - end shutdown

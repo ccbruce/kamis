@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/ThirdParty/Dropbox.aspx" hash="fffffffc7e144ec8" filehash="63e621065495de4d" flags="110000" assembly="ASC" type="ASP.thirdparty_dropbox_aspx">
+  <filedeps>
+    <filedep name="/ThirdParty/Dropbox.aspx" />
+    <filedep name="/ThirdParty/Login.Master" />
+  </filedeps>
+</preserve>

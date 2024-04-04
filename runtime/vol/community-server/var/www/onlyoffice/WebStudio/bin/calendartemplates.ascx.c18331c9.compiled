@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/addons/calendar/UserControls/CalendarTemplates.ascx" hash="fffffffc7e144ec8" filehash="fffff2940cf822ee" flags="110000" assembly="ASC" type="ASP.addons_calendar_usercontrols_calendartemplates_ascx">
+  <filedeps>
+    <filedep name="/addons/calendar/UserControls/CalendarTemplates.ascx" />
+  </filedeps>
+</preserve>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Products/CRM/Warmup.aspx" hash="fffffffc7e144ec8" filehash="2e2ad897cb6d" flags="110000" assembly="ASC" type="ASP.products_crm_warmup_aspx">
+  <filedeps>
+    <filedep name="/Products/CRM/Warmup.aspx" />
+  </filedeps>
+</preserve>

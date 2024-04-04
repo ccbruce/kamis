@@ -1,0 +1,33 @@
+Upgrading CKEditor
+
+https://docs.ckeditor.com/#!/guide/dev_upgrade
+
+Download new version, copy and replace all files exept
+
+custom files:
+1) ckeditor-connector.js
+2) config.js
+3) contents.css
+
+custom plugins:
+1) plugins\smiley
+
+custom skins:
+1) skins\teamlab
+
+additional plugins:
+1) codemirror
+2) fakeobjects
+3) filetype
+4) oembed
+5) teamlabcut
+6) teamlabquote
+7) ajax
+8) autocomplete
+9) mentions
+10) textmatch
+11) textwatcher
+12) xml
+
+custom modifications: 
+1) plugins\autocomplete added autocompleteCommit event (0d2f33499e34f15395c3f453356683ca3eb999a3)

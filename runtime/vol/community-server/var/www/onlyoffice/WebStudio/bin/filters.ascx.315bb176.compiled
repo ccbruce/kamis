@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/addons/mail/Controls/FiltersPage/Filters.ascx" hash="fffffffc7e144ec8" filehash="ffffc585821eba2b" flags="110000" assembly="ASC" type="ASP.addons_mail_controls_filterspage_filters_ascx">
+  <filedeps>
+    <filedep name="/addons/mail/Controls/FiltersPage/Filters.ascx" />
+  </filedeps>
+</preserve>

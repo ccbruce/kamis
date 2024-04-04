@@ -1,0 +1,6 @@
+setup.py
+app_rights_plugin/__init__.py
+app_rights_plugin.egg-info/PKG-INFO
+app_rights_plugin.egg-info/SOURCES.txt
+app_rights_plugin.egg-info/dependency_links.txt
+app_rights_plugin.egg-info/top_level.txt

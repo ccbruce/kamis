@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/ThirdParty/Box.aspx" hash="fffffffc7e144ec8" filehash="3403d6adc91e6f3a" flags="110000" assembly="ASC" type="ASP.thirdparty_box_aspx">
+  <filedeps>
+    <filedep name="/ThirdParty/Box.aspx" />
+    <filedep name="/ThirdParty/Login.Master" />
+  </filedeps>
+</preserve>

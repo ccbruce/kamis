@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/UserControls/Management/Monitoring/PortsChecker.ascx" hash="fffffffc7e144ec8" filehash="3fd70675b853" flags="110000" assembly="ASC" type="ASP.usercontrols_management_monitoring_portschecker_ascx">
+  <filedeps>
+    <filedep name="/UserControls/Management/Monitoring/PortsChecker.ascx" />
+  </filedeps>
+</preserve>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/MigrationPortal.aspx" hash="fffffffc7e144ec8" filehash="38e59c6a6707" flags="110000" assembly="ASC" type="ASP.migrationportal_aspx">
+  <filedeps>
+    <filedep name="/MigrationPortal.aspx" />
+  </filedeps>
+</preserve>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Products/Community/Modules/Wiki/WikiUC/fckeditor/editor/filemanager/connectors/aspx/upload.aspx" hash="fffffffc7e144ec8" filehash="39bb8f2f2c086abd" flags="110000" assembly="ASC" type="ASP.products_community_modules_wiki_wikiuc_fckeditor_editor_filemanager_connectors_aspx_upload_aspx">
+  <filedeps>
+    <filedep name="/Products/Community/Modules/Wiki/WikiUC/fckeditor/editor/filemanager/connectors/aspx/config.ascx" />
+    <filedep name="/Products/Community/Modules/Wiki/WikiUC/fckeditor/editor/filemanager/connectors/aspx/upload.aspx" />
+  </filedeps>
+</preserve>

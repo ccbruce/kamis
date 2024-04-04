@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/UserControls/Common/MediaViewer/MediaPlayer.ascx" hash="fffffffc7e144ec8" filehash="1b012a7594c2" flags="110000" assembly="ASC" type="ASP.usercontrols_common_mediaviewer_mediaplayer_ascx">
+  <filedeps>
+    <filedep name="/UserControls/Common/MediaViewer/MediaPlayer.ascx" />
+  </filedeps>
+</preserve>

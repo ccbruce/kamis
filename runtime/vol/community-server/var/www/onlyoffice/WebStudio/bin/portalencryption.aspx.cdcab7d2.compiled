@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/PortalEncryption.aspx" hash="fffffffc7e144ec8" filehash="ffffd3aa450a792b" flags="110000" assembly="ASC" type="ASP.portalencryption_aspx">
+  <filedeps>
+    <filedep name="/PortalEncryption.aspx" />
+  </filedeps>
+</preserve>

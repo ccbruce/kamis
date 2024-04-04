@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Products/Files/DocEditor.aspx" hash="fffffffc7e144ec8" filehash="1bcb8dc56cc78350" flags="110000" assembly="ASC" type="ASP.products_files_doceditor_aspx">
+  <filedeps>
+    <filedep name="/Products/Files/DocEditor.aspx" />
+    <filedep name="/Products/Files/Masters/EditorScripts.ascx" />
+  </filedeps>
+</preserve>

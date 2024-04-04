@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Products/Sample/Styles.aspx" hash="fffffffc7e144ec8" filehash="1e5a7c4ab3b6a2ce" flags="110000" assembly="ASC" type="ASP.products_sample_styles_aspx">
+  <filedeps>
+    <filedep name="/Masters/BaseTemplate.master" />
+    <filedep name="/Masters/BodyScripts.ascx" />
+    <filedep name="/Masters/CommonBodyScripts.ascx" />
+    <filedep name="/Masters/CommonStyles.ascx" />
+    <filedep name="/Masters/FirstScripts.ascx" />
+    <filedep name="/Masters/HeadScripts.ascx" />
+    <filedep name="/Masters/HeadStyles.ascx" />
+    <filedep name="/Masters/ThemeStyles.ascx" />
+    <filedep name="/Products/Sample/Masters/BasicTemplate.Master" />
+    <filedep name="/Products/Sample/Styles.aspx" />
+  </filedeps>
+</preserve>

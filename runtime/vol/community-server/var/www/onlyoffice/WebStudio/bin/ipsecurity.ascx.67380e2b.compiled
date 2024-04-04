@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/UserControls/Management/IpSecurity/IpSecurity.ascx" hash="fffffffc7e144ec8" filehash="d650fc42093" flags="110000" assembly="ASC" type="ASP.usercontrols_management_ipsecurity_ipsecurity_ascx">
+  <filedeps>
+    <filedep name="/UserControls/Management/IpSecurity/IpSecurity.ascx" />
+  </filedeps>
+</preserve>
