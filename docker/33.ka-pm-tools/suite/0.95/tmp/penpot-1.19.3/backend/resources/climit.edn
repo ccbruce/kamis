@@ -1,0 +1,14 @@
+;; Example climit.edn file
+;; Required: permits
+;; Optional: queue, ommited means Integer/MAX_VALUE
+;; Optional: timeout, ommited means no timeout
+;; Note: queue and timeout are excluding
+{:update-file-by-id {:permits 1 :queue 3}
+ :update-file {:permits 20}
+
+ :derive-password {:permits 8}
+ :process-font  {:permits 4 :queue 32}
+ :process-image {:permits 8 :queue 32}
+
+ :submit-audit-events-by-profile
+ {:permits 1 :queue 3}}

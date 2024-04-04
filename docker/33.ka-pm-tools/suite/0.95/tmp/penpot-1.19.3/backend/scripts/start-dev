@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+
+export PENPOT_HOST=devenv
+export PENPOT_TENANT=dev
+export PENPOT_FLAGS="\
+       $PENPOT_FLAGS \
+       enable-prepl-server \
+       enable-urepl-server \
+       enable-webhooks \
+       enable-backend-asserts \
+       enable-audit-log \
+       enable-transit-readable-response \
+       enable-demo-users \
+       enable-fdata-storage-pointer-map \
+       enable-fdata-storage-objets-map \
+       disable-secure-session-cookies \
+       enable-smtp \
+       enable-access-tokens";
+
+set -ex
+
+if [ "$1" = "--watch" ]; then
+    echo "Start Watch..."
+
+    clojure -A:dev -M -m app.main &
+    PID=$!
+
+    npx nodemon \
+        --watch src \
+        --watch ../common \
+        --ext "clj" \
+        --signal SIGKILL \
+        --exec 'echo "(user/restart)" | nc -N localhost 6062'
+
+    kill -9 $PID
+else
+    clojure -A:dev -M -m app.main
+fi

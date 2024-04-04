@@ -1,0 +1,34 @@
+{:deps {:aliases [:dev]}
+ ;; :http {:port 3448}
+ ;; :nrepl {:port 3447}
+ :jvm-opts ["-Xmx700m" "-Xms100m" "-XX:+UseSerialGC" "-XX:-OmitStackTraceInFastThrow"]
+
+ :builds
+ {:test
+  {:target :node-test
+   :output-to "target/test.js"
+   :output-dir "target/test/"
+   :ns-regexp "^common-tests.*-test$"
+   :autorun true
+
+   :compiler-options
+   {:output-feature-set :es-next
+    :output-wrapper false
+    :source-map true
+    :source-map-include-sources-content true
+    :source-map-detail-level :all
+    :warnings {:fn-deprecated false}}}
+
+  :bench
+  {:target :node-script
+   :output-to "target/bench.js"
+   :output-dir "target/bench/"
+   :main bench/main
+   :devtools {:autoload false}
+
+   :compiler-options
+   {:output-feature-set :es-next
+    :output-wrapper false}}}
+ }
+
+

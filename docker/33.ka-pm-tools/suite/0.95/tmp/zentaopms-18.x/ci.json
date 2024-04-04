@@ -1,0 +1,52 @@
+{
+  "pkg": {
+    "xuanxuan": {
+      "gitVersion": "f501e962d26241befbe0b18cf770e41e0f49d7e4",
+      "version": "8.0.2"
+    },
+    "zentaoext": {
+      "gitVersion": "18.x",
+      "gitRepo": "easycorp/zentaoext"
+    },
+    "zdoo": {
+      "gitVersion": "master"
+    },
+    "zdooext": {
+      "gitVersion": "master"
+    },
+    "downgrade": {
+      "gitVersion": "18.x",
+      "gitRepo": "devops/zentaopms-downgrade"
+    }
+  },
+  "image": {
+    "phpversion": "7.4.x",
+    "public": {
+      "namespace": {
+        "release": "app",
+        "snapshot": "test"
+      }
+    },
+    "internal": {
+      "namespace": {
+        "release": "app",
+        "snapshot": "test"
+      }
+    }
+  },
+  "downgrade": {
+    "versions": "7.2,7.1,7.0,5.4"
+  },
+  "upload": {
+    "bucket": "download",
+    "nexus": {
+       "release": "easycorp",
+       "snapshot": "easycorp-snapshot"
+     }
+  },
+  "notice": {
+    "users": "qishiyao,hufangzhou,caoyanyi",
+    "groups": "38a4e39b-df5d-4606-a988-e22673bdc358",
+    "groups2": "38a4e39b-df5d-4606-a988-e22673bdc358,6f5bb3f5-f4e3-4f67-963e-0cc9d59ad3c7"
+  }
+}

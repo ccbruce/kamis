@@ -1,0 +1,444 @@
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at http://mozilla.org/MPL/2.0/.
+//
+// Copyright (c) KALEIDOS INC
+
+$width-left-toolbar: 48px;
+
+$width-settings-bar: 256px;
+$width-settings-bar-min: 255px;
+$width-settings-bar-max: 500px;
+
+$height-palette: 79px;
+$height-palette-min: 54px;
+$height-palette-max: 80px;
+
+#workspace {
+  width: 100vw;
+  height: 100%;
+  user-select: none;
+  background-color: $color-canvas;
+  display: grid;
+  grid-template-areas:
+    "header header header header"
+    "toolbar left-sidebar viewport right-sidebar"
+    "toolbar left-sidebar color-palette right-sidebar";
+
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: auto auto 1fr auto;
+
+  .workspace-header {
+    grid-area: header;
+    height: 48px;
+  }
+
+  .left-toolbar {
+    grid-area: toolbar;
+    width: $width-left-toolbar;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .settings-bar.settings-bar-left {
+    min-width: $width-settings-bar;
+    max-width: 500px;
+    width: var(--width, $width-settings-bar);
+    grid-area: left-sidebar;
+  }
+
+  .settings-bar.settings-bar-right {
+    transition: width 0.2s;
+    min-width: $width-settings-bar;
+    max-width: $width-settings-bar * 3;
+    width: $width-settings-bar;
+    grid-area: right-sidebar;
+
+    &.expanded {
+      width: $width-settings-bar * 3;
+    }
+  }
+
+  .workspace-loader {
+    grid-area: viewport;
+  }
+
+  .workspace-content {
+    grid-area: viewport;
+  }
+
+  .color-palette {
+    grid-area: color-palette;
+    max-height: $height-palette-max;
+    height: var(--height, $height-palette);
+  }
+}
+
+.workspace-context-menu {
+  background-color: $color-white;
+  border-radius: $br3;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+  left: 740px;
+  position: absolute;
+  top: 40px;
+  width: 240px;
+  z-index: 12;
+
+  li {
+    align-items: center;
+    font-size: $fs14;
+    padding: $size-1 $size-4;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: space-between;
+
+    &.separator {
+      border-top: 1px solid $color-gray-10;
+      padding: 0px;
+      margin: 2px;
+    }
+
+    span {
+      color: $color-gray-60;
+    }
+
+    span.shortcut {
+      color: $color-gray-20;
+      font-size: $fs12;
+    }
+
+    &:hover {
+      background-color: $color-primary-lighter;
+    }
+
+    .submenu-icon {
+      position: absolute;
+      right: 1rem;
+
+      svg {
+        width: 10px;
+        height: 10px;
+      }
+    }
+  }
+
+  .icon-menu-item {
+    display: flex;
+    justify-content: flex-start;
+
+    &:hover {
+      background-color: $color-primary-lighter;
+    }
+
+    span.title {
+      margin-left: 5px;
+    }
+
+    .selected-icon {
+      svg {
+        width: 10px;
+        height: 10px;
+      }
+    }
+
+    .shape-icon {
+      margin-left: 3px;
+      svg {
+        width: 13px;
+        height: 13px;
+      }
+    }
+
+    .icon-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin: 0;
+    }
+  }
+}
+
+.workspace-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  svg#loader-pencil {
+    fill: $color-gray-50;
+  }
+}
+
+.workspace-content {
+  background-color: $color-canvas;
+  display: flex;
+  padding: 0;
+  margin: 0;
+
+  &.scrolling {
+    cursor: grab;
+  }
+
+  &.no-tool-bar-right {
+    width: calc(100% - #{$width-left-toolbar} - #{$width-settings-bar});
+    right: 0;
+
+    .coordinates {
+      right: 10px;
+    }
+  }
+
+  &.no-tool-bar-left {
+    width: calc(100% - #{$width-left-toolbar} - #{$width-settings-bar});
+
+    &.no-tool-bar-right {
+      width: 100%;
+    }
+  }
+
+  .coordinates {
+    background-color: $color-dark-bg;
+    border-radius: $br3;
+    bottom: 0px;
+    padding-left: 5px;
+    position: fixed;
+    right: calc(#{$width-settings-bar} + 14px);
+    text-align: center;
+    width: 125px;
+    white-space: nowrap;
+    padding-bottom: 2px;
+    transition: bottom 0.5s;
+    z-index: 2;
+
+    &.color-palette-open {
+      bottom: 5rem;
+    }
+
+    span {
+      color: $color-white;
+      font-size: $fs12;
+      padding-right: 5px;
+    }
+  }
+
+  .cursor-tooltip {
+    background-color: $color-dark-bg;
+    border-radius: $br3;
+    color: $color-white;
+    font-size: $fs12;
+    padding: 3px 8px;
+    transition: none;
+    text-align: center;
+  }
+
+  .workspace-viewport {
+    overflow: hidden;
+    transition: none;
+    display: grid;
+    grid-template-rows: 20px 1fr;
+    grid-template-columns: 20px 1fr;
+    flex: 1;
+  }
+
+  .viewport {
+    cursor: none;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+    overflow: hidden;
+    position: relative;
+
+    .viewport-overlays {
+      cursor: initial;
+      height: 100%;
+      overflow: hidden;
+      pointer-events: none;
+      position: absolute;
+      width: 100%;
+      z-index: 10;
+
+      .pixel-overlay {
+        height: 100%;
+        left: 0;
+        pointer-events: initial;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+      }
+    }
+
+    .render-shapes {
+      height: 100%;
+      position: absolute;
+      width: 100%;
+    }
+
+    .frame-thumbnail-wrapper {
+      .fills,
+      .frame-clip-def {
+        opacity: 0;
+      }
+    }
+
+    .viewport-controls {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .page-canvas,
+  .page-layout {
+    overflow: visible;
+  }
+
+  /* Rules */
+
+  .empty-rule-square {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  .horizontal-rule {
+    transition: none;
+    pointer-events: none;
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+    z-index: 13;
+
+    rect {
+      fill: $color-canvas;
+    }
+    path {
+      stroke: $color-gray-20;
+    }
+  }
+
+  .vertical-rule {
+    transition: none;
+    pointer-events: none;
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+    z-index: 13;
+
+    rect {
+      fill: $color-canvas;
+    }
+    path {
+      stroke: $color-gray-20;
+    }
+  }
+}
+
+.workspace-frame-icon {
+  fill: $color-gray-40;
+}
+
+.workspace-frame-label {
+  fill: $color-gray-40;
+  font-size: $fs12;
+}
+
+.multiuser-cursor {
+  z-index: 10000;
+  pointer-events: none;
+}
+
+.profile-name {
+  width: fit-content;
+  font-family: worksans;
+  padding: 2px 12px;
+  border-radius: $br4;
+  display: flex;
+  align-items: center;
+  height: 20px;
+  font-size: $fs12;
+  line-height: $lh-150;
+}
+
+.viewport-actions {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: auto;
+  margin-top: 2rem;
+  position: absolute;
+  width: 100%;
+  z-index: 12;
+  pointer-events: none;
+
+  .path-actions {
+    pointer-events: initial;
+    display: flex;
+    flex-direction: row;
+    background: white;
+    border-radius: $br3;
+    padding: 0.5rem;
+    border: 1px solid $color-gray-20;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .viewport-actions-group {
+    display: flex;
+    flex-direction: row;
+    border-right: 1px solid $color-gray-20;
+  }
+
+  .viewport-actions-entry {
+    width: 28px;
+    height: 28px;
+    margin: 0 0.25rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: $br3;
+
+    svg {
+      pointer-events: none;
+      width: 20px;
+      height: 20px;
+    }
+
+    &:hover svg {
+      fill: $color-primary;
+    }
+
+    &.is-disabled {
+      cursor: initial;
+      svg {
+        fill: $color-gray-20;
+      }
+    }
+
+    &.is-toggled {
+      background: $color-black;
+
+      svg {
+        fill: $color-primary;
+      }
+    }
+  }
+
+  .viewport-actions-entry-wide {
+    width: 27px;
+    height: 20px;
+
+    svg {
+      width: 27px;
+      height: 20px;
+    }
+  }
+
+  .path-actions > :first-child .viewport-actions-entry {
+    margin-left: 0;
+  }
+
+  .path-actions > :last-child {
+    border: none;
+  }
+
+  .path-actions > :last-child .viewport-actions-entry {
+    margin-right: 0;
+  }
+}
