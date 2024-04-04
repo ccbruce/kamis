@@ -1,0 +1,18 @@
+[program:god.service]
+# ExecStartPre=/bin/bash -c 'rm -f /tmp/onlyofficeBackup'
+#/lib/systemd/system
+# /usr/bin/mono-service --debug --no-daemon 
+command=/bin/bash -c 'test -f /usr/local/rvm/scripts/rvm && source /usr/local/rvm/scripts/rvm; /usr/bin/god -c /etc/god/god.conf -P /var/run/god.pid -l /var/log/god.log'
+# Give up if ping don't get an answer
+#environment=
+#user=onlyoffice
+# group=onlyoffice
+
+process_name=%(program_name)s
+autostart=false
+autorestart=false
+startretries=5
+exitcodes=0,2,70
+stopsignal=INT
+stopwaitsecs=2
+stdout_logfile=/var/log/supervisor/god.service.log

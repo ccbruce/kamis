@@ -1,0 +1,8 @@
+{
+  "core.machinekey": "M5GJGUIRiLLr",
+  "logPath": "/var/log/onlyoffice/web.socketio.log",
+  "portal.internal.url": "http://localhost",
+  "redis":{
+    "host": "127.0.0.1"
+    }
+}

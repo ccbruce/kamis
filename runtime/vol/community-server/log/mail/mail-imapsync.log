@@ -1,0 +1,21 @@
+2024-04-02 17:07:56,540 DEBUG [1] ASC.Mail.ImapSync - path: /etc/onlyoffice/communityserver 
+2024-04-02 17:07:56,552 DEBUG [1] ASC.Mail.ImapSync - EnvironmentName: production 
+2024-04-02 17:07:57,136 INFO [1] ASC.Mail.ImapSyncService - Service is created. 
+2024-04-02 17:07:57,160 INFO [1] ASC.Mail.ImapSyncService - Service is subscrube to Redis chanel. 
+2024-04-02 17:17:56,704 INFO [10] ASC.Mail.ImapSyncService - Service is stopping. 
+2024-04-02 17:18:00,680 DEBUG [1] ASC.Mail.ImapSync - path: /etc/onlyoffice/communityserver 
+2024-04-02 17:18:00,689 DEBUG [1] ASC.Mail.ImapSync - EnvironmentName: production 
+2024-04-02 17:18:01,271 INFO [1] ASC.Mail.ImapSyncService - Service is created. 
+2024-04-02 17:18:01,295 INFO [1] ASC.Mail.ImapSyncService - Service is subscrube to Redis chanel. 
+2024-04-02 17:18:42,764 DEBUG [1] ASC.Mail.ImapSync - path: /etc/onlyoffice/communityserver 
+2024-04-02 17:18:42,775 DEBUG [1] ASC.Mail.ImapSync - EnvironmentName: production 
+2024-04-02 17:18:49,605 INFO [1] ASC.Mail.ImapSyncService - Service is created. 
+2024-04-02 17:18:49,633 INFO [1] ASC.Mail.ImapSyncService - Service is subscrube to Redis chanel. 
+2024-04-02 17:19:26,700 DEBUG [1] ASC.Mail.ImapSync - path: /etc/onlyoffice/communityserver 
+2024-04-02 17:19:26,710 DEBUG [1] ASC.Mail.ImapSync - EnvironmentName: production 
+2024-04-02 17:19:33,548 INFO [1] ASC.Mail.ImapSyncService - Service is created. 
+2024-04-02 17:19:33,589 INFO [1] ASC.Mail.ImapSyncService - Service is subscrube to Redis chanel. 
+2024-04-02 17:20:56,274 DEBUG [1] ASC.Mail.ImapSync - path: /etc/onlyoffice/communityserver 
+2024-04-02 17:20:56,283 DEBUG [1] ASC.Mail.ImapSync - EnvironmentName: production 
+2024-04-02 17:20:56,974 INFO [1] ASC.Mail.ImapSyncService - Service is created. 
+2024-04-02 17:20:57,010 INFO [1] ASC.Mail.ImapSyncService - Service is subscrube to Redis chanel. 

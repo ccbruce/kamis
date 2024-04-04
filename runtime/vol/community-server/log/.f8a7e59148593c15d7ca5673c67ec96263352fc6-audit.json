@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "/var/log/onlyoffice/.f8a7e59148593c15d7ca5673c67ec96263352fc6-audit.json",
+    "files": [
+        {
+            "date": 1712077676153,
+            "name": "/var/log/onlyoffice/web.urlshortener.log.04-02",
+            "hash": "c5058807dd0303dcd789dfff582c527c"
+        }
+    ]
+}
