@@ -1,0 +1,4651 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-01-26 16:52+0000\n"
+"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
+"Language-Team: Turkish "
+"<https://hosted.weblate.org/projects/penpot/frontend/tr/>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16-dev\n"
+
+#: src/app/main/ui/auth/register.cljs
+msgid "auth.already-have-account"
+msgstr "Zaten hesabın var mı?"
+
+#: src/app/main/ui/auth/register.cljs
+msgid "auth.check-your-email"
+msgstr ""
+"Penpot hesabını onaylamak ve kullanmaya başlamak için e-postanı kontrol et "
+"ve gönderilen bağlantıya tıkla."
+
+#: src/app/main/ui/auth/recovery.cljs
+msgid "auth.confirm-password"
+msgstr "Parolayı onayla"
+
+#: src/app/main/ui/auth/register.cljs, src/app/main/ui/auth/login.cljs
+msgid "auth.create-demo-account"
+msgstr "Demo hesabı oluştur"
+
+#: src/app/main/ui/auth/register.cljs, src/app/main/ui/auth/login.cljs
+msgid "auth.create-demo-profile"
+msgstr "Sadece denemek mi istiyorsun?"
+
+#: src/app/main/ui/auth/register.cljs
+msgid "auth.demo-warning"
+msgstr ""
+"Bu bir DEMO hizmettir, gerçek işleriniz için KULLANMAYIN, projeler belirli "
+"aralıklarla silinecektir."
+
+#: src/app/main/ui/auth/register.cljs,
+#: src/app/main/ui/auth/recovery_request.cljs, src/app/main/ui/auth/login.cljs
+msgid "auth.email"
+msgstr "E-posta"
+
+#: src/app/main/ui/auth/login.cljs
+msgid "auth.forgot-password"
+msgstr "Parolanı mı unuttun?"
+
+#: src/app/main/ui/auth/register.cljs
+msgid "auth.fullname"
+msgstr "Tam Adın"
+
+#: src/app/main/ui/auth/register.cljs
+msgid "auth.login-here"
+msgstr "Buradan oturum açın"
+
+#: src/app/main/ui/auth/login.cljs
+msgid "auth.login-submit"
+msgstr "Oturum aç"
+
+#: src/app/main/ui/auth/login.cljs
+msgid "auth.login-title"
+msgstr "Seni tekrar görmek süper!"
+
+#: src/app/main/ui/auth/register.cljs, src/app/main/ui/auth/login.cljs
+msgid "auth.login-with-github-submit"
+msgstr "GitHub"
+
+#: src/app/main/ui/auth/register.cljs, src/app/main/ui/auth/login.cljs
+msgid "auth.login-with-gitlab-submit"
+msgstr "GitLab"
+
+#: src/app/main/ui/auth/login.cljs
+msgid "auth.login-with-google-submit"
+msgstr "Google"
+
+#: src/app/main/ui/auth/login.cljs
+msgid "auth.login-with-ldap-submit"
+msgstr "LDAP"
+
+#: src/app/main/ui/auth/login.cljs
+msgid "auth.login-with-oidc-submit"
+msgstr "OpenID"
+
+#: src/app/main/ui/auth/recovery.cljs
+msgid "auth.new-password"
+msgstr "Yeni bir parola gir"
+
+#: src/app/main/ui/auth/recovery.cljs
+msgid "auth.notifications.invalid-token-error"
+msgstr "Kurtarma jetonu geçerli değil."
+
+#: src/app/main/ui/auth/recovery.cljs
+msgid "auth.notifications.password-changed-successfully"
+msgstr "Parola başarıyla değiştirildi"
+
+#: src/app/main/ui/auth/recovery_request.cljs
+msgid "auth.notifications.profile-not-verified"
+msgstr "Profil onaylanmamış, devam etmeden önce profili onaylayın."
+
+#: src/app/main/ui/auth/recovery_request.cljs
+msgid "auth.notifications.recovery-token-sent"
+msgstr "Parola kurtarma bağlantısı e-posta kutuna gönderildi."
+
+#: src/app/main/ui/auth/verify_token.cljs
+msgid "auth.notifications.team-invitation-accepted"
+msgstr "Takıma başarıyla katıldın"
+
+#: src/app/main/ui/auth/register.cljs, src/app/main/ui/auth/login.cljs
+msgid "auth.password"
+msgstr "Parola"
+
+#: src/app/main/ui/auth/register.cljs
+msgid "auth.password-length-hint"
+msgstr "En az 8 karakter"
+
+msgid "auth.privacy-policy"
+msgstr "Gizlilik politikası"
+
+#: src/app/main/ui/auth/recovery_request.cljs
+msgid "auth.recovery-request-submit"
+msgstr "Parolayı kurtar"
+
+#: src/app/main/ui/auth/recovery_request.cljs
+msgid "auth.recovery-request-subtitle"
+msgstr "Detayları sana e-posta ile göndereceğiz"
+
+#: src/app/main/ui/auth/recovery_request.cljs
+msgid "auth.recovery-request-title"
+msgstr "Parolanı mı unuttun?"
+
+#: src/app/main/ui/auth/recovery.cljs
+msgid "auth.recovery-submit"
+msgstr "Parolanı değiştir"
+
+#: src/app/main/ui/auth/login.cljs
+msgid "auth.register"
+msgstr "Henüz hesabın yok mu?"
+
+#: src/app/main/ui/auth/register.cljs, src/app/main/ui/auth/login.cljs
+msgid "auth.register-submit"
+msgstr "Bir hesap oluştur"
+
+#: src/app/main/ui/auth/register.cljs
+msgid "auth.register-subtitle"
+msgstr "Ücretsiz ve Açık Kaynak"
+
+#: src/app/main/ui/auth/register.cljs
+msgid "auth.register-title"
+msgstr "Bir hesap oluştur"
+
+#: src/app/main/ui/auth.cljs
+msgid "auth.sidebar-tagline"
+msgstr "Tasarım ve prototipleme için açık-kaynak çözüm."
+
+msgid "auth.terms-of-service"
+msgstr "Hizmet şartları"
+
+#: src/app/main/ui/auth/register.cljs
+msgid "auth.terms-privacy-agreement"
+msgstr ""
+"Bir hesap oluştururken, koşullarımızı ve gizlilik politikamızı kabul etmiş "
+"sayılırsınız."
+
+#: src/app/main/ui/auth/register.cljs
+msgid "auth.verification-email-sent"
+msgstr "Onay e-postanı şu adrese gönderdik"
+
+msgid "common.publish"
+msgstr "Yayınla"
+
+msgid "common.share-link.all-users"
+msgstr "Tüm Penpot kullanıcıları"
+
+msgid "common.share-link.confirm-deletion-link-description"
+msgstr ""
+"Bu bağlantıyı kaldırmak istediğinizden emin misiniz? Bunu yaparsanız, artık "
+"kimse tarafından kullanılamayacak"
+
+msgid "common.share-link.current-tag"
+msgstr "(geçerli)"
+
+msgid "common.share-link.destroy-link"
+msgstr "Bağlantıyı yok et"
+
+msgid "common.share-link.get-link"
+msgstr "Bağlantıyı al"
+
+msgid "common.share-link.link-copied-success"
+msgstr "Bağlantı başarıyla kopyalandı"
+
+msgid "common.share-link.manage-ops"
+msgstr "İzinleri yönet"
+
+msgid "common.share-link.page-shared"
+msgid_plural "common.share-link.page-shared"
+msgstr[0] "1 sayfa paylaşıldı"
+msgstr[1] "%s sayfa paylaşıldı"
+
+msgid "common.share-link.permissions-can-comment"
+msgstr "Yorum yapabilir"
+
+msgid "common.share-link.permissions-can-inspect"
+msgstr "Kodu inceleyebilir"
+
+msgid "common.share-link.permissions-hint"
+msgstr "Bağlantıya sahip olan herkes erişebilir"
+
+msgid "common.share-link.permissions-pages"
+msgstr "Paylaşılan sayfalar"
+
+msgid "common.share-link.placeholder"
+msgstr "Paylaşılabilir bağlantı burada görünecek"
+
+msgid "common.share-link.team-members"
+msgstr "Yalnızca takım üyeleri"
+
+msgid "common.share-link.title"
+msgstr "Prototipleri paylaş"
+
+msgid "common.share-link.view-all"
+msgstr "Tümünü Seç"
+
+msgid "common.unpublish"
+msgstr "Yayından kaldır"
+
+#: src/app/main/ui/dashboard/projects.cljs
+msgid "dasboard.team-hero.management"
+msgstr "Takım yönetimi"
+
+#: src/app/main/ui/dashboard/projects.cljs
+msgid "dasboard.team-hero.text"
+msgstr ""
+"Penpot takımlar içindir. Üyeleri projeler ve dosyalar üzerinde birlikte "
+"çalışmaya davet edin"
+
+#: src/app/main/ui/dashboard/projects.cljs
+msgid "dasboard.team-hero.title"
+msgstr "Takım olun!"
+
+#: src/app/main/ui/dashboard/projects.cljs
+msgid "dasboard.tutorial-hero.info"
+msgstr ""
+"Bu uygulamalı öğretici ile biraz eğlenirken Penpot'taki temel bilgileri "
+"öğrenin."
+
+#: src/app/main/ui/dashboard/projects.cljs
+msgid "dasboard.tutorial-hero.start"
+msgstr "Öğreticiyi başlat"
+
+#: src/app/main/ui/dashboard/projects.cljs
+msgid "dasboard.tutorial-hero.title"
+msgstr "Uygulamalı Öğretici"
+
+#: src/app/main/ui/dashboard/projects.cljs
+msgid "dasboard.walkthrough-hero.info"
+msgstr "Penpot'ta bir gezintiye çıkın ve temel özelliklerini öğrenin."
+
+#: src/app/main/ui/dashboard/projects.cljs
+msgid "dasboard.walkthrough-hero.start"
+msgstr "Gezintiyi başlat"
+
+#: src/app/main/ui/dashboard/projects.cljs
+msgid "dasboard.walkthrough-hero.title"
+msgstr "Arayüz İncelemesi"
+
+#: src/app/main/ui/workspace/header.cljs,
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "dashboard.add-shared"
+msgstr "Paylaşılan Kütüphane olarak ekle"
+
+#: src/app/main/ui/settings/profile.cljs
+msgid "dashboard.change-email"
+msgstr "E-posta adresini değiştir"
+
+#: src/app/main/data/dashboard.cljs, src/app/main/data/dashboard.cljs
+msgid "dashboard.copy-suffix"
+msgstr "(kopya)"
+
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "dashboard.create-new-team"
+msgstr "Yeni takım oluştur"
+
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "dashboard.default-team-name"
+msgstr "Penpot'un"
+
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "dashboard.delete-team"
+msgstr "Takımı sil"
+
+msgid "dashboard.download-binary-file"
+msgstr "Penpot dosyasını indir (.penpot)"
+
+msgid "dashboard.download-standard-file"
+msgstr "Standart dosyayı indir (.svg + .json)"
+
+#: src/app/main/ui/dashboard/project_menu.cljs,
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "dashboard.duplicate"
+msgstr "Kopyasını oluştur"
+
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "dashboard.duplicate-multi"
+msgstr "%s dosyanın kopyasını oluştur"
+
+#: src/app/main/ui/dashboard/grid.cljs
+msgid "dashboard.empty-placeholder-drafts"
+msgstr ""
+"Kütüphanelere eklenen dosyalar burada görünecektir. Dosyalarınızı "
+"paylaşmayı deneyin veya [Kütüphaneler ve "
+"şablonlarımızdan](https://penpot.app/libraries-templates.html) ekleyin."
+
+msgid "dashboard.export-binary-multi"
+msgstr "%s Penpot dosyasını indir (.penpot)"
+
+msgid "dashboard.export-frames"
+msgstr "Çalışma yüzeylerini PDF olarak dışa aktar"
+
+#: src/app/main/ui/export.cljs
+msgid "dashboard.export-frames.title"
+msgstr "PDF olarak dışa aktar"
+
+msgid "dashboard.export-multi"
+msgstr "Penpot %s dosyalarını dışa aktar"
+
+#: src/app/main/ui/export.cljs
+msgid "dashboard.export-multiple.selected"
+msgstr "%s / %s öge seçildi"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "dashboard.export-shapes"
+msgstr "Dışa aktar"
+
+#: src/app/main/ui/export.cljs
+msgid "dashboard.export-shapes.how-to"
+msgstr ""
+"Tasarım özelliklerinden (sağ kenar çubuğunun alt kısmında) ögelere dışa "
+"aktarma ayarları ekleyebilirsiniz."
+
+#: src/app/main/ui/export.cljs
+msgid "dashboard.export-shapes.how-to-link"
+msgstr "Penpot'ta dışa aktarmaların nasıl ayarlandırılacağı hakkında bilgi."
+
+#: src/app/main/ui/export.cljs
+msgid "dashboard.export-shapes.no-elements"
+msgstr "Dışa aktarma ayarlarına sahip hiçbir öge yok."
+
+#: src/app/main/ui/export.cljs
+msgid "dashboard.export-shapes.title"
+msgstr "Seçimi dışa aktar"
+
+msgid "dashboard.export-standard-multi"
+msgstr "%s standart dosyayı indir (.svg + .json)"
+
+msgid "dashboard.export.detail"
+msgstr "* Bileşenleri, grafikleri, renkleri ve/veya tipografileri içerebilir."
+
+msgid "dashboard.export.explain"
+msgstr ""
+"Dışarı aktarmak istediğiniz bir veya daha fazla dosya, paylaşılan "
+"kütüphaneleri kullanıyor. Bunların varlıklarıyla ne yapmak istiyorsunuz*?"
+
+msgid "dashboard.export.options.all.message"
+msgstr ""
+"paylaşılan kütüphanelere sahip dosyalar, bağlantılarını koruyarak dışarı "
+"aktarmaya dahil edilecek."
+
+msgid "dashboard.export.options.all.title"
+msgstr "Paylaşılan kütüphaneleri dışarı aktar"
+
+msgid "dashboard.export.options.detach.message"
+msgstr ""
+"Paylaşılan kütüphaneler dışarı aktarmaya dahil edilmeyecek ve kütüphaneye "
+"hiçbir varlık eklenmeyecek. "
+
+msgid "dashboard.export.options.detach.title"
+msgstr "Paylaşılan kütüphane varlıklarını temel nesneler olarak ele al"
+
+msgid "dashboard.export.options.merge.message"
+msgstr ""
+"Dosyanız, tüm harici varlıklar kütüphane dosyasına birleştirilmiş olarak "
+"dışarı aktarılacak."
+
+msgid "dashboard.export.options.merge.title"
+msgstr "Dosya kütüphanelerine paylaşılan kütüphane varlıklarını dahil et"
+
+msgid "dashboard.export.title"
+msgstr "Dosyaları dışarı aktar"
+
+msgid "dashboard.fonts.deleted-placeholder"
+msgstr "Yazı tipi silindi"
+
+#: src/app/main/ui/dashboard/fonts.cljs
+msgid "dashboard.fonts.dismiss-all"
+msgstr "Hepsini kapat"
+
+msgid "dashboard.fonts.empty-placeholder"
+msgstr "Yüklediğiniz özel yazı tipleri burada görünecektir."
+
+#: src/app/main/ui/dashboard/fonts.cljs
+msgid "dashboard.fonts.fonts-added"
+msgid_plural "dashboard.fonts.fonts-added"
+msgstr[0] "1 yazı tipi eklendi"
+msgstr[1] "%s yazı tipi eklendi"
+
+msgid "dashboard.fonts.hero-text1"
+msgstr ""
+"Buraya yüklediğiniz herhangi bir web yazı tipi, bu takımın dosyalarının "
+"metin özelliklerinde bulunan yazı tipi ailesi listesine eklenecek. Aynı "
+"yazı tipi ailesi adına sahip yazı tipleri, **tek yazı tipi ailesi** olarak "
+"gruplandırılacak. Yazı tiplerini şu biçimlerde yükleyebilirsiniz: **TTF, "
+"OTF ve WOFF** (yalnızca bir tane gerekli olacak)."
+
+msgid "dashboard.fonts.hero-text2"
+msgstr ""
+"Sadece kendinize ait veya Penpot'ta kullanılabilecek bir lisansa sahip olan "
+"yazi tiplerini yükleyebilirsiniz. [Penpot'un Kullanım "
+"Şartları](https://penpot.app/terms.html) içindeki İçerik hakları bölümünden "
+"ayrıntılı bilgi alabilirsiniz. Ayrıca [yazı tipi "
+"lisanslama](https://www.typography.com/faq) hakkında daha fazla bilgi almak "
+"isteyebilirsiniz."
+
+#: src/app/main/ui/dashboard/fonts.cljs
+msgid "dashboard.fonts.upload-all"
+msgstr "Tümünü karşıya yükle"
+
+msgid "dashboard.import"
+msgstr "Penpot dosyalarını içe aktar"
+
+msgid "dashboard.import.analyze-error"
+msgstr "Oops! Bu dosyayı içeri aktaramadık"
+
+msgid "dashboard.import.import-error"
+msgstr "Dosya içeri aktarılırken bir sorun oluştu. Dosya içeri aktarılmadı."
+
+msgid "dashboard.import.import-message"
+msgstr "%s dosya başarıyla içeri aktarıldı."
+
+msgid "dashboard.import.import-warning"
+msgstr "Bazı dosyalar kaldırılmış geçersiz nesneler içeriyordu."
+
+msgid "dashboard.import.progress.process-colors"
+msgstr "Renkler işleniyor"
+
+msgid "dashboard.import.progress.process-components"
+msgstr "Bileşenler işleniyor"
+
+msgid "dashboard.import.progress.process-media"
+msgstr "Ortam işleniyor"
+
+msgid "dashboard.import.progress.process-page"
+msgstr "Sayfa işleniyor: %s"
+
+msgid "dashboard.import.progress.process-typographies"
+msgstr "Tipografiler işleniyor"
+
+msgid "dashboard.import.progress.upload-data"
+msgstr "Veriler sunucuya yükleniyor (%s/%s)"
+
+msgid "dashboard.import.progress.upload-media"
+msgstr "Dosya yükleniyor: %s"
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "dashboard.invite-profile"
+msgstr "İnsanları davet et"
+
+#: src/app/main/ui/dashboard/sidebar.cljs,
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "dashboard.leave-team"
+msgstr "Takımdan ayrıl"
+
+msgid "dashboard.libraries-and-templates"
+msgstr "Kütüphaneler ve Şablonlar"
+
+msgid "dashboard.libraries-and-templates.explore"
+msgstr "Daha fazlasını keşfedin ve nasıl katkıda bulunacağınızı öğrenin"
+
+msgid "dashboard.libraries-and-templates.import-error"
+msgstr "Şablon içe aktarılırken bir sorun oluştu. Şablon içe aktarılmadı."
+
+#: src/app/main/ui/dashboard/libraries.cljs
+msgid "dashboard.libraries-title"
+msgstr "Paylaşılan Kütüphaneler"
+
+#: src/app/main/ui/dashboard/grid.cljs
+msgid "dashboard.loading-files"
+msgstr "dosyalarınız yükleniyor …"
+
+msgid "dashboard.loading-fonts"
+msgstr "yazı tipleriniz yükleniyor…"
+
+#: src/app/main/ui/dashboard/project_menu.cljs,
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "dashboard.move-to"
+msgstr "Şuraya taşı"
+
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "dashboard.move-to-multi"
+msgstr "%s dosyayı şuraya taşı"
+
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "dashboard.move-to-other-team"
+msgstr "Başka takıma taşı"
+
+#: src/app/main/ui/dashboard/projects.cljs,
+#: src/app/main/ui/dashboard/files.cljs
+msgid "dashboard.new-file"
+msgstr "+ Yeni Dosya"
+
+#: src/app/main/data/dashboard.cljs
+msgid "dashboard.new-file-prefix"
+msgstr "Yeni Dosya"
+
+#: src/app/main/ui/dashboard/projects.cljs
+msgid "dashboard.new-project"
+msgstr "+ Yeni Proje"
+
+#: src/app/main/data/dashboard.cljs
+msgid "dashboard.new-project-prefix"
+msgstr "Yeni Proje"
+
+#: src/app/main/ui/dashboard/search.cljs
+msgid "dashboard.no-matches-for"
+msgstr "\"%s\" için sonuç bulunamadı"
+
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "dashboard.no-projects-placeholder"
+msgstr "Sabitlenmiş projeler burada görünür"
+
+#: src/app/main/ui/auth/verify_token.cljs
+msgid "dashboard.notifications.email-changed-successfully"
+msgstr "E-posta adresiniz başarıyla güncellendi"
+
+#: src/app/main/ui/auth/verify_token.cljs
+msgid "dashboard.notifications.email-verified-successfully"
+msgstr "E-posta adresin başarıyla doğrulandı"
+
+#: src/app/main/ui/settings/password.cljs
+msgid "dashboard.notifications.password-saved"
+msgstr "Parola başarıyla kaydedildi!"
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "dashboard.num-of-members"
+msgstr "%s üye"
+
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "dashboard.open-in-new-tab"
+msgstr "Dosyayı yeni sekmede aç"
+
+msgid "dashboard.options"
+msgstr "Seçenekler"
+
+#: src/app/main/ui/settings/password.cljs
+msgid "dashboard.password-change"
+msgstr "Parola değiştir"
+
+#: src/app/main/ui/dashboard/project_menu.cljs
+msgid "dashboard.pin-unpin"
+msgstr "Sabitle/Sabitleme"
+
+#: src/app/main/ui/dashboard/projects.cljs
+msgid "dashboard.projects-title"
+msgstr "Projeler"
+
+#: src/app/main/ui/settings/profile.cljs
+msgid "dashboard.remove-account"
+msgstr "Hesabınızı kaldırmak mı istiyorsunuz?"
+
+#: src/app/main/ui/workspace/header.cljs,
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "dashboard.remove-shared"
+msgstr "Paylaşılan Kütüphane olarak sil"
+
+#: src/app/main/ui/settings/profile.cljs
+msgid "dashboard.save-settings"
+msgstr "Ayarları kaydet"
+
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "dashboard.search-placeholder"
+msgstr "Ara…"
+
+#: src/app/main/ui/dashboard/search.cljs
+msgid "dashboard.searching-for"
+msgstr "“%s“ aranıyor…"
+
+#: src/app/main/ui/settings/options.cljs
+msgid "dashboard.select-ui-language"
+msgstr "Arayüz dilini seç"
+
+#: src/app/main/ui/settings/options.cljs
+msgid "dashboard.select-ui-theme"
+msgstr "Tema seç"
+
+#: src/app/main/ui/dashboard/grid.cljs
+msgid "dashboard.show-all-files"
+msgstr "Tüm dosyaları göster"
+
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "dashboard.success-delete-file"
+msgstr "Dosyanız başarıyla silindi"
+
+#: src/app/main/ui/dashboard/project_menu.cljs
+msgid "dashboard.success-delete-project"
+msgstr "Projen başarıyla silindi"
+
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "dashboard.success-duplicate-file"
+msgstr "Dosyanız başarıyla kopyalandı"
+
+#: src/app/main/ui/dashboard/project_menu.cljs
+msgid "dashboard.success-duplicate-project"
+msgstr "Projenin kopyası başarıyla oluşturuldu"
+
+#: src/app/main/ui/dashboard/grid.cljs, src/app/main/ui/dashboard/sidebar.cljs,
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "dashboard.success-move-file"
+msgstr "Dosyan başarıyla taşındı"
+
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "dashboard.success-move-files"
+msgstr "Dosyaların başarıyla taşındı"
+
+#: src/app/main/ui/dashboard/project_menu.cljs
+msgid "dashboard.success-move-project"
+msgstr "Projen başarıyla taşındı"
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "dashboard.team-info"
+msgstr "Takım bilgisi"
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "dashboard.team-members"
+msgstr "Takım üyeleri"
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "dashboard.team-projects"
+msgstr "Takım projeleri"
+
+#: src/app/main/ui/settings/options.cljs
+msgid "dashboard.theme-change"
+msgstr "Kullanıcı arayüzü teması"
+
+#: src/app/main/ui/dashboard/search.cljs
+msgid "dashboard.title-search"
+msgstr "Arama sonuçları"
+
+#: src/app/main/ui/dashboard/search.cljs
+msgid "dashboard.type-something"
+msgstr "Aramak için yazın"
+
+#: src/app/main/ui/workspace/header.cljs,
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "dashboard.unpublish-shared"
+msgstr "Kütüphaneyi Yayından Kaldır"
+
+#: src/app/main/ui/settings/profile.cljs,
+#: src/app/main/ui/settings/password.cljs,
+#: src/app/main/ui/settings/options.cljs
+msgid "dashboard.update-settings"
+msgstr "Ayarları güncelle"
+
+msgid "dashboard.webhooks.active"
+msgstr "Etkin"
+
+msgid "dashboard.webhooks.active.explain"
+msgstr "Bu kanca tetiklendiğinde olay ayrıntıları iletilecektir"
+
+msgid "dashboard.webhooks.content-type"
+msgstr "İçerik türü"
+
+msgid "dashboard.webhooks.create"
+msgstr "Web kancası oluştur"
+
+msgid "dashboard.webhooks.create.success"
+msgstr "Web kancası başarıyla oluşturuldu."
+
+msgid "dashboard.webhooks.description"
+msgstr ""
+"Web kancaları, Penpot'ta belirli olaylar gerçekleştiğinde diğer web "
+"sitelerinin ve uygulamaların bilgilendirilmesine izin vermenin basit bir "
+"yoludur. Belirttiğiniz URL'lerin her birine bir POST isteği göndereceğiz."
+
+msgid "dashboard.webhooks.empty.add-one"
+msgstr "Bir tane eklemek için \"Web kancası ekle\" düğmesine basın."
+
+msgid "dashboard.webhooks.empty.no-webhooks"
+msgstr "Şimdiye kadar web kancası oluşturulmadı."
+
+msgid "dashboard.webhooks.update.success"
+msgstr "Web kancası başarıyla güncellendi."
+
+#: src/app/main/ui/settings.cljs
+msgid "dashboard.your-account-title"
+msgstr "Hesabınız"
+
+#: src/app/main/ui/settings/profile.cljs
+msgid "dashboard.your-email"
+msgstr "E-posta"
+
+#: src/app/main/ui/settings/profile.cljs
+msgid "dashboard.your-name"
+msgstr "Adın"
+
+#: src/app/main/ui/dashboard/search.cljs, src/app/main/ui/dashboard/team.cljs,
+#: src/app/main/ui/dashboard/libraries.cljs,
+#: src/app/main/ui/dashboard/projects.cljs,
+#: src/app/main/ui/dashboard/sidebar.cljs,
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "dashboard.your-penpot"
+msgstr "Penpot'un"
+
+#: src/app/main/ui/alert.cljs
+msgid "ds.alert-ok"
+msgstr "Tamam"
+
+#: src/app/main/ui/alert.cljs
+msgid "ds.alert-title"
+msgstr "Dikkat"
+
+#: src/app/main/ui/confirm.cljs
+msgid "ds.component-subtitle"
+msgstr "Güncellenecek bileşenler:"
+
+#: src/app/main/ui/confirm.cljs
+msgid "ds.confirm-cancel"
+msgstr "İptal"
+
+#: src/app/main/ui/confirm.cljs
+msgid "ds.confirm-ok"
+msgstr "Tamam"
+
+#: src/app/main/ui/confirm.cljs, src/app/main/ui/confirm.cljs
+msgid "ds.confirm-title"
+msgstr "Emin misin?"
+
+#: src/app/main/ui/auth/login.cljs
+msgid "errors.auth-provider-not-configured"
+msgstr "Kimlik doğrulama sağlayıcısı yapılandırılmadı."
+
+msgid "errors.auth.unable-to-login"
+msgstr "Kimliğiniz doğrulanmamış veya oturumun süresi dolmuş gibi görünüyor."
+
+msgid "errors.bad-font"
+msgstr "%s yazı tipi yüklenemedi"
+
+msgid "errors.bad-font-plural"
+msgstr "%s yazı tipleri yüklenemedi"
+
+#: src/app/main/data/workspace.cljs
+msgid "errors.clipboard-not-implemented"
+msgstr "Tarayıcın bu işlemi gerçekleştiremiyor"
+
+#: src/app/main/ui/auth/verify_token.cljs,
+#: src/app/main/ui/settings/change_email.cljs
+msgid "errors.email-already-exists"
+msgstr "E-posta zaten kullanımda"
+
+#: src/app/main/ui/auth/verify_token.cljs
+msgid "errors.email-already-validated"
+msgstr "E-posta zaten doğrulandı."
+
+msgid "errors.email-as-password"
+msgstr "E-postanızı parola olarak kullanamazsınız"
+
+#: src/app/main/ui/auth/register.cljs,
+#: src/app/main/ui/auth/recovery_request.cljs,
+#: src/app/main/ui/settings/change_email.cljs,
+#: src/app/main/ui/dashboard/team.cljs
+msgid "errors.email-has-permanent-bounces"
+msgstr "«%s» adresi için çok fazla geri dönme raporu var."
+
+#: src/app/main/ui/auth/register.cljs, src/app/main/ui/auth/login.cljs, src/app/main/ui/auth/recovery_request.cljs
+msgid "errors.email-invalid"
+msgstr "Lütfen geçerli bir e-posta adresi girin"
+
+#: src/app/main/ui/settings/change_email.cljs
+msgid "errors.email-invalid-confirmation"
+msgstr "Doğrulama e-postası eşleşmiyor"
+
+msgid "errors.email-spam-or-permanent-bounces"
+msgstr "«%s» e-postasının spam veya kalıcı olarak geri döndüğü bildirildi."
+
+#: src/app/main/errors.cljs
+msgid "errors.feature-mismatch"
+msgstr ""
+"Görünüşe göre '%s' özelliğinin etkin olduğu bir dosyayı açıyorsunuz, ancak "
+"penpot ön ucunuz bunu desteklemiyor veya devre dışı bırakıldı."
+
+#: src/app/main/errors.cljs
+msgid "errors.feature-not-supported"
+msgstr "'%s' özelliği desteklenmiyor."
+
+#: src/app/main/ui/auth/verify_token.cljs,
+#: src/app/main/ui/settings/feedback.cljs, src/app/main/ui/dashboard/team.cljs
+msgid "errors.generic"
+msgstr "Bir şeyler ters gitti."
+
+#: src/app/main/ui/components/color_input.cljs
+msgid "errors.invalid-color"
+msgstr "Geçersiz renk"
+
+#: src/app/main/ui/auth/verify_token.cljs
+msgid "errors.invite-invalid"
+msgstr "Geçersiz davet"
+
+msgid "errors.invite-invalid.info"
+msgstr "Bu davet iptal edilmiş veya süresi dolmuş olabilir."
+
+#: src/app/main/ui/auth/login.cljs
+msgid "errors.ldap-disabled"
+msgstr "LDAP ile oturum açma devre dışı bırakıldı."
+
+#: src/app/main/errors.cljs
+msgid "errors.max-quote-reached"
+msgstr "'%s' sınırına ulaştınız. Destek ile iletişime geçin."
+
+#: src/app/main/data/workspace/persistence.cljs
+msgid "errors.media-too-large"
+msgstr "Bu görsel eklemek için çok büyük."
+
+#: src/app/main/data/workspace/persistence.cljs, src/app/main/data/media.cljs
+msgid "errors.media-type-mismatch"
+msgstr "Görselin içeriği, dosya uzantısı ile eşleşmiyor gibi görünüyor."
+
+#: src/app/main/data/workspace/persistence.cljs, src/app/main/data/media.cljs
+msgid "errors.media-type-not-allowed"
+msgstr "Geçerli bir görsel gibi görünmüyor."
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "errors.member-is-muted"
+msgstr ""
+"Davet ettiğiniz profilin e-posta adresine ait çok fazla geri dönme raporu "
+"var veya spam olarak bildirilmiş."
+
+#: src/app/main/ui/settings/password.cljs
+msgid "errors.password-invalid-confirmation"
+msgstr "Parolalar eşleşmedi"
+
+#: src/app/main/ui/settings/password.cljs
+msgid "errors.password-too-short"
+msgstr "Parola en az 8 karakterden oluşmalı"
+
+msgid "errors.profile-blocked"
+msgstr "Profil engellendi"
+
+#: src/app/main/ui/auth/recovery_request.cljs,
+#: src/app/main/ui/settings/change_email.cljs,
+#: src/app/main/ui/dashboard/team.cljs
+msgid "errors.profile-is-muted"
+msgstr ""
+"Profilinizde sessize alınmış e-postalar var (spam raporları veya yüksek "
+"geri dönüşler sebebiyle)."
+
+#: src/app/main/ui/auth/register.cljs
+msgid "errors.registration-disabled"
+msgstr "Kayıt olma şu anda devre dışı."
+
+msgid "errors.team-leave.insufficient-members"
+msgstr "Takımdan ayrılmak için yeterli üye yok, onu silmek isteyebilirsiniz."
+
+msgid "errors.team-leave.member-does-not-exists"
+msgstr "Atamaya çalıştığınız üye mevcut değil."
+
+msgid "errors.team-leave.owner-cant-leave"
+msgstr "Sahip takımdan ayrılamaz, sahip rolünü yeniden atamanız gerekir."
+
+#: src/app/main/data/media.cljs,
+#: src/app/main/ui/workspace/sidebar/options/menus/exports.cljs,
+#: src/app/main/ui/inspect/exports.cljs
+msgid "errors.unexpected-error"
+msgstr "Beklenmedik bir hata oluştu."
+
+#: src/app/main/ui/auth/verify_token.cljs
+msgid "errors.unexpected-token"
+msgstr "Bilinmeyen jeton"
+
+msgid "errors.webhooks.connection"
+msgstr "Bağlantı hatası, URL'ye erişilemiyor"
+
+msgid "errors.webhooks.invalid-uri"
+msgstr "URL doğrulamayı geçemiyor."
+
+msgid "errors.webhooks.last-delivery"
+msgstr "Son iletim başarılı olmadı."
+
+msgid "errors.webhooks.ssl-validation"
+msgstr "SSL doğrulamasında hata."
+
+msgid "errors.webhooks.timeout"
+msgstr "Zaman aşımı"
+
+msgid "errors.webhooks.unexpected"
+msgstr "Doğrulamada beklenmeyen hata"
+
+msgid "errors.webhooks.unexpected-status"
+msgstr "Beklenmeyen durum %s"
+
+#: src/app/main/ui/auth/login.cljs
+msgid "errors.wrong-credentials"
+msgstr "E-posta veya parola yanlış."
+
+#: src/app/main/ui/settings/password.cljs
+msgid "errors.wrong-old-password"
+msgstr "Eski parola yanlış"
+
+#: src/app/main/ui/settings/feedback.cljs
+msgid "feedback.description"
+msgstr "Açıklama"
+
+#: src/app/main/ui/settings/feedback.cljs
+msgid "feedback.discourse-go-to"
+msgstr "Penpot forumuna git"
+
+#: src/app/main/ui/settings/feedback.cljs
+msgid "feedback.discourse-subtitle1"
+msgstr ""
+"Burada olmanızdan mutluluk duyuyoruz. Yardıma ihtiyacınız varsa, lütfen "
+"göndermeden önce arama yapın."
+
+#: src/app/main/ui/settings/feedback.cljs
+msgid "feedback.discourse-title"
+msgstr "Penpot topluluğu"
+
+#: src/app/main/ui/settings/feedback.cljs
+msgid "feedback.subject"
+msgstr "Konu"
+
+#: src/app/main/ui/settings/feedback.cljs
+msgid "feedback.subtitle"
+msgstr ""
+"Lütfen bir sorun, fikir ya da kuşkunuzu açıklayarak e-postanızın nedenini "
+"belirtin. Ekibimizin bir üyesi en kısa sürede yanıt verecektir."
+
+#: src/app/main/ui/settings/feedback.cljs
+msgid "feedback.title"
+msgstr "E-posta"
+
+#: src/app/main/ui/settings/feedback.cljs
+msgid "feedback.twitter-go-to"
+msgstr "Twitter'a git"
+
+#: src/app/main/ui/settings/feedback.cljs
+msgid "feedback.twitter-subtitle1"
+msgstr "Teknik sorularınıza yardımcı olmak için buradayız."
+
+#: src/app/main/ui/settings/feedback.cljs
+msgid "feedback.twitter-title"
+msgstr "Twitter destek hesabı"
+
+#: src/app/main/ui/settings/password.cljs
+msgid "generic.error"
+msgstr "Bir hata oluştu"
+
+#: src/app/main/ui/inspect/attributes/blur.cljs
+msgid "inspect.attributes.blur"
+msgstr "Bulanıklık"
+
+#: src/app/main/ui/inspect/attributes/blur.cljs
+msgid "inspect.attributes.blur.value"
+msgstr "Değer"
+
+#: src/app/main/ui/inspect/attributes/common.cljs
+msgid "inspect.attributes.color.hex"
+msgstr "HEX"
+
+#: src/app/main/ui/inspect/attributes/common.cljs
+msgid "inspect.attributes.color.hsla"
+msgstr "HSLA"
+
+#: src/app/main/ui/inspect/attributes/common.cljs
+msgid "inspect.attributes.color.rgba"
+msgstr "RGBA"
+
+#: src/app/main/ui/inspect/attributes/fill.cljs
+msgid "inspect.attributes.fill"
+msgstr "Doldur"
+
+#: src/app/main/ui/inspect/attributes/image.cljs
+msgid "inspect.attributes.image.download"
+msgstr "Kaynak görselini indir"
+
+#: src/app/main/ui/inspect/attributes/image.cljs
+msgid "inspect.attributes.image.height"
+msgstr "Yükseklik"
+
+#: src/app/main/ui/inspect/attributes/image.cljs
+msgid "inspect.attributes.image.width"
+msgstr "Genişlik"
+
+#: src/app/main/ui/inspect/attributes/layout.cljs
+msgid "inspect.attributes.layout"
+msgstr "Yerleşim düzeni"
+
+#: src/app/main/ui/inspect/attributes/layout.cljs
+msgid "inspect.attributes.layout.height"
+msgstr "Yükseklik"
+
+#: src/app/main/ui/inspect/attributes/layout.cljs
+msgid "inspect.attributes.layout.left"
+msgstr "Sol"
+
+#: src/app/main/ui/inspect/attributes/layout.cljs,
+#: src/app/main/ui/inspect/attributes/layout.cljs
+msgid "inspect.attributes.layout.radius"
+msgstr "Yarıçap"
+
+#: src/app/main/ui/inspect/attributes/layout.cljs
+msgid "inspect.attributes.layout.rotation"
+msgstr "Döndür"
+
+#: src/app/main/ui/inspect/attributes/layout.cljs
+msgid "inspect.attributes.layout.top"
+msgstr "Üst"
+
+#: src/app/main/ui/inspect/attributes/layout.cljs
+msgid "inspect.attributes.layout.width"
+msgstr "Genişlik"
+
+#: src/app/main/ui/inspect/attributes/shadow.cljs
+msgid "inspect.attributes.shadow"
+msgstr "Gölge"
+
+#: src/app/main/ui/inspect/attributes/shadow.cljs
+msgid "inspect.attributes.shadow.shorthand.spread"
+msgstr "S"
+
+#: src/app/main/ui/inspect/attributes/layout.cljs
+msgid "inspect.attributes.size"
+msgstr "Boyut ve konum"
+
+#: src/app/main/ui/inspect/attributes/stroke.cljs
+msgid "inspect.attributes.stroke"
+msgstr "Çerçeve"
+
+msgid "inspect.attributes.stroke.alignment.center"
+msgstr "Merkezi"
+
+msgid "inspect.attributes.stroke.alignment.inner"
+msgstr "İçinde"
+
+msgid "inspect.attributes.stroke.alignment.outer"
+msgstr "Dışarıda"
+
+msgid "inspect.attributes.stroke.style.dotted"
+msgstr "Noktalı"
+
+msgid "inspect.attributes.stroke.style.mixed"
+msgstr "Karışık"
+
+msgid "inspect.attributes.stroke.style.none"
+msgstr "Hiçbiri"
+
+msgid "inspect.attributes.stroke.style.solid"
+msgstr "Düz"
+
+#: src/app/main/ui/inspect/attributes/stroke.cljs
+msgid "inspect.attributes.stroke.width"
+msgstr "Genişlik"
+
+#: src/app/main/ui/inspect/attributes/text.cljs
+msgid "inspect.attributes.typography"
+msgstr "Tipografi"
+
+#: src/app/main/ui/inspect/attributes/text.cljs
+msgid "inspect.attributes.typography.font-family"
+msgstr "Yazı Tipi Ailesi"
+
+#: src/app/main/ui/inspect/attributes/text.cljs
+msgid "inspect.attributes.typography.font-size"
+msgstr "Yazı Tipi Boyutu"
+
+#: src/app/main/ui/inspect/attributes/text.cljs
+msgid "inspect.attributes.typography.font-style"
+msgstr "Yazı Tipi Biçimi"
+
+#: src/app/main/ui/inspect/attributes/text.cljs
+msgid "inspect.attributes.typography.letter-spacing"
+msgstr "Harf Aralığı"
+
+#: src/app/main/ui/inspect/attributes/text.cljs
+msgid "inspect.attributes.typography.line-height"
+msgstr "Satır Yüksekliği"
+
+#: src/app/main/ui/inspect/attributes/text.cljs
+msgid "inspect.attributes.typography.text-decoration"
+msgstr "Metin Süsleme"
+
+msgid "inspect.attributes.typography.text-decoration.none"
+msgstr "Hiçbiri"
+
+msgid "inspect.attributes.typography.text-decoration.strikethrough"
+msgstr "Üstü Çizili"
+
+msgid "inspect.attributes.typography.text-decoration.underline"
+msgstr "Altı Çizili"
+
+#: src/app/main/ui/inspect/attributes/text.cljs
+msgid "inspect.attributes.typography.text-transform"
+msgstr "Metin Dönüşümü"
+
+msgid "inspect.attributes.typography.text-transform.lowercase"
+msgstr "Küçük Harf"
+
+msgid "inspect.attributes.typography.text-transform.none"
+msgstr "Hiçbiri"
+
+msgid "inspect.attributes.typography.text-transform.titlecase"
+msgstr "İlk Harfleri Büyük"
+
+msgid "inspect.attributes.typography.text-transform.uppercase"
+msgstr "Büyük Harf"
+
+msgid "inspect.empty.help"
+msgstr ""
+"Tasarım incelemesi hakkında daha fazla bilgi edinmek istiyorsanız Penpot "
+"yardım merkezini ziyaret edin"
+
+msgid "inspect.empty.more-info"
+msgstr "İnceleme hakkında daha fazla bilgi"
+
+msgid "inspect.empty.select"
+msgstr ""
+"Özelliklerini ve kodunu incelemek için bir şekil, çalışma yüzeyi veya grup "
+"seçin"
+
+#: src/app/main/ui/inspect/right_sidebar.cljs
+msgid "inspect.tabs.code"
+msgstr "Kod"
+
+msgid "inspect.tabs.code.selected.circle"
+msgstr "Daire"
+
+msgid "inspect.tabs.code.selected.component"
+msgstr "Bileşen"
+
+msgid "inspect.tabs.code.selected.curve"
+msgstr "Eğri"
+
+msgid "inspect.tabs.code.selected.frame"
+msgstr "Çalışma yüzeyi"
+
+msgid "inspect.tabs.code.selected.group"
+msgstr "Grup"
+
+msgid "inspect.tabs.code.selected.image"
+msgstr "Görsel"
+
+msgid "inspect.tabs.code.selected.mask"
+msgstr "Maskele"
+
+#: src/app/main/ui/inspect/right_sidebar.cljs
+msgid "inspect.tabs.code.selected.multiple"
+msgstr "%s Seçildi"
+
+msgid "inspect.tabs.code.selected.path"
+msgstr "Yol"
+
+msgid "inspect.tabs.code.selected.rect"
+msgstr "Dikdörtgen"
+
+msgid "inspect.tabs.code.selected.svg-raw"
+msgstr "SVG"
+
+msgid "inspect.tabs.code.selected.text"
+msgstr "Metin"
+
+#: src/app/main/ui/inspect/right_sidebar.cljs
+msgid "inspect.tabs.info"
+msgstr "Bilgi"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "label.shortcuts"
+msgstr "Kısayollar"
+
+msgid "labels.accept"
+msgstr "Kabul et"
+
+msgid "labels.active"
+msgstr "Etkin"
+
+msgid "labels.add-custom-font"
+msgstr "Özel yazı tipi ekle"
+
+#: src/app/main/ui/dashboard/team.cljs, src/app/main/ui/dashboard/team.cljs
+msgid "labels.admin"
+msgstr "Yönetici"
+
+#: src/app/main/ui/workspace/comments.cljs
+msgid "labels.all"
+msgstr "Hepsi"
+
+msgid "labels.and"
+msgstr "ve"
+
+msgid "labels.back"
+msgstr "Geri"
+
+#: src/app/main/ui/static.cljs
+msgid "labels.bad-gateway.desc-message"
+msgstr ""
+"Görünüşe göre biraz beklemen ve yeniden denemen gerekiyor; sunucularımızda "
+"küçük bir bakım yapıyoruz."
+
+#: src/app/main/ui/static.cljs
+msgid "labels.bad-gateway.main-message"
+msgstr "Hatalı Ağ Geçidi"
+
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "labels.cancel"
+msgstr "İptal"
+
+msgid "labels.close"
+msgstr "Kapat"
+
+#: src/app/main/ui/dashboard/comments.cljs
+msgid "labels.comments"
+msgstr "Yorumlar"
+
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "labels.community"
+msgstr "Topluluk"
+
+#: src/app/main/ui/settings/password.cljs
+msgid "labels.confirm-password"
+msgstr "Parolayı onayla"
+
+msgid "labels.continue"
+msgstr "Devam et"
+
+msgid "labels.continue-with"
+msgstr "İle devam et"
+
+msgid "labels.continue-with-penpot"
+msgstr "Penpot hesabıyla devam edebilirsiniz"
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "labels.copy-invitation-link"
+msgstr "Bağlantıyı kopyala"
+
+#: src/app/main/ui/workspace/sidebar/assets.cljs
+msgid "labels.create"
+msgstr "Oluştur"
+
+#: src/app/main/ui/dashboard/team_form.cljs,
+#: src/app/main/ui/dashboard/team_form.cljs
+msgid "labels.create-team"
+msgstr "Yeni takım oluştur"
+
+#: src/app/main/ui/dashboard/team_form.cljs
+msgid "labels.create-team.placeholder"
+msgstr "Yeni takım adı gir"
+
+msgid "labels.custom-fonts"
+msgstr "Özel yazı tipleri"
+
+#: src/app/main/ui/settings/sidebar.cljs
+msgid "labels.dashboard"
+msgstr "Denetim paneli"
+
+#: src/app/main/ui/dashboard/project_menu.cljs,
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "labels.delete"
+msgstr "Sil"
+
+#: src/app/main/ui/comments.cljs
+msgid "labels.delete-comment"
+msgstr "Yorumu sil"
+
+#: src/app/main/ui/comments.cljs
+msgid "labels.delete-comment-thread"
+msgstr "Mesaj dizisini sil"
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "labels.delete-invitation"
+msgstr "Daveti sil"
+
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "labels.delete-multi-files"
+msgstr "%s dosyayı sil"
+
+#: src/app/main/ui/dashboard/projects.cljs,
+#: src/app/main/ui/dashboard/sidebar.cljs,
+#: src/app/main/ui/dashboard/files.cljs,
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "labels.drafts"
+msgstr "Taslak"
+
+#: src/app/main/ui/comments.cljs
+msgid "labels.edit"
+msgstr "Düzenle"
+
+msgid "labels.edit-file"
+msgstr "Dosya düzenle"
+
+#: src/app/main/ui/dashboard/team.cljs, src/app/main/ui/dashboard/team.cljs
+msgid "labels.editor"
+msgstr "Düzenleyici"
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "labels.expired-invitation"
+msgstr "Süresi doldu"
+
+msgid "labels.export"
+msgstr "Dışa aktar"
+
+#: src/app/main/ui/settings/feedback.cljs
+msgid "labels.feedback-disabled"
+msgstr "Geri bildirim devre dışı bırakıldı"
+
+#: src/app/main/ui/settings/feedback.cljs
+msgid "labels.feedback-sent"
+msgstr "Geri bildirim gönderildi"
+
+msgid "labels.font-family"
+msgstr "Yazı Tipi Ailesi"
+
+msgid "labels.font-providers"
+msgstr "Yazı tipi sağlayıcıları"
+
+msgid "labels.font-variants"
+msgstr "Biçimler"
+
+msgid "labels.fonts"
+msgstr "Yazı tipleri"
+
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "labels.github-repo"
+msgstr "Github deposu"
+
+#: src/app/main/ui/workspace/header.cljs,
+#: src/app/main/ui/settings/sidebar.cljs,
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "labels.give-feedback"
+msgstr "Geri bildirimde bulun"
+
+msgid "labels.go-back"
+msgstr "Geri dön"
+
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "labels.help-center"
+msgstr "Yardım Merkezi"
+
+#: src/app/main/ui/workspace/comments.cljs, src/app/main/ui/viewer/header.cljs
+msgid "labels.hide-resolved-comments"
+msgstr "Çözülmüş yorumları gizle"
+
+msgid "labels.inactive"
+msgstr "Etkin değil"
+
+msgid "labels.installed-fonts"
+msgstr "Kurulu yazı tipleri"
+
+#: src/app/main/ui/static.cljs
+msgid "labels.internal-error.desc-message"
+msgstr ""
+"Kötü bir şey oldu. Lütfen işlemi yeniden deneyin ve sorun devam ederse "
+"destek ile iletişime geçin."
+
+#: src/app/main/ui/static.cljs
+msgid "labels.internal-error.main-message"
+msgstr "İç Hata"
+
+#: src/app/main/ui/settings/sidebar.cljs, src/app/main/ui/dashboard/team.cljs,
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "labels.invitations"
+msgstr "Davetler"
+
+#: src/app/main/ui/settings/options.cljs
+msgid "labels.language"
+msgstr "Dil"
+
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "labels.libraries-and-templates"
+msgstr "Kütüphaneler ve Şablonlar"
+
+msgid "labels.log-or-sign"
+msgstr "Oturum açın veya kaydolun"
+
+#: src/app/main/ui/settings.cljs, src/app/main/ui/dashboard/sidebar.cljs
+msgid "labels.logout"
+msgstr "Oturumu kapat"
+
+#: src/app/main/ui/dashboard/team.cljs, src/app/main/ui/dashboard/sidebar.cljs
+msgid "labels.member"
+msgstr "Üye"
+
+#: src/app/main/ui/dashboard/team.cljs, src/app/main/ui/dashboard/sidebar.cljs
+msgid "labels.members"
+msgstr "Üyeler"
+
+#: src/app/main/ui/settings/password.cljs
+msgid "labels.new-password"
+msgstr "Yeni parola"
+
+#: src/app/main/ui/workspace/comments.cljs,
+#: src/app/main/ui/dashboard/comments.cljs
+msgid "labels.no-comments-available"
+msgstr "Hepsini bitirdiniz! Yeni yorum bildirimleri burada görünecektir."
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "labels.no-invitations"
+msgstr "Bekleyen davetiye yok."
+
+#: src/app/main/ui/dashboard/team.cljs
+#, markdown
+msgid "labels.no-invitations-hint"
+msgstr ""
+"Kişileri bu takıma davet etmek için **İnsanları davet et** düğmesine "
+"tıklayın."
+
+#: src/app/main/ui/static.cljs
+msgid "labels.not-found.desc-message"
+msgstr "Bu sayfa mevcut olmayabilir veya erişim izniniz olmayabilir."
+
+#: src/app/main/ui/static.cljs
+msgid "labels.not-found.main-message"
+msgstr "Oops!"
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "labels.num-of-files"
+msgid_plural "labels.num-of-files"
+msgstr[0] "1 dosya"
+msgstr[1] "%s dosya"
+
+msgid "labels.num-of-frames"
+msgid_plural "labels.num-of-frames"
+msgstr[0] "1 çalışma yüzeyi"
+msgstr[1] "%s çalışma yüzeyi"
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "labels.num-of-projects"
+msgid_plural "labels.num-of-projects"
+msgstr[0] "1 proje"
+msgstr[1] "%s proje"
+
+#: src/app/main/ui/settings/password.cljs
+msgid "labels.old-password"
+msgstr "Eski parola"
+
+#: src/app/main/ui/workspace/comments.cljs
+msgid "labels.only-yours"
+msgstr "Sadece seninkiler"
+
+msgid "labels.or"
+msgstr "veya"
+
+#: src/app/main/ui/dashboard/team.cljs, src/app/main/ui/dashboard/team.cljs
+msgid "labels.owner"
+msgstr "Sahip"
+
+#: src/app/main/ui/settings/sidebar.cljs,
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "labels.password"
+msgstr "Parola"
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "labels.pending-invitation"
+msgstr "Bekliyor"
+
+#: src/app/main/ui/settings/sidebar.cljs,
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "labels.profile"
+msgstr "Profil"
+
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "labels.projects"
+msgstr "Projeler"
+
+#: src/app/main/ui/settings/sidebar.cljs
+msgid "labels.release-notes"
+msgstr "Sürüm notları"
+
+#: src/app/main/ui/workspace.cljs
+msgid "labels.reload-file"
+msgstr "Dosyayı yeniden yükle"
+
+#: src/app/main/ui/workspace/libraries.cljs,
+#: src/app/main/ui/dashboard/team.cljs
+msgid "labels.remove"
+msgstr "Kaldır"
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "labels.remove-member"
+msgstr "Üyeyi kaldır"
+
+#: src/app/main/ui/dashboard/sidebar.cljs,
+#: src/app/main/ui/dashboard/project_menu.cljs,
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "labels.rename"
+msgstr "Yeniden adlandır"
+
+#: src/app/main/ui/dashboard/team_form.cljs
+msgid "labels.rename-team"
+msgstr "Takımı yeniden adlandır"
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "labels.resend-invitation"
+msgstr "Daveti yeniden gönder"
+
+#: src/app/main/ui/static.cljs, src/app/main/ui/static.cljs
+msgid "labels.retry"
+msgstr "Yeniden dene"
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "labels.role"
+msgstr "Rol"
+
+msgid "labels.save"
+msgstr "Kaydet"
+
+msgid "labels.search-font"
+msgstr "Yazı tipi ara"
+
+#: src/app/main/ui/settings/feedback.cljs
+msgid "labels.send"
+msgstr "Gönder"
+
+#: src/app/main/ui/settings/feedback.cljs
+msgid "labels.sending"
+msgstr "Gönderiliyor…"
+
+#: src/app/main/ui/static.cljs
+msgid "labels.service-unavailable.desc-message"
+msgstr "Sistemlerimizin programlı bakımını yapıyoruz."
+
+#: src/app/main/ui/static.cljs
+msgid "labels.service-unavailable.main-message"
+msgstr "Hizmet Kullanılamıyor"
+
+#: src/app/main/ui/settings/sidebar.cljs, src/app/main/ui/dashboard/team.cljs,
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "labels.settings"
+msgstr "Ayarlar"
+
+#: src/app/main/ui/viewer/header.cljs, src/app/main/ui/viewer/header.cljs
+msgid "labels.share-prototype"
+msgstr "Prototipi paylaş"
+
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "labels.shared-libraries"
+msgstr "Paylaşılan Kütüphaneler"
+
+#: src/app/main/ui/workspace/comments.cljs, src/app/main/ui/viewer/header.cljs
+msgid "labels.show-all-comments"
+msgstr "Tüm yorumları göster"
+
+msgid "labels.show-comments-list"
+msgstr "Yorum listesini göster"
+
+#: src/app/main/ui/workspace/comments.cljs, src/app/main/ui/viewer/header.cljs
+msgid "labels.show-your-comments"
+msgstr "Yalnızca kendi yorumlarımı göster"
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "labels.status"
+msgstr "Durum"
+
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "labels.tutorials"
+msgstr "Öğreticiler"
+
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "labels.unpublish-multi-files"
+msgstr "%s dosyayı yayından kaldır"
+
+#: src/app/main/ui/settings/profile.cljs
+msgid "labels.update"
+msgstr "Güncelle"
+
+#: src/app/main/ui/dashboard/team_form.cljs
+msgid "labels.update-team"
+msgstr "Takımı güncelle"
+
+msgid "labels.upload"
+msgstr "Yükle"
+
+msgid "labels.upload-custom-fonts"
+msgstr "Özel yazı tipi yükle"
+
+msgid "labels.uploading"
+msgstr "Yükleniyor…"
+
+msgid "labels.view-only"
+msgstr "YALNIZCA GÖRÜNTÜLE"
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "labels.viewer"
+msgstr "Görüntüleyici"
+
+msgid "labels.webhooks"
+msgstr "Web kancaları"
+
+#: src/app/main/ui/comments.cljs
+msgid "labels.write-new-comment"
+msgstr "Yeni yorum yaz"
+
+#: src/app/main/ui/dashboard/team.cljs, src/app/main/ui/dashboard/sidebar.cljs
+msgid "labels.you"
+msgstr "(siz)"
+
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "labels.your-account"
+msgstr "Hesabınız"
+
+#: src/app/main/data/workspace/persistence.cljs, src/app/main/data/media.cljs
+msgid "media.loading"
+msgstr "Görsel yükleniyor…"
+
+#: src/app/main/ui/workspace/header.cljs,
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "modals.add-shared-confirm.accept"
+msgstr "Paylaşılmış Kütüphane olarak Ekle"
+
+#: src/app/main/ui/workspace/header.cljs,
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "modals.add-shared-confirm.hint"
+msgstr ""
+"Paylaşılmış Kütüphane olarak eklenince, bu dosya kütüphanesindeki varlıklar "
+"diğer dosyalarınızdan da ulaşılabilecek."
+
+#: src/app/main/ui/workspace/header.cljs,
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "modals.add-shared-confirm.message"
+msgstr "Paylaşılmış Kütüphane olarak “%s” Ekle"
+
+#: src/app/main/ui/workspace/nudge.cljs
+msgid "modals.big-nudge"
+msgstr "Büyük dürtme"
+
+#: src/app/main/ui/settings/change_email.cljs
+msgid "modals.change-email.confirm-email"
+msgstr "Yeni e-postayı doğrulayın"
+
+#: src/app/main/ui/settings/change_email.cljs
+msgid "modals.change-email.info"
+msgstr ""
+"“%s” e-posta adresinize kimliğinizi doğrulamak için bir e-posta "
+"göndereceğiz."
+
+#: src/app/main/ui/settings/change_email.cljs
+msgid "modals.change-email.new-email"
+msgstr "Yeni e-posta"
+
+#: src/app/main/ui/settings/change_email.cljs
+msgid "modals.change-email.submit"
+msgstr "E-postayı değiştir"
+
+#: src/app/main/ui/settings/change_email.cljs
+msgid "modals.change-email.title"
+msgstr "E-postanızı değiştirin"
+
+msgid "modals.create-webhook.submit-label"
+msgstr "Web kancası oluştur"
+
+msgid "modals.create-webhook.title"
+msgstr "Web kancası oluştur"
+
+msgid "modals.create-webhook.url.label"
+msgstr "Yük URL'si"
+
+msgid "modals.create-webhook.url.placeholder"
+msgstr "https://example.com/postreceive"
+
+#: src/app/main/ui/settings/delete_account.cljs
+msgid "modals.delete-account.cancel"
+msgstr "İptal et ve hesabımı koru"
+
+#: src/app/main/ui/settings/delete_account.cljs
+msgid "modals.delete-account.confirm"
+msgstr "Evet, hesabımı sil"
+
+#: src/app/main/ui/settings/delete_account.cljs
+msgid "modals.delete-account.info"
+msgstr "Hesabını silerek tüm projelerini ve arşivlerini kaybedeceksin."
+
+#: src/app/main/ui/settings/delete_account.cljs
+msgid "modals.delete-account.title"
+msgstr "Hesabını silmek istediğinden emin misin?"
+
+#: src/app/main/ui/comments.cljs
+msgid "modals.delete-comment-thread.accept"
+msgstr "Konuşmayı sil"
+
+#: src/app/main/ui/comments.cljs
+msgid "modals.delete-comment-thread.message"
+msgstr ""
+"Bu konuşmayı silmek istediğinden emin misin? Konudaki tüm yorumlar "
+"silinecek."
+
+#: src/app/main/ui/comments.cljs
+msgid "modals.delete-comment-thread.title"
+msgstr "Konuşmayı sil"
+
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "modals.delete-file-confirm.accept"
+msgstr "Dosyayı sil"
+
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "modals.delete-file-confirm.message"
+msgstr "Bu dosyayı silmek istediğinden emin misin?"
+
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "modals.delete-file-confirm.title"
+msgstr "Dosya siliniyor"
+
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "modals.delete-file-multi-confirm.accept"
+msgstr "Dosyaları sil"
+
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "modals.delete-file-multi-confirm.message"
+msgstr "%s dosyayı silmek istediğinden emin misin?"
+
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "modals.delete-file-multi-confirm.title"
+msgstr "%s dosyayı sil"
+
+msgid "modals.delete-font-variant.message"
+msgstr ""
+"Bu yazı tipi biçimini silmek istediğinizden emin misiniz? Bir dosyada "
+"kullanılıyorsa yüklenmeyecektir."
+
+msgid "modals.delete-font-variant.title"
+msgstr "Yazı tipi biçimini sil"
+
+msgid "modals.delete-font.message"
+msgstr ""
+"Bu yazı tipini silmek istediğinize emin misiniz? Bir dosyada kullanılıyorsa "
+"yüklenmeyecektir."
+
+msgid "modals.delete-font.title"
+msgstr "Yazı tipini sil"
+
+#: src/app/main/ui/workspace/sidebar/sitemap.cljs
+msgid "modals.delete-page.body"
+msgstr "Bu sayfayı silmek istediğinden emin misin?"
+
+#: src/app/main/ui/workspace/sidebar/sitemap.cljs
+msgid "modals.delete-page.title"
+msgstr "Sayfayı sil"
+
+#: src/app/main/ui/dashboard/project_menu.cljs
+msgid "modals.delete-project-confirm.accept"
+msgstr "Projeyi sil"
+
+#: src/app/main/ui/dashboard/project_menu.cljs
+msgid "modals.delete-project-confirm.message"
+msgstr "Bu projeyi silmek istediğinden emin misin?"
+
+#: src/app/main/ui/dashboard/project_menu.cljs
+msgid "modals.delete-project-confirm.title"
+msgstr "Projeyi sil"
+
+#: src/app/main/ui/workspace/header.cljs,
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "modals.delete-shared-confirm.accept"
+msgid_plural "modals.delete-shared-confirm.accept"
+msgstr[0] "Dosyayı sil"
+msgstr[1] "Dosyaları sil"
+
+#: src/app/main/ui/workspace/header.cljs, src/app/main/ui/dashboard/file_menu.cljs
+msgid "modals.delete-shared-confirm.hint"
+msgid_plural "modals.delete-shared-confirm.hint"
+msgstr[0] ""
+"Eğer silerseniz, bu varlıklar bu dosyanın yerel kütüphanesine taşınacaktır. "
+"Kullanılmayan tüm varlıklar kaybolacaktır."
+msgstr[1] ""
+"Eğer silerseniz, bu varlıklar bu dosyanın yerel kütüphanesine taşınacaktır. "
+"Kullanılmayan tüm varlıklar kaybolacaktır."
+
+#: src/app/main/ui/workspace/header.cljs, src/app/main/ui/dashboard/file_menu.cljs
+msgid "modals.delete-shared-confirm.hint-many"
+msgid_plural "modals.delete-shared-confirm.hint-many"
+msgstr[0] ""
+"Eğer silerseniz, bu varlıklar bu dosyaların yerel kütüphanelerine "
+"taşınacaktır. Kullanılmayan tüm varlıklar kaybolacaktır."
+msgstr[1] ""
+"Eğer silerseniz, bu varlıklar bu dosyaların yerel kütüphanelerine "
+"taşınacaktır. Kullanılmayan tüm varlıklar kaybolacaktır."
+
+#: src/app/main/ui/workspace/header.cljs,
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "modals.delete-shared-confirm.message"
+msgid_plural "modals.delete-shared-confirm.message"
+msgstr[0] "Bu dosyayı silmek istediğinizden emin misiniz?"
+msgstr[1] "Bu dosyaları silmek istediğinizden emin misiniz?"
+
+#: src/app/main/ui/workspace/header.cljs, src/app/main/ui/dashboard/file_menu.cljs
+msgid "modals.delete-shared-confirm.no-files-message"
+msgid_plural "modals.delete-shared-confirm.no-files-message"
+msgstr[0] ""
+"Bu dosyanın kütüphanesindeki varlıkların hiçbiri kullanılmıyor. Dosyayla "
+"birlikte silineceklerdir."
+msgstr[1] ""
+"Bu dosyaların kütüphanesindeki varlıkların hiçbiri kullanılmıyor. "
+"Dosyalarla birlikte silineceklerdir."
+
+#: src/app/main/ui/workspace/header.cljs,
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "modals.delete-shared-confirm.scd-message"
+msgid_plural "modals.delete-shared-confirm.scd-message"
+msgstr[0] "Bu dosyanın kütüphanesindeki varlıklardan bazıları burada kullanılıyor:"
+msgstr[1] "Bu dosyalarnın kütüphanesindeki varlıklardan bazıları burada kullanılıyor:"
+
+#: src/app/main/ui/workspace/header.cljs, src/app/main/ui/dashboard/file_menu.cljs
+msgid "modals.delete-shared-confirm.scd-message-many"
+msgid_plural "modals.delete-shared-confirm.scd-message-many"
+msgstr[0] "Bu dosyanın kütüphanesindeki varlıklardan bazıları burada kullanılıyor:"
+msgstr[1] "Bu dosyalarnın kütüphanesindeki varlıklardan bazıları burada kullanılıyor:"
+
+#: src/app/main/ui/workspace/header.cljs,
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "modals.delete-shared-confirm.title"
+msgid_plural "modals.delete-shared-confirm.title"
+msgstr[0] "Dosya siliniyor"
+msgstr[1] "Dosyalar siliniyor"
+
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "modals.delete-team-confirm.accept"
+msgstr "Takımı sil"
+
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "modals.delete-team-confirm.message"
+msgstr ""
+"Bu takımı silmek istediğinden emin misin? Takımla ilişkili dosyalar ve "
+"projeler kalıcı olarak silinecektir."
+
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "modals.delete-team-confirm.title"
+msgstr "Takımı sil"
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "modals.delete-team-member-confirm.accept"
+msgstr "Üyeyi sil"
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "modals.delete-team-member-confirm.message"
+msgstr "Bu üyeyi takımdan silmek istediğinden emin misin?"
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "modals.delete-team-member-confirm.title"
+msgstr "Takım üyesini sil"
+
+msgid "modals.delete-webhook.accept"
+msgstr "Web kancasını sil"
+
+msgid "modals.delete-webhook.message"
+msgstr "Bu web kancasını silmek istediğinizden emin misiniz?"
+
+msgid "modals.delete-webhook.title"
+msgstr "Web kancası siliniyor"
+
+msgid "modals.edit-webhook.submit-label"
+msgstr "Web kancasını düzenle"
+
+msgid "modals.edit-webhook.title"
+msgstr "Web kancasını düzenle"
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "modals.invite-member-confirm.accept"
+msgstr "Davet gönder"
+
+msgid "modals.invite-member.emails"
+msgstr "E-posta adresleri, virgülle ayrılmış"
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "modals.invite-team-member.title"
+msgstr "Üyeleri takıma davet et"
+
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "modals.leave-and-close-confirm.hint"
+msgstr ""
+"Tek üyesi siz olduğunuz için takım, projeleri ve dosyaları ile birlikte "
+"silinecektir."
+
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "modals.leave-and-close-confirm.message"
+msgstr "%s takımından ayrılmak istediğinizden emin misiniz?"
+
+msgid "modals.leave-and-reassign.forbidden"
+msgstr ""
+"Birisini takımın sahibi yapmadan takımı bırakamazsın. Takımı silmek "
+"isteyebilirsin."
+
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "modals.leave-and-reassign.hint1"
+msgstr ""
+"Bu takımın sahibi sizsiniz. Lütfen ayrılmadan önce sahibi olarak belirlemek "
+"için başka bir üye seçin."
+
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "modals.leave-and-reassign.promote-and-leave"
+msgstr "Terfi ettir ve ayrıl"
+
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "modals.leave-and-reassign.select-member-to-promote"
+msgstr "Terfi ettirmek için bir üye seçin"
+
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "modals.leave-and-reassign.title"
+msgstr "Ayrılmadan önce"
+
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "modals.leave-confirm.accept"
+msgstr "Takımdan ayrıl"
+
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "modals.leave-confirm.message"
+msgstr "Bu takımdan ayrılmak istediğinden emin misin?"
+
+#: src/app/main/ui/dashboard/sidebar.cljs
+msgid "modals.leave-confirm.title"
+msgstr "Takımdan ayrıl"
+
+#: src/app/main/ui/workspace/nudge.cljs
+msgid "modals.nudge-title"
+msgstr "Dürtme miktarı"
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "modals.promote-owner-confirm.accept"
+msgstr "Sahipliği aktar"
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "modals.promote-owner-confirm.hint"
+msgstr ""
+"Sahipliği aktarırsanız, rolünüzü Yönetici olarak değiştireceksiniz ve bu "
+"takım üzerindeki bazı izinleri kaybedeceksiniz. "
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "modals.promote-owner-confirm.message"
+msgstr ""
+"Bu takımın şu anki sahibi sizsiniz. %s kişisini takımın yeni sahibi yapmak "
+"istediğinizden emin misiniz?"
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "modals.promote-owner-confirm.title"
+msgstr "Yeni takım sahibi"
+
+#: src/app/main/ui/workspace/header.cljs,
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "modals.remove-shared-confirm.accept"
+msgstr "Paylaşılan Kütüphane olarak kaldır"
+
+#: src/app/main/ui/workspace/header.cljs,
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "modals.remove-shared-confirm.hint"
+msgstr ""
+"Paylaşılan Kütüphane olarak kaldırıldıktan sonra, bu dosyanın Dosya "
+"Kütüphanesi, dosyalarınızın geri kalanında artık kullanılabilir olmayacak."
+
+#: src/app/main/ui/workspace/header.cljs,
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "modals.remove-shared-confirm.message"
+msgstr "“%s” Paylaşılan Kütüphanesini Kaldır"
+
+#: src/app/main/ui/workspace/nudge.cljs
+msgid "modals.small-nudge"
+msgstr "Küçük dürtme"
+
+#: src/app/main/ui/workspace/header.cljs,
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "modals.unpublish-shared-confirm.accept"
+msgstr "Yayından kaldır"
+
+#: src/app/main/ui/workspace/header.cljs,
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "modals.unpublish-shared-confirm.hint"
+msgid_plural "modals.unpublish-shared-confirm.hint"
+msgstr[0] ""
+"Yayından kaldırırsanız, bu varlıklar bu dosyanın yerel kütüphanesine "
+"taşınacaktır."
+msgstr[1] ""
+"Yayından kaldırırsanız, bu varlıklar bu dosyanın yerel kütüphanesine "
+"taşınacaktır."
+
+#: src/app/main/ui/workspace/header.cljs, src/app/main/ui/dashboard/file_menu.cljs
+msgid "modals.unpublish-shared-confirm.hint-many"
+msgid_plural "modals.unpublish-shared-confirm.hint-many"
+msgstr[0] ""
+"Yayından kaldırırsanız, bu varlıklar bu dosyaların yerel kütüphanelerine "
+"taşınacaktır."
+msgstr[1] ""
+"Yayından kaldırırsanız, bu varlıklar bu dosyaların yerel kütüphanelerine "
+"taşınacaktır."
+
+#: src/app/main/ui/workspace/header.cljs,
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "modals.unpublish-shared-confirm.message"
+msgid_plural "modals.unpublish-shared-confirm.message"
+msgstr[0] "Bu kütüphaneyi yayından kaldırmak istediğinizden emin misiniz?"
+msgstr[1] "Bu kütüphaneleri yayından kaldırmak istediğinizden emin misiniz?"
+
+#: src/app/main/ui/workspace/header.cljs, src/app/main/ui/dashboard/file_menu.cljs
+msgid "modals.unpublish-shared-confirm.no-files-message"
+msgid_plural "modals.unpublish-shared-confirm.no-files-message"
+msgstr[0] "Bu kütüphanedeki varlıkların hiçbiri kullanılmıyor."
+msgstr[1] "Bu kütüphanelerdeki varlıkların hiçbiri kullanılmıyor."
+
+#: src/app/main/ui/workspace/header.cljs,
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "modals.unpublish-shared-confirm.scd-message"
+msgid_plural "modals.unpublish-shared-confirm.scd-message"
+msgstr[0] "Bu kütüphanedeki varlıklardan bazıları burada kullanılıyor:"
+msgstr[1] "Bu kütüphanelerdeki varlıklardan bazıları burada kullanılıyor:"
+
+#: src/app/main/ui/workspace/header.cljs, src/app/main/ui/dashboard/file_menu.cljs
+msgid "modals.unpublish-shared-confirm.scd-message-many"
+msgid_plural "modals.unpublish-shared-confirm.scd-message-many"
+msgstr[0] "Bu kütüphanedeki varlıklardan bazıları burada kullanılıyor:"
+msgstr[1] "Bu kütüphanelerdeki varlıklardan bazıları burada kullanılıyor:"
+
+#: src/app/main/ui/workspace/header.cljs,
+#: src/app/main/ui/dashboard/file_menu.cljs
+msgid "modals.unpublish-shared-confirm.title"
+msgid_plural "modals.unpublish-shared-confirm.title"
+msgstr[0] "Kütüphaneyi yayından kaldır"
+msgstr[1] "Kütüphaneleri yayından kaldır"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/component.cljs,
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "modals.update-remote-component-in-bulk.hint"
+msgstr ""
+"Paylaşılan bir kütüphanedeki bileşenleri güncellemek üzeresiniz. Bu, onu "
+"kullanan diğer dosyaları etkileyebilir."
+
+#: src/app/main/ui/workspace/sidebar/options/menus/component.cljs,
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "modals.update-remote-component-in-bulk.message"
+msgstr "Paylaşılan bir kütüphanedeki bileşenleri güncelle"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/component.cljs,
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "modals.update-remote-component.accept"
+msgstr "Güncelle"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/component.cljs,
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "modals.update-remote-component.cancel"
+msgstr "İptal"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/component.cljs,
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "modals.update-remote-component.hint"
+msgstr ""
+"Paylaşılmış bir kütüphanedeki bileşeni güncellemek üzeresin. Onu kullanan "
+"diğer dosyalar etkilenebilir."
+
+#: src/app/main/ui/workspace/sidebar/options/menus/component.cljs,
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "modals.update-remote-component.message"
+msgstr "Paylaşılmış bir kütüphanede bir bileşen güncelle"
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "notifications.invitation-email-sent"
+msgstr "Davet başarıyla iletildi"
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "notifications.invitation-link-copied"
+msgstr "Davet bağlantısı kopyalandı"
+
+#: src/app/main/ui/settings/delete_account.cljs
+msgid "notifications.profile-deletion-not-allowed"
+msgstr "Profilinizi silemezsiniz. Devam etmeden önce takımlarınızı birine atayın."
+
+#: src/app/main/ui/settings/profile.cljs, src/app/main/ui/settings/options.cljs
+msgid "notifications.profile-saved"
+msgstr "Profil başarıyla kaydedildi!"
+
+#: src/app/main/ui/settings/change_email.cljs
+msgid "notifications.validation-email-sent"
+msgstr "%s adresine doğrulama e-postası gönderildi. E-posta kutunuza bakın!"
+
+msgid "onboarding-v2.before-start.desc1"
+msgstr ""
+"Kullanıcı Kılavuzu ve Youtube kanalımız gibi Penpot'u kullanmaya "
+"başlamanıza yardımcı olacak birçok kaynak olduğunu bilmelisiniz."
+
+msgid "onboarding-v2.before-start.desc2"
+msgstr ""
+"Penpot'un nasıl kullanılacağı hakkında ayrıntılı bilgi. Prototiplemeden "
+"tasarımları düzenlemeye veya paylaşmaya kadar."
+
+msgid "onboarding-v2.before-start.desc2.title"
+msgstr "Kullanıcı kılavuzu"
+
+msgid "onboarding-v2.before-start.desc3"
+msgstr "Bizim ve topluluğumuz tarafından hazırlanan öğreticileri izleyebilirsiniz."
+
+msgid "onboarding-v2.before-start.desc3.title"
+msgstr "Video öğreticiler"
+
+msgid "onboarding-v2.before-start.title"
+msgstr "Başlamadan önce"
+
+msgid "onboarding-v2.newsletter.desc"
+msgstr ""
+"Ürün geliştirme sürecinden ve haberlerden haberdar olmak için Penpot "
+"bültenine abone olun."
+
+msgid "onboarding-v2.newsletter.news"
+msgstr ""
+"Bana Penpot hakkında haberler gönder (blog gönderileri, video öğreticiler, "
+"yayınlar...)."
+
+msgid "onboarding-v2.newsletter.privacy1"
+msgstr "Gizliliğe önem veriyoruz, buradan okuyabilirsiniz. "
+
+msgid "onboarding-v2.newsletter.privacy2"
+msgstr ""
+"Size yalnızca ilgili e-postaları göndereceğiz. Bültenlerimizden herhangi "
+"birindeki abonelikten çıkma bağlantısını kullanarak istediğiniz zaman "
+"aboneliğinizi iptal edebilirsiniz."
+
+msgid "onboarding-v2.newsletter.updates"
+msgstr "Bana ürün güncellemeleri gönder (yeni özellikler, sürümler, düzeltmeler...)."
+
+msgid "onboarding-v2.welcome.desc1"
+msgstr ""
+"Penpot açık kaynaklıdır ve Kaleidos'un yanı sıra birçok insanın birbirine "
+"yardım ettiği topluluk tarafından yapılmıştır. Herkes işbirliğine "
+"katılabilir:"
+
+msgid "onboarding-v2.welcome.desc2"
+msgstr ""
+"Tüm topluluk ve Penpot çekirdek takımı ile Penpot, bugünü ve geleceği "
+"hakkında bilgi edinmek, paylaşmak ve tartışmak için herkese açık bir alan."
+
+msgid "onboarding-v2.welcome.desc2.title"
+msgstr "Topluluğa Katılım"
+
+msgid "onboarding-v2.welcome.desc3"
+msgstr ""
+"Çeviriler, özellik istekleri, temel katkılar, hata avı ile nasıl işbirliği "
+"yapacağınızı bulacağınız yer…"
+
+msgid "onboarding-v2.welcome.desc3.title"
+msgstr "Katkıda bulunma kılavuzu"
+
+msgid "onboarding-v2.welcome.title"
+msgstr "Penpot'a hoş geldiniz!"
+
+msgid "onboarding.choice.team-up.create-later"
+msgstr "Daha sonra bir takım oluştur"
+
+msgid "onboarding.choice.team-up.create-team"
+msgstr "Takımınızın adı"
+
+msgid "onboarding.choice.team-up.create-team-desc"
+msgstr "Takımınızı adlandırdıktan sonra, insanları katılmaya davet edebileceksiniz."
+
+msgid "onboarding.choice.team-up.create-team-placeholder"
+msgstr "Takımın adını girin"
+
+msgid "onboarding.choice.team-up.invite-members"
+msgstr "Üyeleri davet edin"
+
+msgid "onboarding.choice.team-up.invite-members-info"
+msgstr ""
+"Herkesi dahil etmeyi unutmayın. Geliştiriciler, tasarımcılar, "
+"yöneticiler... çeşitlilik iyidir :)"
+
+msgid "onboarding.choice.team-up.invite-members-skip"
+msgstr "Takım oluştur ve daha sonra davet et"
+
+msgid "onboarding.choice.team-up.invite-members-submit"
+msgstr "Takım oluştur ve davet gönder"
+
+msgid "onboarding.choice.team-up.roles"
+msgstr "Rol ile davet et:"
+
+msgid "onboarding.contrib.desc2.1"
+msgstr "Projeye"
+
+msgid "onboarding.newsletter.accept"
+msgstr "Evet, abone ol"
+
+msgid "onboarding.newsletter.acceptance-message"
+msgstr "Abonelik talebiniz iletildi, size onaylamak için bir e-posta göndereceğiz."
+
+msgid "onboarding.newsletter.policy"
+msgstr "Gizlilik Politikası."
+
+msgid "onboarding.newsletter.title"
+msgstr "Penpot haberlerini almak ister misiniz?"
+
+msgid "onboarding.slide.0.title"
+msgstr "Kütüphaneler, biçimler ve bileşenler tasarlayın"
+
+msgid "onboarding.slide.1.title"
+msgstr "Etkileşimlerle tasarımlarınıza hayat verin"
+
+msgid "onboarding.slide.3.alt"
+msgstr "Teslim ve kod özellikleri"
+
+msgid "onboarding.team-modal.create-team"
+msgstr "Bir takım oluştur"
+
+msgid "onboarding.team-modal.create-team-desc"
+msgstr ""
+"Takım, aynı dosya ve projelerde çalışan diğer Penpot kullanıcılarıyla "
+"işbirliği yapmanıza olanak tanır."
+
+msgid "onboarding.team-modal.create-team-feature-1"
+msgstr "Sınırsız dosya ve proje"
+
+msgid "onboarding.team-modal.create-team-feature-2"
+msgstr "Çok oyunculu sürüm"
+
+msgid "onboarding.team-modal.create-team-feature-3"
+msgstr "Rol yönetimi"
+
+msgid "onboarding.team-modal.create-team-feature-4"
+msgstr "Sınırsız üye"
+
+msgid "onboarding.team-modal.create-team-feature-5"
+msgstr "%100 özgür!"
+
+msgid "onboarding.team.start.title"
+msgstr "Tasarlamaya başla"
+
+msgid "onboarding.templates.subtitle"
+msgstr "İşte bazı şablonlar."
+
+msgid "onboarding.templates.title"
+msgstr "Tasarlamaya başla"
+
+msgid "onboarding.welcome.alt"
+msgstr "Penpot"
+
+#: src/app/main/ui/auth/recovery.cljs
+msgid "profile.recovery.go-to-login"
+msgstr "Oturum açmaya git"
+
+#: src/app/main/ui/workspace/sidebar/options/rows/color_row.cljs,
+#: src/app/main/ui/workspace/sidebar/options/menus/stroke.cljs,
+#: src/app/main/ui/workspace/sidebar/options/menus/layer.cljs,
+#: src/app/main/ui/workspace/sidebar/options/menus/typography.cljs,
+#: src/app/main/ui/workspace/sidebar/options/menus/shadow.cljs,
+#: src/app/main/ui/workspace/sidebar/options/menus/blur.cljs
+msgid "settings.multiple"
+msgstr "Karışık"
+
+# SECTIONS
+msgid "shortcut-section.basics"
+msgstr "Temel bilgiler"
+
+msgid "shortcut-section.dashboard"
+msgstr "Denetim paneli"
+
+msgid "shortcut-section.viewer"
+msgstr "Görüntüleyici"
+
+msgid "shortcut-section.workspace"
+msgstr "Çalışma alanı"
+
+# SUBSECTIONS
+msgid "shortcut-subsection.alignment"
+msgstr "Hizalama"
+
+msgid "shortcut-subsection.edit"
+msgstr "Düzenle"
+
+msgid "shortcut-subsection.general-dashboard"
+msgstr "Genel"
+
+msgid "shortcut-subsection.general-viewer"
+msgstr "Genel"
+
+msgid "shortcut-subsection.main-menu"
+msgstr "Ana menü"
+
+msgid "shortcut-subsection.modify-layers"
+msgstr "Katmanları değiştir"
+
+msgid "shortcut-subsection.navigation-dashboard"
+msgstr "Gezinme"
+
+msgid "shortcut-subsection.navigation-viewer"
+msgstr "Gezinme"
+
+msgid "shortcut-subsection.navigation-workspace"
+msgstr "Gezinme"
+
+msgid "shortcut-subsection.panels"
+msgstr "Paneller"
+
+msgid "shortcut-subsection.path-editor"
+msgstr "Yollar"
+
+msgid "shortcut-subsection.shape"
+msgstr "Şekiller"
+
+msgid "shortcut-subsection.tools"
+msgstr "Araçlar"
+
+msgid "shortcut-subsection.zoom-viewer"
+msgstr "Yakınlaştır"
+
+msgid "shortcut-subsection.zoom-workspace"
+msgstr "Yakınlaştır"
+
+msgid "shortcuts.add-comment"
+msgstr "Yorumlar"
+
+msgid "shortcuts.add-node"
+msgstr "Düğüm ekle"
+
+msgid "shortcuts.align-bottom"
+msgstr "Alta hizala"
+
+msgid "shortcuts.align-hcenter"
+msgstr "Ortayı yatay olarak hizala"
+
+msgid "shortcuts.align-left"
+msgstr "Sola hizala"
+
+msgid "shortcuts.align-right"
+msgstr "Sağa hizala"
+
+msgid "shortcuts.align-top"
+msgstr "Üste hizala"
+
+msgid "shortcuts.align-vcenter"
+msgstr "Ortayı dikey olarak hizala"
+
+msgid "shortcuts.artboard-selection"
+msgstr "Seçimden çalışma yüzeyi oluştur"
+
+msgid "shortcuts.bool-difference"
+msgstr "Boole fark"
+
+msgid "shortcuts.bool-exclude"
+msgstr "Boole hariç tut"
+
+msgid "shortcuts.bool-intersection"
+msgstr "Boole kesişim"
+
+msgid "shortcuts.bool-union"
+msgstr "Boole birleşim"
+
+msgid "shortcuts.bring-back"
+msgstr "En arkaya gönder"
+
+msgid "shortcuts.bring-backward"
+msgstr "Arkaya gönder"
+
+msgid "shortcuts.bring-forward"
+msgstr "Öne getir"
+
+msgid "shortcuts.bring-front"
+msgstr "En öne getir"
+
+msgid "shortcuts.clear-undo"
+msgstr "Geri almayı temizle"
+
+msgid "shortcuts.copy"
+msgstr "Kopyala"
+
+msgid "shortcuts.create-component"
+msgstr "Bileşen oluştur"
+
+msgid "shortcuts.create-new-project"
+msgstr "Yeni oluştur"
+
+msgid "shortcuts.cut"
+msgstr "Kes"
+
+msgid "shortcuts.decrease-zoom"
+msgstr "Uzaklaştır"
+
+msgid "shortcuts.delete"
+msgstr "Sil"
+
+msgid "shortcuts.delete-node"
+msgstr "Düğümü sil"
+
+msgid "shortcuts.detach-component"
+msgstr "Bileşeni ayır"
+
+msgid "shortcuts.draw-curve"
+msgstr "Eğri"
+
+msgid "shortcuts.draw-ellipse"
+msgstr "Elips"
+
+msgid "shortcuts.draw-frame"
+msgstr "Çalışma yüzeyi"
+
+msgid "shortcuts.draw-nodes"
+msgstr "Yol çiz"
+
+msgid "shortcuts.draw-path"
+msgstr "Yol"
+
+msgid "shortcuts.draw-rect"
+msgstr "Dikdörtgen"
+
+msgid "shortcuts.draw-text"
+msgstr "Metin"
+
+msgid "shortcuts.duplicate"
+msgstr "Çoğalt"
+
+msgid "shortcuts.escape"
+msgstr "İptal"
+
+msgid "shortcuts.export-shapes"
+msgstr "Şekilleri dışa aktar"
+
+msgid "shortcuts.fit-all"
+msgstr "Tümüne uydurmak için yakınlaştır"
+
+msgid "shortcuts.flip-horizontal"
+msgstr "Yatay olarak çevir"
+
+msgid "shortcuts.flip-vertical"
+msgstr "Dikey olarak çevir"
+
+msgid "shortcuts.go-to-drafts"
+msgstr "Taslaklara git"
+
+msgid "shortcuts.go-to-libs"
+msgstr "Paylaşılan kütüphanelere git"
+
+msgid "shortcuts.go-to-search"
+msgstr "Ara"
+
+msgid "shortcuts.group"
+msgstr "Grup"
+
+msgid "shortcuts.h-distribute"
+msgstr "Yatay olarak dağıt"
+
+msgid "shortcuts.hide-ui"
+msgstr "Kullanıcı arayüzünü göster/gizle"
+
+msgid "shortcuts.increase-zoom"
+msgstr "Yakınlaştır"
+
+msgid "shortcuts.insert-image"
+msgstr "Görsel ekle"
+
+msgid "shortcuts.join-nodes"
+msgstr "Düğümlere katıl"
+
+msgid "shortcuts.make-corner"
+msgstr "Köşe yap"
+
+msgid "shortcuts.make-curve"
+msgstr "Eğri yap"
+
+msgid "shortcuts.mask"
+msgstr "Maskele"
+
+msgid "shortcuts.merge-nodes"
+msgstr "Düğümleri birleştir"
+
+msgid "shortcuts.move"
+msgstr "Taşı"
+
+msgid "shortcuts.move-fast-down"
+msgstr "Hızlı aşağı taşı"
+
+msgid "shortcuts.move-fast-left"
+msgstr "Hızlı sola taşı"
+
+msgid "shortcuts.move-fast-right"
+msgstr "Hızlı sağa taşı"
+
+msgid "shortcuts.move-fast-up"
+msgstr "Hızlı yukarı taşı"
+
+msgid "shortcuts.move-nodes"
+msgstr "Düğümü taşı"
+
+msgid "shortcuts.move-unit-down"
+msgstr "Aşağı taşı"
+
+msgid "shortcuts.move-unit-left"
+msgstr "Sola taşı"
+
+msgid "shortcuts.move-unit-right"
+msgstr "Sağa taşı"
+
+msgid "shortcuts.move-unit-up"
+msgstr "Yukarı taşı"
+
+msgid "shortcuts.next-frame"
+msgstr "Sonraki çalışma yüzeyi"
+
+msgid "shortcuts.not-found"
+msgstr "Kısayol bulunamadı"
+
+msgid "shortcuts.opacity-0"
+msgstr "Opaklığı %100 olarak ayarla"
+
+msgid "shortcuts.opacity-1"
+msgstr "Opaklığı %10 olarak ayarla"
+
+msgid "shortcuts.opacity-2"
+msgstr "Opaklığı %20 olarak ayarla"
+
+msgid "shortcuts.opacity-3"
+msgstr "Opaklığı %30 olarak ayarla"
+
+msgid "shortcuts.opacity-4"
+msgstr "Opaklığı %40 olarak ayarla"
+
+msgid "shortcuts.opacity-5"
+msgstr "Opaklığı %50 olarak ayarla"
+
+msgid "shortcuts.opacity-6"
+msgstr "Opaklığı %60 olarak ayarla"
+
+msgid "shortcuts.opacity-7"
+msgstr "Opaklığı %70 olarak ayarla"
+
+msgid "shortcuts.opacity-8"
+msgstr "Opaklığı %80 olarak ayarla"
+
+msgid "shortcuts.opacity-9"
+msgstr "Opaklığı %90 olarak ayarla"
+
+msgid "shortcuts.open-color-picker"
+msgstr "Renk seçici"
+
+msgid "shortcuts.open-comments"
+msgstr "Görüntüleyici yorum bölümüne git"
+
+msgid "shortcuts.open-dashboard"
+msgstr "Denetim paneline git"
+
+msgid "shortcuts.open-inspect"
+msgstr "Görüntüleyici inceleme bölümüne git"
+
+msgid "shortcuts.open-interactions"
+msgstr "Görüntüleyici etkileşimleri bölümüne git"
+
+msgid "shortcuts.open-viewer"
+msgstr "Görüntüleyici etkileşimleri bölümüne git"
+
+msgid "shortcuts.open-workspace"
+msgstr "Çalışma alanına git"
+
+msgid "shortcuts.or"
+msgstr " veya "
+
+msgid "shortcuts.paste"
+msgstr "Yapıştır"
+
+msgid "shortcuts.prev-frame"
+msgstr "Önceki çalışma yüzeyi"
+
+msgid "shortcuts.redo"
+msgstr "Yeniden yap"
+
+msgid "shortcuts.reset-zoom"
+msgstr "Yakınlaştırmayı sıfırla"
+
+msgid "shortcuts.search-placeholder"
+msgstr "Kısayolları ara"
+
+msgid "shortcuts.select-all"
+msgstr "Tümünü seç"
+
+msgid "shortcuts.separate-nodes"
+msgstr "Düğümleri ayır"
+
+msgid "shortcuts.show-pixel-grid"
+msgstr "Piksel ızgarasını göster/gizle"
+
+msgid "shortcuts.show-shortcuts"
+msgstr "Kısayolları göster/gizle"
+
+msgid "shortcuts.snap-nodes"
+msgstr "Düğümlere tuttur"
+
+msgid "shortcuts.snap-pixel-grid"
+msgstr "Piksel ızgarasına tuttur"
+
+msgid "shortcuts.start-editing"
+msgstr "Düzenlemeye başla"
+
+msgid "shortcuts.start-measure"
+msgstr "Ölçüme başla"
+
+msgid "shortcuts.stop-measure"
+msgstr "Ölçümü durdur"
+
+msgid "shortcuts.thumbnail-set"
+msgstr "Küçük resimleri ayarla"
+
+#: src/app/main/ui/workspace/sidebar/shortcuts.cljs
+msgid "shortcuts.title"
+msgstr "Klavye kısayolları"
+
+msgid "shortcuts.toggle-alignment"
+msgstr "Dinamik hizalamayı aç/kapat"
+
+msgid "shortcuts.toggle-assets"
+msgstr "Varlıkları değiştir"
+
+msgid "shortcuts.toggle-colorpalette"
+msgstr "Renk paletini değiştir"
+
+msgid "shortcuts.toggle-focus-mode"
+msgstr "Odak modunu değiştir"
+
+msgid "shortcuts.toggle-fullscreen"
+msgstr "Tam ekranı değiştir"
+
+msgid "shortcuts.toggle-grid"
+msgstr "Izgarayı göster/gizle"
+
+msgid "shortcuts.toggle-history"
+msgstr "Geçmişi değiştir"
+
+msgid "shortcuts.toggle-layers"
+msgstr "Katmanları değiştir"
+
+msgid "shortcuts.toggle-layout-flex"
+msgstr "Düzen esnekliği ekle/kaldır"
+
+msgid "shortcuts.toggle-lock"
+msgstr "Seçileni kilitle"
+
+msgid "shortcuts.toggle-lock-size"
+msgstr "Oranları kilitle"
+
+msgid "shortcuts.toggle-rules"
+msgstr "Cetvelleri göster/gizle"
+
+msgid "shortcuts.toggle-scale-text"
+msgstr "Ölçek metnini değiştir"
+
+msgid "shortcuts.toggle-snap-grid"
+msgstr "Izgaraya tuttur"
+
+msgid "shortcuts.toggle-snap-guide"
+msgstr "Kılavuzlara tuttur"
+
+msgid "shortcuts.toggle-textpalette"
+msgstr "Metin paletini değiştir"
+
+msgid "shortcuts.toggle-zoom-style"
+msgstr "Yakınlaştırma şeklini değiştir"
+
+msgid "shortcuts.undo"
+msgstr "Geri al"
+
+msgid "shortcuts.ungroup"
+msgstr "Grubu dağıt"
+
+msgid "shortcuts.unmask"
+msgstr "Maskelemeyi kaldır"
+
+msgid "shortcuts.v-distribute"
+msgstr "Dikey olarak dağıt"
+
+msgid "shortcuts.zoom-selected"
+msgstr "Seçilene yakınlaştır"
+
+#: src/app/main/ui/dashboard/files.cljs
+msgid "title.dashboard.files"
+msgstr "%s - Penpot"
+
+#: src/app/main/ui/dashboard/fonts.cljs
+msgid "title.dashboard.font-providers"
+msgstr "Yazı Tipi Sağlayıcıları - %s - Penpot"
+
+#: src/app/main/ui/dashboard/fonts.cljs
+msgid "title.dashboard.fonts"
+msgstr "Yazı Tipleri - %s - Penpot"
+
+#: src/app/main/ui/dashboard/projects.cljs
+msgid "title.dashboard.projects"
+msgstr "Projeler - %s - Penpot"
+
+#: src/app/main/ui/dashboard/search.cljs
+msgid "title.dashboard.search"
+msgstr "Ara - %s - Penpot"
+
+#: src/app/main/ui/dashboard/libraries.cljs
+msgid "title.dashboard.shared-libraries"
+msgstr "Paylaşılmış Kütüphaneler - %s - Penpot"
+
+#: src/app/main/ui/auth/verify_token.cljs, src/app/main/ui/auth.cljs
+msgid "title.default"
+msgstr "Penpot - Takımlar için Özgür Tasarım"
+
+#: src/app/main/ui/settings/feedback.cljs
+msgid "title.settings.feedback"
+msgstr "Geri bildirimde bulun - Penpot"
+
+#: src/app/main/ui/settings/options.cljs
+msgid "title.settings.options"
+msgstr "Ayarlar - Penpot"
+
+#: src/app/main/ui/settings/password.cljs
+msgid "title.settings.password"
+msgstr "Parola - Penpot"
+
+#: src/app/main/ui/settings/profile.cljs
+msgid "title.settings.profile"
+msgstr "Profil - Penpot"
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "title.team-invitations"
+msgstr "Davetler - %s - Penpot"
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "title.team-members"
+msgstr "Üyeler - %s - Penpot"
+
+#: src/app/main/ui/dashboard/team.cljs
+msgid "title.team-settings"
+msgstr "Ayarlar - %s - Penpot"
+
+msgid "title.team-webhooks"
+msgstr "Web kancaları - %s - Penpot"
+
+#: src/app/main/ui/inspect.cljs, src/app/main/ui/viewer.cljs
+msgid "title.viewer"
+msgstr "%s - Görünüm modu - Penpot"
+
+#: src/app/main/ui/workspace.cljs
+msgid "title.workspace"
+msgstr "%s - Penpot"
+
+msgid "viewer.breaking-change.description"
+msgstr ""
+"Bu paylaşılabilir bağlantı artık geçerli değil. Yeni bir tane oluşturun "
+"veya sahibinden yeni bir tane isteyin."
+
+msgid "viewer.breaking-change.message"
+msgstr "Üzgünüm!"
+
+#: src/app/main/ui/inspect.cljs, src/app/main/ui/viewer.cljs
+msgid "viewer.empty-state"
+msgstr "Sayfada çalışma yüzeyi bulunamadı."
+
+#: src/app/main/ui/inspect.cljs, src/app/main/ui/viewer.cljs
+msgid "viewer.frame-not-found"
+msgstr "Çalışma yüzeyi bulunamadı."
+
+msgid "viewer.header.comments-section"
+msgstr "Yorumlar (%s)"
+
+#: src/app/main/ui/viewer/header.cljs
+msgid "viewer.header.dont-show-interactions"
+msgstr "Etkileşimleri gösterme"
+
+#: src/app/main/ui/viewer/header.cljs
+msgid "viewer.header.fullscreen"
+msgstr "Tam Ekran"
+
+msgid "viewer.header.inspect-section"
+msgstr "İncele (%s)"
+
+#: src/app/main/ui/viewer/header.cljs
+msgid "viewer.header.interactions"
+msgstr "Etkileşimler"
+
+msgid "viewer.header.interactions-section"
+msgstr "Etkileşimler (%s)"
+
+#: src/app/main/ui/viewer/header.cljs
+msgid "viewer.header.share.copy-link"
+msgstr "Bağlantıyı kopyala"
+
+#: src/app/main/ui/viewer/header.cljs
+msgid "viewer.header.share.subtitle"
+msgstr "Bağlantıya sahip herkes erişebilecek"
+
+#: src/app/main/ui/viewer/header.cljs
+msgid "viewer.header.show-interactions"
+msgstr "Etkileşimleri göster"
+
+#: src/app/main/ui/viewer/header.cljs
+msgid "viewer.header.show-interactions-on-click"
+msgstr "Tıklamada etkileşimleri göster"
+
+#: src/app/main/ui/viewer/header.cljs
+msgid "viewer.header.sitemap"
+msgstr "Site haritası"
+
+msgid "webhooks.last-delivery.success"
+msgstr "Son iletim başarılı oldu."
+
+#: src/app/main/ui/workspace/sidebar/align.cljs
+msgid "workspace.align.hcenter"
+msgstr "Yatay olarak ortaya hizala (%s)"
+
+#: src/app/main/ui/workspace/sidebar/align.cljs
+msgid "workspace.align.hdistribute"
+msgstr "Yatayda dağıt (%s)"
+
+#: src/app/main/ui/workspace/sidebar/align.cljs
+msgid "workspace.align.hleft"
+msgstr "Sola hizala (%s)"
+
+#: src/app/main/ui/workspace/sidebar/align.cljs
+msgid "workspace.align.hright"
+msgstr "Sağa hizala (%s)"
+
+#: src/app/main/ui/workspace/sidebar/align.cljs
+msgid "workspace.align.vbottom"
+msgstr "Alta hizala (%s)"
+
+#: src/app/main/ui/workspace/sidebar/align.cljs
+msgid "workspace.align.vcenter"
+msgstr "Dikey olarak ortaya hizala (%s)"
+
+#: src/app/main/ui/workspace/sidebar/align.cljs
+msgid "workspace.align.vdistribute"
+msgstr "Dikeyde dağıt (%s)"
+
+#: src/app/main/ui/workspace/sidebar/align.cljs
+msgid "workspace.align.vtop"
+msgstr "Üste hizala (%s)"
+
+#: src/app/main/ui/workspace/sidebar/assets.cljs
+msgid "workspace.assets.assets"
+msgstr "Varlıklar"
+
+#: src/app/main/ui/workspace/sidebar/assets.cljs
+msgid "workspace.assets.box-filter-all"
+msgstr "Tüm varlıklar"
+
+#: src/app/main/ui/workspace/sidebar/assets.cljs,
+#: src/app/main/ui/workspace/sidebar/assets.cljs
+msgid "workspace.assets.colors"
+msgstr "Renkler"
+
+#: src/app/main/ui/workspace/sidebar/assets.cljs,
+#: src/app/main/ui/workspace/sidebar/assets.cljs
+msgid "workspace.assets.components"
+msgstr "Bileşenler"
+
+#: src/app/main/ui/workspace/sidebar/assets.cljs
+msgid "workspace.assets.create-group"
+msgstr "Grup oluştur"
+
+#: src/app/main/ui/workspace/sidebar/assets.cljs
+msgid "workspace.assets.create-group-hint"
+msgstr "Ögeleriniz otomatik olarak \"grup adı / öge adı\" olarak adlandırılacak"
+
+#: src/app/main/ui/workspace/sidebar/sitemap.cljs,
+#: src/app/main/ui/workspace/sidebar/assets.cljs,
+#: src/app/main/ui/workspace/sidebar/assets.cljs
+msgid "workspace.assets.delete"
+msgstr "Sil"
+
+#: src/app/main/ui/workspace/sidebar/sitemap.cljs,
+#: src/app/main/ui/workspace/sidebar/assets.cljs
+msgid "workspace.assets.duplicate"
+msgstr "Çoğalt"
+
+#: src/app/main/ui/workspace/sidebar/assets.cljs,
+#: src/app/main/ui/workspace/sidebar/assets.cljs
+msgid "workspace.assets.edit"
+msgstr "Düzenle"
+
+#: src/app/main/ui/workspace/sidebar/assets.cljs,
+#: src/app/main/ui/workspace/sidebar/assets.cljs
+msgid "workspace.assets.graphics"
+msgstr "Grafikler"
+
+#: src/app/main/ui/workspace/sidebar/assets.cljs
+msgid "workspace.assets.group"
+msgstr "Grup"
+
+#: src/app/main/ui/workspace/sidebar/assets.cljs
+msgid "workspace.assets.group-name"
+msgstr "Grup adı"
+
+#: src/app/main/ui/workspace/sidebar/assets.cljs
+msgid "workspace.assets.libraries"
+msgstr "Kütüphaneler"
+
+msgid "workspace.assets.local-library"
+msgstr "yerel kütüphane"
+
+#: src/app/main/ui/workspace/sidebar/assets.cljs
+msgid "workspace.assets.not-found"
+msgstr "Varlık bulunmadı"
+
+#: src/app/main/ui/workspace/sidebar/sitemap.cljs,
+#: src/app/main/ui/workspace/sidebar/assets.cljs,
+#: src/app/main/ui/workspace/sidebar/assets.cljs
+msgid "workspace.assets.rename"
+msgstr "Yeniden adlandır"
+
+#: src/app/main/ui/workspace/sidebar/assets.cljs
+msgid "workspace.assets.rename-group"
+msgstr "Grubu yeniden adlandır"
+
+#: src/app/main/ui/workspace/sidebar/assets.cljs
+msgid "workspace.assets.search"
+msgstr "Varlık ara"
+
+#: src/app/main/ui/workspace/sidebar/assets.cljs
+msgid "workspace.assets.selected-count"
+msgid_plural "workspace.assets.selected-count"
+msgstr[0] "%s öge seçildi"
+msgstr[1] "%s öge seçildi"
+
+#: src/app/main/ui/workspace/sidebar/assets.cljs
+msgid "workspace.assets.shared"
+msgstr "PAYLAŞILDI"
+
+#: src/app/main/ui/workspace/sidebar/assets.cljs,
+#: src/app/main/ui/workspace/sidebar/assets.cljs
+msgid "workspace.assets.typography"
+msgstr "Tipografiler"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/typography.cljs
+msgid "workspace.assets.typography.font-id"
+msgstr "Yazı tipi"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/typography.cljs
+msgid "workspace.assets.typography.font-size"
+msgstr "Boyut"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/typography.cljs
+msgid "workspace.assets.typography.font-variant-id"
+msgstr "Çeşit"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/typography.cljs
+msgid "workspace.assets.typography.go-to-edit"
+msgstr "Düzenlemek için biçim kütüphane dosyasına gidin"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/typography.cljs
+msgid "workspace.assets.typography.letter-spacing"
+msgstr "Harf Boşluğu"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/typography.cljs
+msgid "workspace.assets.typography.line-height"
+msgstr "Satır Yüksekliği"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/typography.cljs,
+#: src/app/main/ui/inspect/attributes/text.cljs,
+#: src/app/main/ui/inspect/attributes/text.cljs
+msgid "workspace.assets.typography.sample"
+msgstr "Ag"
+
+msgid "workspace.assets.typography.text-styles"
+msgstr "Metin biçimleri"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/typography.cljs
+msgid "workspace.assets.typography.text-transform"
+msgstr "Metin Dönüşümü"
+
+#: src/app/main/ui/workspace/sidebar/assets.cljs
+msgid "workspace.assets.ungroup"
+msgstr "Grubu dağıt"
+
+msgid "workspace.focus.focus-mode"
+msgstr "Odaklanma modu"
+
+msgid "workspace.focus.focus-off"
+msgstr "Odaklanma kapalı"
+
+msgid "workspace.focus.focus-on"
+msgstr "Odaklanma açık"
+
+msgid "workspace.focus.selection"
+msgstr "Seçim"
+
+#: src/app/main/data/workspace/libraries.cljs,
+#: src/app/main/ui/components/color_bullet.cljs
+msgid "workspace.gradients.linear"
+msgstr "Doğrusal degrade"
+
+#: src/app/main/data/workspace/libraries.cljs,
+#: src/app/main/ui/components/color_bullet.cljs
+msgid "workspace.gradients.radial"
+msgstr "Dairesel degrade"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.menu.disable-dynamic-alignment"
+msgstr "Dinamik hizalamayı kapat"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.menu.disable-scale-text"
+msgstr "Metin ölçeklendirmeyi kapat"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.menu.disable-snap-grid"
+msgstr "Izgaraya tutturmayı kapat"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.menu.disable-snap-guides"
+msgstr "Kılavuzlara tutturmayı devre dışı bırak"
+
+msgid "workspace.header.menu.disable-snap-pixel-grid"
+msgstr "Piksele tutturmayı devre dışı bırak"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.menu.enable-dynamic-alignment"
+msgstr "Dinamik hizalamayı etkinleştir"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.menu.enable-scale-text"
+msgstr "Metin ölçeklendirmeyi etkinleştir"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.menu.enable-snap-grid"
+msgstr "Izgaraya tuttur"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.menu.enable-snap-guides"
+msgstr "Kılavuzlara tuttur"
+
+msgid "workspace.header.menu.enable-snap-pixel-grid"
+msgstr "Piksele tutturmayı etkinleştir"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.menu.hide-artboard-names"
+msgstr "Çalışma yüzeyi adlarını gizle"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.menu.hide-grid"
+msgstr "Izgaraları gizle"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.menu.hide-palette"
+msgstr "Renk paletini gizle"
+
+msgid "workspace.header.menu.hide-pixel-grid"
+msgstr "Piksel ızgarasını gizle"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.menu.hide-rules"
+msgstr "Cetvelleri gizle"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.menu.hide-textpalette"
+msgstr "Yazı tipi paletini gizle"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.menu.option.edit"
+msgstr "Düzenle"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.menu.option.file"
+msgstr "Dosya"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.menu.option.help-info"
+msgstr "Yardım ve bilgi"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.menu.option.preferences"
+msgstr "Tercihler"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.menu.option.view"
+msgstr "Görünüm"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.menu.select-all"
+msgstr "Tümünü seç"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.menu.show-artboard-names"
+msgstr "Çalışma yüzeylerinin adlarını göster"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.menu.show-grid"
+msgstr "Izgarayı göster"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.menu.show-palette"
+msgstr "Renk paletini göster"
+
+msgid "workspace.header.menu.show-pixel-grid"
+msgstr "Piksel ızgarasını göster"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.menu.show-rules"
+msgstr "Cetvelleri göster"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.menu.show-textpalette"
+msgstr "Yazı tipi paletini göster"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.reset-zoom"
+msgstr "Sıfırla"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.save-error"
+msgstr "Kaydetme hatası"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.saved"
+msgstr "Kaydedildi"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.saving"
+msgstr "Kaydediliyor"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.unsaved"
+msgstr "Kaydedilmemiş değişiklikler"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.viewer"
+msgstr "Görünüm modu (%s)"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.zoom-fill"
+msgstr "Doldur - Doldurmak için ölçeklendir"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.zoom-fit"
+msgstr "Sığdır - Sığdırmak için küçült"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.zoom-fit-all"
+msgstr "Tümüne uydurmak için yakınlaştır"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.zoom-full-screen"
+msgstr "Tam ekran"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.header.zoom-selected"
+msgstr "Seçilene yakınlaştır"
+
+#: src/app/main/ui/workspace/libraries.cljs
+msgid "workspace.libraries.add"
+msgstr "Ekle"
+
+#: src/app/main/ui/workspace/libraries.cljs
+msgid "workspace.libraries.colors"
+msgstr "%s renk"
+
+#: src/app/main/ui/workspace/colorpicker/libraries.cljs,
+#: src/app/main/ui/workspace/colorpalette.cljs
+msgid "workspace.libraries.colors.file-library"
+msgstr "Dosya kütüphanesi"
+
+#: src/app/main/ui/workspace/colorpicker.cljs
+msgid "workspace.libraries.colors.hsv"
+msgstr "HSV"
+
+#: src/app/main/ui/workspace/colorpicker/libraries.cljs,
+#: src/app/main/ui/workspace/colorpalette.cljs
+msgid "workspace.libraries.colors.recent-colors"
+msgstr "Son renkler"
+
+#: src/app/main/ui/workspace/colorpicker.cljs
+msgid "workspace.libraries.colors.rgb-complementary"
+msgstr "RGB Tamamlayıcı"
+
+#: src/app/main/ui/workspace/colorpicker.cljs
+msgid "workspace.libraries.colors.rgba"
+msgstr "RGBA"
+
+#: src/app/main/ui/workspace/colorpicker.cljs
+msgid "workspace.libraries.colors.save-color"
+msgstr "Renk biçimini kaydet"
+
+#: src/app/main/ui/workspace/libraries.cljs
+msgid "workspace.libraries.components"
+msgstr "%s bileşen"
+
+#: src/app/main/ui/workspace/libraries.cljs
+msgid "workspace.libraries.file-library"
+msgstr "Dosya kütüphanesi"
+
+#: src/app/main/ui/workspace/libraries.cljs
+msgid "workspace.libraries.graphics"
+msgstr "%s grafik"
+
+#: src/app/main/ui/workspace/libraries.cljs
+msgid "workspace.libraries.in-this-file"
+msgstr "BU DOSYADAKİ KÜTÜPHANELER"
+
+#: src/app/main/ui/workspace/libraries.cljs
+msgid "workspace.libraries.libraries"
+msgstr "KÜTÜPHANELER"
+
+#: src/app/main/ui/workspace/libraries.cljs
+msgid "workspace.libraries.library"
+msgstr "KÜTÜPHANE"
+
+#: src/app/main/ui/workspace/libraries.cljs
+msgid "workspace.libraries.no-libraries-need-sync"
+msgstr "Güncelleme gerektiren Paylaşılmış Kütüphane bulunmuyor"
+
+#: src/app/main/ui/workspace/libraries.cljs
+msgid "workspace.libraries.no-matches-for"
+msgstr "“%s“ için eşleşme bulunmadı"
+
+#: src/app/main/ui/workspace/libraries.cljs
+msgid "workspace.libraries.no-shared-libraries-available"
+msgstr "Paylaşılmış Kütüphane bulunmuyor"
+
+#: src/app/main/ui/workspace/libraries.cljs
+msgid "workspace.libraries.search-shared-libraries"
+msgstr "Paylaşılmış kütüphane ara"
+
+#: src/app/main/ui/workspace/libraries.cljs
+msgid "workspace.libraries.shared-libraries"
+msgstr "PAYLAŞILMIŞ KÜTÜPHANELER"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/text.cljs
+msgid "workspace.libraries.text.multiple-typography"
+msgstr "Çoklu tipografiler"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/text.cljs
+msgid "workspace.libraries.text.multiple-typography-tooltip"
+msgstr "Tüm tipografileri ayır"
+
+#: src/app/main/ui/workspace/libraries.cljs
+msgid "workspace.libraries.typography"
+msgstr "%s tipografi"
+
+#: src/app/main/ui/workspace/libraries.cljs
+msgid "workspace.libraries.update"
+msgstr "Güncelle"
+
+#: src/app/main/ui/workspace/libraries.cljs
+msgid "workspace.libraries.updates"
+msgstr "GÜNCELLEMELER"
+
+msgid "workspace.library.store"
+msgstr "Mağaza kütüphaneleri"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.add-interaction"
+msgstr "Etkileşimler eklemek için + düğmesine tıklayın."
+
+#: src/app/main/ui/workspace/sidebar/options/menus/blur.cljs
+msgid "workspace.options.blur-options.title"
+msgstr "Bulanıklık"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/blur.cljs
+msgid "workspace.options.blur-options.title.group"
+msgstr "Grup bulanıklığı"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/blur.cljs
+msgid "workspace.options.blur-options.title.multiple"
+msgstr "Seçim bulanıklığı"
+
+#: src/app/main/ui/workspace/sidebar/options/page.cljs
+msgid "workspace.options.canvas-background"
+msgstr "Tuval arka planı"
+
+msgid "workspace.options.clip-content"
+msgstr "İçeriği kırp"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/component.cljs
+msgid "workspace.options.component"
+msgstr "Bileşen"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/measures.cljs
+msgid "workspace.options.constraints"
+msgstr "Kısıtlamalar"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/measures.cljs
+msgid "workspace.options.constraints.bottom"
+msgstr "Alt"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/measures.cljs
+msgid "workspace.options.constraints.center"
+msgstr "Merkez"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/measures.cljs
+msgid "workspace.options.constraints.fix-when-scrolling"
+msgstr "Kaydırırken sabit"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/measures.cljs
+msgid "workspace.options.constraints.left"
+msgstr "Sol"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/measures.cljs
+msgid "workspace.options.constraints.leftright"
+msgstr "Sol ve Sağ"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/measures.cljs
+msgid "workspace.options.constraints.right"
+msgstr "Sağ"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/measures.cljs
+msgid "workspace.options.constraints.scale"
+msgstr "Ölçeklendir"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/measures.cljs
+msgid "workspace.options.constraints.top"
+msgstr "Üst"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/measures.cljs
+msgid "workspace.options.constraints.topbottom"
+msgstr "Üst ve Alt"
+
+#: src/app/main/ui/workspace/sidebar/options.cljs
+msgid "workspace.options.design"
+msgstr "Tasarım"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/exports.cljs,
+#: src/app/main/ui/inspect/exports.cljs
+msgid "workspace.options.export"
+msgstr "Dışa aktar"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/exports.cljs,
+#: src/app/main/ui/inspect/exports.cljs
+msgid "workspace.options.export-multiple"
+msgstr "Seçimi dışa aktar"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/exports.cljs,
+#: src/app/main/ui/inspect/exports.cljs
+msgid "workspace.options.export-object"
+msgstr "1 ögeyi dışa aktar"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/exports.cljs
+msgid "workspace.options.export.suffix"
+msgstr "Son ek"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/exports.cljs,
+#: src/app/main/ui/inspect/exports.cljs, src/app/main/ui/workspace/header.cljs
+msgid "workspace.options.exporting-complete"
+msgstr "Dışa aktarma tamamlandı"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/exports.cljs,
+#: src/app/main/ui/inspect/exports.cljs
+msgid "workspace.options.exporting-object"
+msgstr "Dışa aktarılıyor…"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/exports.cljs,
+#: src/app/main/ui/inspect/exports.cljs, src/app/main/ui/workspace/header.cljs
+msgid "workspace.options.exporting-object-error"
+msgstr "Dışa aktarılamadı"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/exports.cljs, #:
+#: src/app/main/ui/inspect/exports.cljs, src/app/main/ui/workspace/header.cljs
+msgid "workspace.options.exporting-object-slow"
+msgstr "Dışa aktarma beklenmedik şekilde yavaş"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/fill.cljs
+msgid "workspace.options.fill"
+msgstr "Doldur"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.flows.add-flow-start"
+msgstr "Akış başlangıcı ekle"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.flows.flow-start"
+msgstr "Akış başlangıcı"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.flows.flow-starts"
+msgstr "Akış başlar"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/frame_grid.cljs
+msgid "workspace.options.grid.auto"
+msgstr "Otomatik"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/frame_grid.cljs
+msgid "workspace.options.grid.column"
+msgstr "Sütunlar"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/frame_grid.cljs
+msgid "workspace.options.grid.grid-title"
+msgstr "Izgara"
+
+msgid "workspace.options.grid.params.color"
+msgstr "Renk"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/frame_grid.cljs
+msgid "workspace.options.grid.params.columns"
+msgstr "Sütunlar"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/frame_grid.cljs
+msgid "workspace.options.grid.params.gutter"
+msgstr "Aralık"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/frame_grid.cljs
+msgid "workspace.options.grid.params.height"
+msgstr "Yükseklik"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/frame_grid.cljs
+msgid "workspace.options.grid.params.margin"
+msgstr "Kenar Boşluğu"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/frame_grid.cljs
+msgid "workspace.options.grid.params.rows"
+msgstr "Satırlar"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/frame_grid.cljs
+msgid "workspace.options.grid.params.set-default"
+msgstr "Varsayılan olarak belirle"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/frame_grid.cljs
+msgid "workspace.options.grid.params.size"
+msgstr "Boyut"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/frame_grid.cljs
+msgid "workspace.options.grid.params.type"
+msgstr "Tür"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/frame_grid.cljs
+msgid "workspace.options.grid.params.type.bottom"
+msgstr "Alt"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/frame_grid.cljs
+msgid "workspace.options.grid.params.type.center"
+msgstr "Orta"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/frame_grid.cljs
+msgid "workspace.options.grid.params.type.left"
+msgstr "Sol"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/frame_grid.cljs
+msgid "workspace.options.grid.params.type.right"
+msgstr "Sağ"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/frame_grid.cljs
+msgid "workspace.options.grid.params.type.stretch"
+msgstr "Ger"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/frame_grid.cljs
+msgid "workspace.options.grid.params.type.top"
+msgstr "Üst"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/frame_grid.cljs
+msgid "workspace.options.grid.params.use-default"
+msgstr "Varsayılanı kullan"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/frame_grid.cljs
+msgid "workspace.options.grid.params.width"
+msgstr "Genişlik"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/frame_grid.cljs
+msgid "workspace.options.grid.row"
+msgstr "Satırlar"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/frame_grid.cljs
+msgid "workspace.options.grid.square"
+msgstr "Kare"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/fill.cljs
+msgid "workspace.options.group-fill"
+msgstr "Grubu doldur"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/stroke.cljs
+msgid "workspace.options.group-stroke"
+msgstr "Grubu çiz"
+
+msgid "workspace.options.height"
+msgstr "Yükseklik"
+
+msgid "workspace.options.inspect"
+msgstr "İncele"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-action"
+msgstr "Eylem"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-after-delay"
+msgstr "Gecikmeden sonra"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-animation"
+msgstr "Canlandırma"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-animation-dissolve"
+msgstr "Çöz"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-animation-none"
+msgstr "Hiçbiri"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-animation-push"
+msgstr "İt"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-animation-slide"
+msgstr "Kaydır"
+
+msgid "workspace.options.interaction-auto"
+msgstr "otomatik"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-background"
+msgstr "Arka plan üst katmanı ekle"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-close-outside"
+msgstr "Dışarıya tıklandığında kapat"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-close-overlay"
+msgstr "Üst katmanı kapat"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-close-overlay-dest"
+msgstr "Üst katmanı kapat: %s"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-delay"
+msgstr "Gecikme"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-destination"
+msgstr "Hedef"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-duration"
+msgstr "Süre"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-easing"
+msgstr "Yumuşatma"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-easing-ease"
+msgstr "Yumuşat"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-easing-ease-in"
+msgstr "Yumuşak giriş"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-easing-ease-in-out"
+msgstr "Yumuşak giriş çıkış"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-easing-ease-out"
+msgstr "Yumuşak çıkış"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-easing-linear"
+msgstr "Doğrusal"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-in"
+msgstr "Giriş"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-mouse-enter"
+msgstr "Fare girişi"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-mouse-leave"
+msgstr "Fare çıkışı"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-ms"
+msgstr "ms"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-navigate-to"
+msgstr "Git"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-navigate-to-dest"
+msgstr "Şuraya gidin: %s"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-none"
+msgstr "(ayarlanmadı)"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-offset-effect"
+msgstr "Uzaklık efekti"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-on-click"
+msgstr "Tıklandığında"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-open-overlay"
+msgstr "Üst katmanı aç"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-open-overlay-dest"
+msgstr "Üst katmanı aç: %s"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-open-url"
+msgstr "URL'yi aç"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-out"
+msgstr "Çıkış"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-pos-bottom-center"
+msgstr "Alt orta"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-pos-bottom-left"
+msgstr "Sol alt"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-pos-bottom-right"
+msgstr "Sağ alt"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-pos-center"
+msgstr "Merkez"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-pos-manual"
+msgstr "El ile"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-pos-top-center"
+msgstr "Üst orta"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-pos-top-left"
+msgstr "Sol üst"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-pos-top-right"
+msgstr "Sağ üst"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-position"
+msgstr "Konum"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-preserve-scroll"
+msgstr "Kaydırma konumunu koru"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-prev-screen"
+msgstr "Önceki ekran"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-relative-to"
+msgstr "Göreceli"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-self"
+msgstr "kendi"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-toggle-overlay"
+msgstr "Üst katmanı değiştir"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-toggle-overlay-dest"
+msgstr "Üst katmanı değiştir: %s"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-trigger"
+msgstr "Tetikle"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-url"
+msgstr "URL"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-while-hovering"
+msgstr "Üzerinde Gezinirken"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interaction-while-pressing"
+msgstr "Basarken"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.interactions"
+msgstr "Etkileşimler"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layer.cljs
+msgid "workspace.options.layer-options.blend-mode.color"
+msgstr "Renk"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layer.cljs
+msgid "workspace.options.layer-options.blend-mode.color-burn"
+msgstr "Renk yanması"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layer.cljs
+msgid "workspace.options.layer-options.blend-mode.color-dodge"
+msgstr "Renk atlatması"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layer.cljs
+msgid "workspace.options.layer-options.blend-mode.darken"
+msgstr "Karart"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layer.cljs
+msgid "workspace.options.layer-options.blend-mode.difference"
+msgstr "Fark"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layer.cljs
+msgid "workspace.options.layer-options.blend-mode.exclusion"
+msgstr "Dışla"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layer.cljs
+msgid "workspace.options.layer-options.blend-mode.hard-light"
+msgstr "Sert ışık"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layer.cljs
+msgid "workspace.options.layer-options.blend-mode.hue"
+msgstr "Ton"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layer.cljs
+msgid "workspace.options.layer-options.blend-mode.lighten"
+msgstr "Aydınlat"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layer.cljs
+msgid "workspace.options.layer-options.blend-mode.luminosity"
+msgstr "Parlaklık"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layer.cljs
+msgid "workspace.options.layer-options.blend-mode.multiply"
+msgstr "Çoğalt"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layer.cljs
+msgid "workspace.options.layer-options.blend-mode.normal"
+msgstr "Normal"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layer.cljs
+msgid "workspace.options.layer-options.blend-mode.overlay"
+msgstr "Üst katman"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layer.cljs
+msgid "workspace.options.layer-options.blend-mode.saturation"
+msgstr "Doygunluk"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layer.cljs
+msgid "workspace.options.layer-options.blend-mode.screen"
+msgstr "Ekran"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layer.cljs
+msgid "workspace.options.layer-options.blend-mode.soft-light"
+msgstr "Yumuşak ışık"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layer.cljs
+msgid "workspace.options.layer-options.title"
+msgstr "Katman"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layer.cljs
+msgid "workspace.options.layer-options.title.group"
+msgstr "Katman grubu"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layer.cljs
+msgid "workspace.options.layer-options.title.multiple"
+msgstr "Seçili katmanlar"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layout_item.cljs
+msgid "workspace.options.layout-item.advanced-ops"
+msgstr "Gelişmiş seçenekler"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layout_item.cljs
+msgid "workspace.options.layout-item.layout-item-max-h"
+msgstr "Azami Yükseklik"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layout_item.cljs
+msgid "workspace.options.layout-item.layout-item-max-w"
+msgstr "Azami Genişlik"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layout_item.cljs
+msgid "workspace.options.layout-item.layout-item-min-h"
+msgstr "Asgari Yükseklik"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layout_item.cljs
+msgid "workspace.options.layout-item.layout-item-min-w"
+msgstr "Asgari Genişlik"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layout_item.cljs
+msgid "workspace.options.layout-item.title.layout-item-max-h"
+msgstr "Azami yükseklik"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layout_item.cljs
+msgid "workspace.options.layout-item.title.layout-item-max-w"
+msgstr "Azami genişlik"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layout_item.cljs
+msgid "workspace.options.layout-item.title.layout-item-min-h"
+msgstr "Asgari yükseklik"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layout_item.cljs
+msgid "workspace.options.layout-item.title.layout-item-min-w"
+msgstr "Asgari genişlik"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layout.cljs
+msgid "workspace.options.layout.bottom"
+msgstr "Alt"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layout.cljs
+msgid "workspace.options.layout.direction.column"
+msgstr "Sütun"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layout.cljs
+msgid "workspace.options.layout.direction.column-reverse"
+msgstr "Ters sütun"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layout.cljs
+msgid "workspace.options.layout.direction.row"
+msgstr "Satır"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layout.cljs
+msgid "workspace.options.layout.direction.row-reverse"
+msgstr "Ters satır"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layout.cljs
+msgid "workspace.options.layout.gap"
+msgstr "Boşluk"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layout.cljs
+msgid "workspace.options.layout.left"
+msgstr "Sol"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layout_item.cljs
+msgid "workspace.options.layout.margin"
+msgstr "Kenar Boşluğu"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layout_item.cljs
+msgid "workspace.options.layout.margin-all"
+msgstr "Tüm kenarlar"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layout_item.cljs
+msgid "workspace.options.layout.margin-simple"
+msgstr "Basit kenar boşluğu"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layout.cljs
+msgid "workspace.options.layout.packed"
+msgstr "paketlenmiş"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layout.cljs
+msgid "workspace.options.layout.padding"
+msgstr "Dolgu"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layout.cljs
+msgid "workspace.options.layout.padding-all"
+msgstr "Tüm kenarlar"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layout.cljs
+msgid "workspace.options.layout.padding-simple"
+msgstr "Basit dolgu"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layout.cljs
+msgid "workspace.options.layout.right"
+msgstr "Sağ"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layout.cljs
+msgid "workspace.options.layout.space-around"
+msgstr "etrafında boşluk"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layout.cljs
+msgid "workspace.options.layout.space-between"
+msgstr "arasında boşluk"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/layout.cljs
+msgid "workspace.options.layout.top"
+msgstr "Üst"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/color_selection.cljs
+msgid "workspace.options.more-colors"
+msgstr "Daha fazla renk"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/color_selection.cljs
+msgid "workspace.options.more-lib-colors"
+msgstr "Daha fazla kütüphane rengi"
+
+msgid "workspace.options.opacity"
+msgstr "Opaklık"
+
+#: src/app/main/ui/workspace/sidebar/options/shapes/frame.cljs,
+#: src/app/main/ui/workspace/sidebar/options/menus/measures.cljs
+msgid "workspace.options.position"
+msgstr "Konum"
+
+#: src/app/main/ui/workspace/sidebar/options.cljs
+msgid "workspace.options.prototype"
+msgstr "Prototip"
+
+msgid "workspace.options.radius"
+msgstr "Yarıçap"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/measures.cljs
+msgid "workspace.options.radius.all-corners"
+msgstr "Tüm köşeler"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/measures.cljs
+msgid "workspace.options.radius.single-corners"
+msgstr "Bireysel köşeler"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/measures.cljs
+msgid "workspace.options.radius-top-left"
+msgstr "Sol üst"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/measures.cljs
+msgid "workspace.options.radius-top-right"
+msgstr "Sağ üst"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/measures.cljs
+msgid "workspace.options.radius-bottom-left"
+msgstr "Sol alt"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/measures.cljs
+msgid "workspace.options.radius-bottom-right"
+msgstr "Sağ alt"
+
+msgid "workspace.options.recent-fonts"
+msgstr "Son kullanılanlar"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/exports.cljs,
+#: src/app/main/ui/inspect/exports.cljs, src/app/main/ui/workspace/header.cljs
+msgid "workspace.options.retry"
+msgstr "Yeniden dene"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/measures.cljs
+msgid "workspace.options.rotation"
+msgstr "Döndür"
+
+msgid "workspace.options.search-font"
+msgstr "Yazı tipi ara"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.select-a-shape"
+msgstr ""
+"Diğer çalışma yüzeyine bağlantı taşımak için bir şekil, çalışma yüzeyi ya "
+"da grup seçin."
+
+#: src/app/main/ui/workspace/sidebar/options/menus/color_selection.cljs
+msgid "workspace.options.selection-color"
+msgstr "Seçilen renkler"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/fill.cljs
+msgid "workspace.options.selection-fill"
+msgstr "Seçimi doldur"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/stroke.cljs
+msgid "workspace.options.selection-stroke"
+msgstr "Seçimi çiz"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/shadow.cljs
+msgid "workspace.options.shadow-options.blur"
+msgstr "Bulanıklık"
+
+msgid "workspace.options.shadow-options.color"
+msgstr "Gölge rengi"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/shadow.cljs
+msgid "workspace.options.shadow-options.drop-shadow"
+msgstr "Kabartı gölgesi"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/shadow.cljs
+msgid "workspace.options.shadow-options.inner-shadow"
+msgstr "İç gölge"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/shadow.cljs
+msgid "workspace.options.shadow-options.offsetx"
+msgstr "X"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/shadow.cljs
+msgid "workspace.options.shadow-options.offsety"
+msgstr "Y"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/shadow.cljs
+msgid "workspace.options.shadow-options.spread"
+msgstr "Yayılma"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/shadow.cljs
+msgid "workspace.options.shadow-options.title"
+msgstr "Gölge"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/shadow.cljs
+msgid "workspace.options.shadow-options.title.group"
+msgstr "Gölge grubu"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/shadow.cljs
+msgid "workspace.options.shadow-options.title.multiple"
+msgstr "Gölge seçimi"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/fill.cljs
+msgid "workspace.options.show-fill-on-export"
+msgstr "Dışa aktarmalarda göster"
+
+msgid "workspace.options.show-in-viewer"
+msgstr "Görünüm modunda göster"
+
+#: src/app/main/ui/workspace/sidebar/options/shapes/frame.cljs,
+#: src/app/main/ui/workspace/sidebar/options/menus/measures.cljs
+msgid "workspace.options.size"
+msgstr "Boyut"
+
+#: src/app/main/ui/workspace/sidebar/options/shapes/frame.cljs
+msgid "workspace.options.size-presets"
+msgstr "Boyut ön ayarları"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/stroke.cljs
+msgid "workspace.options.stroke"
+msgstr "Çerçeve"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/stroke.cljs
+msgid "workspace.options.stroke-cap.circle-marker"
+msgstr "Daire işaretleyici"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/stroke.cljs
+msgid "workspace.options.stroke-cap.diamond-marker"
+msgstr "Elmas işaretleyici"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/stroke.cljs
+msgid "workspace.options.stroke-cap.line-arrow"
+msgstr "Çizgi oku"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/stroke.cljs
+msgid "workspace.options.stroke-cap.none"
+msgstr "Hiçbiri"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/stroke.cljs
+msgid "workspace.options.stroke-cap.round"
+msgstr "Yuvarlak"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/stroke.cljs
+msgid "workspace.options.stroke-cap.square"
+msgstr "Kare"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/stroke.cljs
+msgid "workspace.options.stroke-cap.square-marker"
+msgstr "Kare işaretleyici"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/stroke.cljs
+msgid "workspace.options.stroke-cap.triangle-arrow"
+msgstr "Üçgen ok"
+
+msgid "workspace.options.stroke-color"
+msgstr "Çerçeve rengi"
+
+msgid "workspace.options.stroke-width"
+msgstr "Çerçeve genişliği"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/stroke.cljs
+msgid "workspace.options.stroke.center"
+msgstr "Merkez"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/stroke.cljs
+msgid "workspace.options.stroke.dashed"
+msgstr "Çizgili"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/stroke.cljs
+msgid "workspace.options.stroke.dotted"
+msgstr "Noktalı"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/stroke.cljs
+msgid "workspace.options.stroke.inner"
+msgstr "İçinde"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/stroke.cljs
+msgid "workspace.options.stroke.mixed"
+msgstr "Karışık"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/stroke.cljs
+msgid "workspace.options.stroke.outer"
+msgstr "Dışında"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/stroke.cljs
+msgid "workspace.options.stroke.solid"
+msgstr "Katı"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/text.cljs
+msgid "workspace.options.text-options.align-bottom"
+msgstr "Alta hizala"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/text.cljs
+msgid "workspace.options.text-options.text-align-center"
+msgstr "Ortaya hizala (%s)"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/text.cljs
+msgid "workspace.options.text-options.text-align-justify"
+msgstr "İki yana yasla (%s)"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/text.cljs
+msgid "workspace.options.text-options.text-align-left"
+msgstr "Sola hizala (%s)"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/text.cljs
+msgid "workspace.options.text-options.align-middle"
+msgstr "Merkeze hizala"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/text.cljs
+msgid "workspace.options.text-options.text-align-right"
+msgstr "Sağa hizala (%s)"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/text.cljs
+msgid "workspace.options.text-options.align-top"
+msgstr "Üste hizala"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/text.cljs
+msgid "workspace.options.text-options.direction-ltr"
+msgstr "Soldan sağa"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/text.cljs
+msgid "workspace.options.text-options.direction-rtl"
+msgstr "Sağdan sola"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/text.cljs
+msgid "workspace.options.text-options.grow-auto-height"
+msgstr "Otomatik yükseklik"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/text.cljs
+msgid "workspace.options.text-options.grow-auto-width"
+msgstr "Otomatik genişlik"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/text.cljs
+msgid "workspace.options.text-options.grow-fixed"
+msgstr "Sabit"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/typography.cljs
+msgid "workspace.options.text-options.letter-spacing"
+msgstr "Harf Aralıkları"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/typography.cljs
+msgid "workspace.options.text-options.line-height"
+msgstr "Satır yüksekliği"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/typography.cljs
+msgid "workspace.options.text-options.lowercase"
+msgstr "Küçük harf"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/text.cljs,
+#: src/app/main/ui/workspace/sidebar/options/menus/typography.cljs
+msgid "workspace.options.text-options.none"
+msgstr "Hiçbiri"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/text.cljs
+msgid "workspace.options.text-options.strikethrough"
+msgstr "Üstü çizili (%s)"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/text.cljs
+msgid "workspace.options.text-options.title"
+msgstr "Metin"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/text.cljs
+msgid "workspace.options.text-options.title-group"
+msgstr "Grup metni"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/text.cljs
+msgid "workspace.options.text-options.title-selection"
+msgstr "Metin seçimi"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/typography.cljs
+msgid "workspace.options.text-options.titlecase"
+msgstr "İlk harfi büyük"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/text.cljs
+msgid "workspace.options.text-options.underline"
+msgstr "Altı Çizili (%s)"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/typography.cljs
+msgid "workspace.options.text-options.uppercase"
+msgstr "Büyük Harf"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/interactions.cljs
+msgid "workspace.options.use-play-button"
+msgstr "Prototip görünümünü çalıştırmak için başlıktaki oynatma düğmesini kullan."
+
+msgid "workspace.options.width"
+msgstr "Genişlik"
+
+msgid "workspace.options.x"
+msgstr "X ekseni"
+
+msgid "workspace.options.y"
+msgstr "Y ekseni"
+
+msgid "workspace.path.actions.add-node"
+msgstr "Düğüm ekle (%s)"
+
+msgid "workspace.path.actions.delete-node"
+msgstr "Düğüm sil (%s)"
+
+msgid "workspace.path.actions.draw-nodes"
+msgstr "Düğüm çiz (%s)"
+
+msgid "workspace.path.actions.join-nodes"
+msgstr "Düğümleri birleştir (%s)"
+
+msgid "workspace.path.actions.make-corner"
+msgstr "Köşeye (%s)"
+
+msgid "workspace.path.actions.make-curve"
+msgstr "Eğriye (%s)"
+
+msgid "workspace.path.actions.merge-nodes"
+msgstr "Düğümleri birleştir (%s)"
+
+msgid "workspace.path.actions.move-nodes"
+msgstr "Düğümleri taşı (%s)"
+
+msgid "workspace.path.actions.separate-nodes"
+msgstr "Düğümleri ayır (%s)"
+
+msgid "workspace.path.actions.snap-nodes"
+msgstr "Düğümleri tuttur (%s)"
+
+#: src/app/main/ui/workspace.cljs
+msgid "workspace.remove-graphics.error-hint"
+msgstr ""
+"Tekrar denemek için bu dosyayı yeniden yükleyebilirsiniz. Sorun devam "
+"ederse, listeye bir göz atmanızı ve bozuk grafikleri silmeyi düşünmenizi "
+"öneririz."
+
+#: src/app/main/ui/workspace.cljs
+msgid "workspace.remove-graphics.error-msg"
+msgstr "Bazı grafikler güncellenemedi."
+
+#: src/app/main/ui/workspace.cljs
+msgid "workspace.remove-graphics.progress"
+msgstr "%s/%s dönüştürülüyor"
+
+#: src/app/main/ui/workspace.cljs
+msgid "workspace.remove-graphics.text1"
+msgstr ""
+"Kütüphane Grafikleri bundan böyle Bileşenlerdir ve bu da onları çok daha "
+"güçlü kılacaktır."
+
+#: src/app/main/ui/workspace.cljs
+msgid "workspace.remove-graphics.text2"
+msgstr "Bu güncelleme tek seferlik bir işlemdir."
+
+#: src/app/main/ui/workspace.cljs
+msgid "workspace.remove-graphics.title"
+msgstr "%s güncelleniyor..."
+
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.add-flex"
+msgstr "Düzen esnekliği ekle"
+
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.back"
+msgstr "En arkaya gönder"
+
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.backward"
+msgstr "Arkaya gönder"
+
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.copy"
+msgstr "Kopyala"
+
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.create-artboard-from-selection"
+msgstr "Çalışma yüzeyi için seçim"
+
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.create-component"
+msgstr "Bileşen oluştur"
+
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.cut"
+msgstr "Kes"
+
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.delete"
+msgstr "Sil"
+
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.delete-flow-start"
+msgstr "Akış başlangıcını sil"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/component.cljs,
+#: src/app/main/ui/workspace/context_menu.cljs,
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.detach-instance"
+msgstr "Örneği ayır"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/component.cljs,
+#: src/app/main/ui/workspace/context_menu.cljs,
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.detach-instances-in-bulk"
+msgstr "Örnekleri ayır"
+
+msgid "workspace.shape.menu.difference"
+msgstr "Fark"
+
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.duplicate"
+msgstr "Çoğalt"
+
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.edit"
+msgstr "Düzenle"
+
+msgid "workspace.shape.menu.exclude"
+msgstr "Dışla"
+
+msgid "workspace.shape.menu.flatten"
+msgstr "Düzleştir"
+
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.flip-horizontal"
+msgstr "Yatay ters çevir"
+
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.flip-vertical"
+msgstr "Dikey ters çevir"
+
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.flow-start"
+msgstr "Akış başlangıcı"
+
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.forward"
+msgstr "Öne getir"
+
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.front"
+msgstr "En öne getir"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/component.cljs,
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.go-main"
+msgstr "Ana bileşen dosyasına git"
+
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.group"
+msgstr "Grup"
+
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.hide"
+msgstr "Gizle"
+
+msgid "workspace.shape.menu.hide-ui"
+msgstr "Kullanıcı arayüzünü göster/gizle"
+
+msgid "workspace.shape.menu.intersection"
+msgstr "Kesişme"
+
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.lock"
+msgstr "Kilitle"
+
+#: src/app/main/ui/workspace/context_menu.cljs,
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.mask"
+msgstr "Maskele"
+
+#: src/app/main/ui/workspace/context_menu.cljs,
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.paste"
+msgstr "Yapıştır"
+
+msgid "workspace.shape.menu.path"
+msgstr "Yol"
+
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.remove-flex"
+msgstr "Düzen esnekliğini kaldır"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/component.cljs,
+#: src/app/main/ui/workspace/context_menu.cljs,
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.reset-overrides"
+msgstr "Geçersiz kılmaları sıfırla"
+
+msgid "workspace.shape.menu.restore-main"
+msgstr "Ana bileşeni geri yükle"
+
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.select-layer"
+msgstr "Katman seç"
+
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.show"
+msgstr "Göster"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/component.cljs,
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.show-in-assets"
+msgstr "Varlıklar panelinde göster"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/component.cljs,
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.show-main"
+msgstr "Ana bileşeni göster"
+
+msgid "workspace.shape.menu.thumbnail-remove"
+msgstr "Küçük resmi kaldır"
+
+msgid "workspace.shape.menu.thumbnail-set"
+msgstr "Küçük resim olarak ayarla"
+
+msgid "workspace.shape.menu.transform-to-path"
+msgstr "Yola dönüştür"
+
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.ungroup"
+msgstr "Grubu dağıt"
+
+msgid "workspace.shape.menu.union"
+msgstr "Birleşim"
+
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.unlock"
+msgstr "Kilidi aç"
+
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.unmask"
+msgstr "Maskelemeyi kaldır"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/component.cljs,
+#: src/app/main/ui/workspace/context_menu.cljs,
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.update-components-in-bulk"
+msgstr "Ana bileşenleri güncelle"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/component.cljs,
+#: src/app/main/ui/workspace/context_menu.cljs,
+#: src/app/main/ui/workspace/context_menu.cljs
+msgid "workspace.shape.menu.update-main"
+msgstr "Ana bileşeni güncelle"
+
+msgid "workspace.sidebar.collapse"
+msgstr "Kenar çubuğunu daralt"
+
+msgid "workspace.sidebar.expand"
+msgstr "Kenar çubuğunu genişlet"
+
+#: src/app/main/ui/workspace/left_toolbar.cljs
+msgid "workspace.sidebar.history"
+msgstr "Geçmiş (%s)"
+
+#: src/app/main/ui/workspace/left_toolbar.cljs
+msgid "workspace.sidebar.layers"
+msgstr "Katmanlar"
+
+msgid "workspace.sidebar.layers.components"
+msgstr "Bileşenler"
+
+msgid "workspace.sidebar.layers.frames"
+msgstr "Çalışma yüzeyleri"
+
+msgid "workspace.sidebar.layers.groups"
+msgstr "Gruplar"
+
+msgid "workspace.sidebar.layers.images"
+msgstr "Görseller"
+
+msgid "workspace.sidebar.layers.masks"
+msgstr "Maskeler"
+
+msgid "workspace.sidebar.layers.search"
+msgstr "Katmanları ara"
+
+msgid "workspace.sidebar.layers.shapes"
+msgstr "Şekiller"
+
+msgid "workspace.sidebar.layers.texts"
+msgstr "Metinler"
+
+#: src/app/main/ui/workspace/sidebar/options/menus/svg_attrs.cljs,
+#: src/app/main/ui/inspect/attributes/svg.cljs
+msgid "workspace.sidebar.options.svg-attrs.title"
+msgstr "İçe Aktarılan SVG Öznitelikleri"
+
+#: src/app/main/ui/workspace/sidebar/sitemap.cljs
+msgid "workspace.sidebar.sitemap"
+msgstr "Sayfalar"
+
+#: src/app/main/ui/workspace/header.cljs
+msgid "workspace.sitemap"
+msgstr "Site haritası"
+
+#: src/app/main/ui/workspace/left_toolbar.cljs
+msgid "workspace.toolbar.assets"
+msgstr "Varlıklar"
+
+#: src/app/main/ui/workspace/left_toolbar.cljs
+msgid "workspace.toolbar.color-palette"
+msgstr "Renk Paketi (%s)"
+
+#: src/app/main/ui/workspace/left_toolbar.cljs
+msgid "workspace.toolbar.comments"
+msgstr "Yorumlar (%s)"
+
+#: src/app/main/ui/workspace/left_toolbar.cljs
+msgid "workspace.toolbar.curve"
+msgstr "Eğri (%s)"
+
+#: src/app/main/ui/workspace/left_toolbar.cljs
+msgid "workspace.toolbar.ellipse"
+msgstr "Elips (%s)"
+
+#: src/app/main/ui/workspace/left_toolbar.cljs
+msgid "workspace.toolbar.frame"
+msgstr "Çalışma Yüzeyi (%s)"
+
+#: src/app/main/ui/workspace/left_toolbar.cljs
+msgid "workspace.toolbar.image"
+msgstr "Görsel (%s)"
+
+#: src/app/main/ui/workspace/left_toolbar.cljs
+msgid "workspace.toolbar.move"
+msgstr "Taşı (%s)"
+
+#: src/app/main/ui/workspace/left_toolbar.cljs
+msgid "workspace.toolbar.path"
+msgstr "Yol (%s)"
+
+#: src/app/main/ui/workspace/left_toolbar.cljs
+msgid "workspace.toolbar.rect"
+msgstr "Dikdörtgen (%s)"
+
+#: src/app/main/ui/workspace/left_toolbar.cljs
+msgid "workspace.toolbar.shortcuts"
+msgstr "Kısayollar (%s)"
+
+#: src/app/main/ui/workspace/left_toolbar.cljs
+msgid "workspace.toolbar.text"
+msgstr "Metin (%s)"
+
+#: src/app/main/ui/workspace/left_toolbar.cljs
+msgid "workspace.toolbar.text-palette"
+msgstr "Tipografiler (%s)"
+
+#: src/app/main/ui/workspace/sidebar/history.cljs
+msgid "workspace.undo.empty"
+msgstr "Şu ana kadar değişim geçmişi yok"
+
+#: src/app/main/ui/workspace/sidebar/history.cljs
+msgid "workspace.undo.entry.delete"
+msgstr "%s silindi"
+
+#: src/app/main/ui/workspace/sidebar/history.cljs
+msgid "workspace.undo.entry.modify"
+msgstr "%s düzenlendi"
+
+#: src/app/main/ui/workspace/sidebar/history.cljs
+msgid "workspace.undo.entry.move"
+msgstr "Nesneler taşındı"
+
+msgid "workspace.undo.entry.multiple.circle"
+msgstr "daireler"
+
+msgid "workspace.undo.entry.multiple.color"
+msgstr "renk varlıkları"
+
+msgid "workspace.undo.entry.multiple.component"
+msgstr "bileşenler"
+
+msgid "workspace.undo.entry.multiple.curve"
+msgstr "eğriler"
+
+msgid "workspace.undo.entry.multiple.frame"
+msgstr "çalışma yüzeyi"
+
+msgid "workspace.undo.entry.multiple.group"
+msgstr "gruplar"
+
+msgid "workspace.undo.entry.multiple.media"
+msgstr "grafik varlıkları"
+
+msgid "workspace.undo.entry.multiple.multiple"
+msgstr "nesneler"
+
+msgid "workspace.undo.entry.multiple.page"
+msgstr "sayfalar"
+
+msgid "workspace.undo.entry.multiple.path"
+msgstr "yollar"
+
+msgid "workspace.undo.entry.multiple.rect"
+msgstr "dikdörtgenler"
+
+msgid "workspace.undo.entry.multiple.shape"
+msgstr "şekiller"
+
+msgid "workspace.undo.entry.multiple.text"
+msgstr "metinler"
+
+msgid "workspace.undo.entry.multiple.typography"
+msgstr "tipografi varlıkları"
+
+#: src/app/main/ui/workspace/sidebar/history.cljs
+msgid "workspace.undo.entry.new"
+msgstr "Yeni %s"
+
+msgid "workspace.undo.entry.single.circle"
+msgstr "daire"
+
+msgid "workspace.undo.entry.single.color"
+msgstr "renk varlığı"
+
+msgid "workspace.undo.entry.single.component"
+msgstr "bileşen"
+
+msgid "workspace.undo.entry.single.curve"
+msgstr "eğri"
+
+msgid "workspace.undo.entry.single.frame"
+msgstr "çalışma yüzeyi"
+
+msgid "workspace.undo.entry.single.group"
+msgstr "grup"
+
+msgid "workspace.undo.entry.single.image"
+msgstr "görsel"
+
+msgid "workspace.undo.entry.single.media"
+msgstr "grafik varlığı"
+
+msgid "workspace.undo.entry.single.multiple"
+msgstr "nesne"
+
+msgid "workspace.undo.entry.single.page"
+msgstr "sayfa"
+
+msgid "workspace.undo.entry.single.path"
+msgstr "yol"
+
+msgid "workspace.undo.entry.single.rect"
+msgstr "dikdörtgen"
+
+msgid "workspace.undo.entry.single.shape"
+msgstr "şekil"
+
+msgid "workspace.undo.entry.single.text"
+msgstr "metin"
+
+msgid "workspace.undo.entry.single.typography"
+msgstr "tipografi varlığı"
+
+#: src/app/main/ui/workspace/sidebar/history.cljs
+msgid "workspace.undo.entry.unknown"
+msgstr "%s üstündeki işlem"
+
+#: src/app/main/ui/workspace/sidebar/history.cljs
+msgid "workspace.undo.title"
+msgstr "Geçmiş"
+
+#: src/app/main/data/workspace/libraries.cljs
+msgid "workspace.updates.dismiss"
+msgstr "Yoksay"
+
+#: src/app/main/data/workspace/libraries.cljs
+msgid "workspace.updates.there-are-updates"
+msgstr "Paylaşılan kütüphaneler için güncellemeler var"
+
+#: src/app/main/data/workspace/libraries.cljs
+msgid "workspace.updates.update"
+msgstr "Güncelle"
+
+msgid "workspace.viewport.click-to-close-path"
+msgstr "Yolu kapatmak için tıklayın"
