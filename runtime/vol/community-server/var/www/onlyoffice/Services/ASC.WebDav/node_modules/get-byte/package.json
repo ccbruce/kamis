@@ -1,0 +1,32 @@
+{
+  "name": "get-byte",
+  "version": "0.0.0",
+  "description": "A Universal way of getting a Byte at a Given Index from a variety of in-memory data formats, including Uint8Array, Buffer, DataView, and Array Buffer",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielJDufour/get-byte.git"
+  },
+  "keywords": [
+    "array",
+    "arraybuffer",
+    "bits",
+    "buffer",
+    "byte",
+    "dataview",
+    "uint8",
+    "uint8array"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/DanielJDufour/get-byte/issues"
+  },
+  "homepage": "https://github.com/DanielJDufour/get-byte#readme",
+  "devDependencies": {
+    "ava": "^3.12.1"
+  }
+}
