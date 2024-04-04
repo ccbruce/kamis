@@ -1,0 +1,2 @@
+channel: no 'mirrors.sought.rules.yerp.org' record found, channel failed
+http: GET https://spamassassin.apache.org/updates/MIRRORED.BY request failed: 500 Can't connect to spamassassin.apache.org:443 (connect: Network is unreachable): 500 Can't connect to spamassassin.apache.org:443 (connect: Network is unreachable) 

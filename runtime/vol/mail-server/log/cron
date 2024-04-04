@@ -1,0 +1,207 @@
+Mar 31 23:01:01 miidai CROND[388]: (root) CMD (run-parts /etc/cron.hourly)
+Mar 31 23:01:01 miidai CROND[389]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=web -update >/dev/null)
+Mar 31 23:01:01 miidai CROND[390]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=smtp -update >/dev/null)
+Mar 31 23:01:01 miidai run-parts(/etc/cron.hourly)[388]: starting 0anacron
+Mar 31 23:01:01 miidai anacron[406]: Anacron started on 2024-03-31
+Mar 31 23:01:01 miidai anacron[406]: Jobs will be executed sequentially
+Mar 31 23:01:01 miidai anacron[406]: Normal exit (0 jobs run)
+Mar 31 23:01:01 miidai run-parts(/etc/cron.hourly)[410]: finished 0anacron
+Mar 31 23:01:01 miidai run-parts(/etc/cron.hourly)[388]: starting awstats
+Mar 31 23:01:02 miidai run-parts(/etc/cron.hourly)[536]: finished awstats
+Apr  2 14:01:01 miidai CROND[1620]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=smtp -update >/dev/null)
+Apr  2 14:01:01 miidai CROND[1622]: (root) CMD (run-parts /etc/cron.hourly)
+Apr  2 14:01:01 miidai CROND[1621]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=web -update >/dev/null)
+Apr  2 14:01:01 miidai run-parts(/etc/cron.hourly)[1622]: starting 0anacron
+Apr  2 14:01:01 miidai anacron[1633]: Anacron started on 2024-04-02
+Apr  2 14:01:01 miidai anacron[1633]: Will run job `cron.daily' in 7 min.
+Apr  2 14:01:01 miidai anacron[1633]: Will run job `cron.weekly' in 27 min.
+Apr  2 14:01:01 miidai anacron[1633]: Will run job `cron.monthly' in 47 min.
+Apr  2 14:01:01 miidai anacron[1633]: Jobs will be executed sequentially
+Apr  2 14:01:01 miidai run-parts(/etc/cron.hourly)[1635]: finished 0anacron
+Apr  2 14:01:01 miidai run-parts(/etc/cron.hourly)[1622]: starting awstats
+Apr  2 14:01:02 miidai run-parts(/etc/cron.hourly)[1655]: finished awstats
+Apr  2 14:08:01 miidai anacron[1633]: Job `cron.daily' started
+Apr  2 14:08:01 miidai run-parts(/etc/cron.daily)[1656]: starting 0logwatch
+Apr  2 14:08:02 miidai run-parts(/etc/cron.daily)[1711]: finished 0logwatch
+Apr  2 14:08:02 miidai run-parts(/etc/cron.daily)[1656]: starting amavisd
+Apr  2 14:08:02 miidai run-parts(/etc/cron.daily)[1720]: finished amavisd
+Apr  2 14:08:02 miidai run-parts(/etc/cron.daily)[1656]: starting freshclam
+Apr  2 14:08:19 miidai run-parts(/etc/cron.daily)[1742]: finished freshclam
+Apr  2 14:08:19 miidai run-parts(/etc/cron.daily)[1656]: starting logrotate
+Apr  2 14:08:19 miidai run-parts(/etc/cron.daily)[1750]: finished logrotate
+Apr  2 14:08:19 miidai run-parts(/etc/cron.daily)[1656]: starting tmpwatch
+Apr  2 14:08:19 miidai run-parts(/etc/cron.daily)[1758]: finished tmpwatch
+Apr  2 14:08:19 miidai anacron[1633]: Job `cron.daily' terminated (mailing output)
+Apr  2 14:28:01 miidai anacron[1633]: Job `cron.weekly' started
+Apr  2 14:28:01 miidai anacron[1633]: Job `cron.weekly' terminated
+Apr  2 14:48:01 miidai anacron[1633]: Job `cron.monthly' started
+Apr  2 14:48:01 miidai anacron[1633]: Job `cron.monthly' terminated
+Apr  2 14:48:01 miidai anacron[1633]: Normal exit (3 jobs run)
+Apr  2 15:01:01 miidai CROND[1774]: (root) CMD (run-parts /etc/cron.hourly)
+Apr  2 15:01:01 miidai CROND[1775]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=smtp -update >/dev/null)
+Apr  2 15:01:01 miidai CROND[1776]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=web -update >/dev/null)
+Apr  2 15:01:01 miidai run-parts(/etc/cron.hourly)[1774]: starting 0anacron
+Apr  2 15:01:01 miidai run-parts(/etc/cron.hourly)[1787]: finished 0anacron
+Apr  2 15:01:01 miidai run-parts(/etc/cron.hourly)[1774]: starting awstats
+Apr  2 15:01:01 miidai run-parts(/etc/cron.hourly)[1807]: finished awstats
+Apr  2 16:01:01 miidai CROND[1812]: (root) CMD (run-parts /etc/cron.hourly)
+Apr  2 16:01:01 miidai CROND[1813]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=web -update >/dev/null)
+Apr  2 16:01:01 miidai CROND[1814]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=smtp -update >/dev/null)
+Apr  2 16:01:01 miidai run-parts(/etc/cron.hourly)[1812]: starting 0anacron
+Apr  2 16:01:01 miidai run-parts(/etc/cron.hourly)[1825]: finished 0anacron
+Apr  2 16:01:01 miidai run-parts(/etc/cron.hourly)[1812]: starting awstats
+Apr  2 16:01:02 miidai run-parts(/etc/cron.hourly)[1845]: finished awstats
+Apr  2 17:01:01 miidai CROND[626]: (root) CMD (run-parts /etc/cron.hourly)
+Apr  2 17:01:01 miidai CROND[627]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=web -update >/dev/null)
+Apr  2 17:01:01 miidai CROND[628]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=smtp -update >/dev/null)
+Apr  2 17:01:01 miidai run-parts(/etc/cron.hourly)[626]: starting 0anacron
+Apr  2 17:01:01 miidai run-parts(/etc/cron.hourly)[639]: finished 0anacron
+Apr  2 17:01:01 miidai run-parts(/etc/cron.hourly)[626]: starting awstats
+Apr  2 17:01:01 miidai run-parts(/etc/cron.hourly)[659]: finished awstats
+Apr  2 18:01:01 miidai CROND[626]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=smtp -update >/dev/null)
+Apr  2 18:01:01 miidai CROND[627]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=web -update >/dev/null)
+Apr  2 18:01:01 miidai CROND[628]: (root) CMD (run-parts /etc/cron.hourly)
+Apr  2 18:01:01 miidai run-parts(/etc/cron.hourly)[628]: starting 0anacron
+Apr  2 18:01:01 miidai run-parts(/etc/cron.hourly)[639]: finished 0anacron
+Apr  2 18:01:01 miidai run-parts(/etc/cron.hourly)[628]: starting awstats
+Apr  2 18:01:02 miidai run-parts(/etc/cron.hourly)[659]: finished awstats
+Apr  2 19:01:01 miidai CROND[626]: (root) CMD (run-parts /etc/cron.hourly)
+Apr  2 19:01:01 miidai CROND[627]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=web -update >/dev/null)
+Apr  2 19:01:01 miidai CROND[628]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=smtp -update >/dev/null)
+Apr  2 19:01:01 miidai run-parts(/etc/cron.hourly)[626]: starting 0anacron
+Apr  2 19:01:01 miidai run-parts(/etc/cron.hourly)[639]: finished 0anacron
+Apr  2 19:01:01 miidai run-parts(/etc/cron.hourly)[626]: starting awstats
+Apr  2 19:01:02 miidai run-parts(/etc/cron.hourly)[659]: finished awstats
+Apr  2 20:01:01 miidai CROND[622]: (root) CMD (run-parts /etc/cron.hourly)
+Apr  2 20:01:01 miidai CROND[623]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=smtp -update >/dev/null)
+Apr  2 20:01:01 miidai CROND[624]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=web -update >/dev/null)
+Apr  2 20:01:01 miidai run-parts(/etc/cron.hourly)[622]: starting 0anacron
+Apr  2 20:01:01 miidai run-parts(/etc/cron.hourly)[635]: finished 0anacron
+Apr  2 20:01:01 miidai run-parts(/etc/cron.hourly)[622]: starting awstats
+Apr  2 20:01:02 miidai run-parts(/etc/cron.hourly)[655]: finished awstats
+Apr  2 21:01:01 miidai CROND[622]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=smtp -update >/dev/null)
+Apr  2 21:01:01 miidai CROND[623]: (root) CMD (run-parts /etc/cron.hourly)
+Apr  2 21:01:01 miidai CROND[624]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=web -update >/dev/null)
+Apr  2 21:01:01 miidai run-parts(/etc/cron.hourly)[623]: starting 0anacron
+Apr  2 21:01:01 miidai run-parts(/etc/cron.hourly)[635]: finished 0anacron
+Apr  2 21:01:01 miidai run-parts(/etc/cron.hourly)[623]: starting awstats
+Apr  2 21:01:02 miidai run-parts(/etc/cron.hourly)[655]: finished awstats
+Apr  2 22:01:01 miidai CROND[660]: (root) CMD (run-parts /etc/cron.hourly)
+Apr  2 22:01:01 miidai CROND[661]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=smtp -update >/dev/null)
+Apr  2 22:01:01 miidai CROND[662]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=web -update >/dev/null)
+Apr  2 22:01:01 miidai run-parts(/etc/cron.hourly)[660]: starting 0anacron
+Apr  2 22:01:01 miidai run-parts(/etc/cron.hourly)[673]: finished 0anacron
+Apr  2 22:01:01 miidai run-parts(/etc/cron.hourly)[660]: starting awstats
+Apr  2 22:01:01 miidai run-parts(/etc/cron.hourly)[693]: finished awstats
+Apr  2 23:01:01 miidai CROND[699]: (root) CMD (run-parts /etc/cron.hourly)
+Apr  2 23:01:01 miidai CROND[700]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=smtp -update >/dev/null)
+Apr  2 23:01:01 miidai CROND[701]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=web -update >/dev/null)
+Apr  2 23:01:01 miidai run-parts(/etc/cron.hourly)[699]: starting 0anacron
+Apr  2 23:01:01 miidai run-parts(/etc/cron.hourly)[712]: finished 0anacron
+Apr  2 23:01:01 miidai run-parts(/etc/cron.hourly)[699]: starting awstats
+Apr  2 23:01:02 miidai run-parts(/etc/cron.hourly)[732]: finished awstats
+Apr  3 00:01:01 miidai CROND[739]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=web -update >/dev/null)
+Apr  3 00:01:01 miidai CROND[738]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=smtp -update >/dev/null)
+Apr  3 00:01:01 miidai CROND[737]: (root) CMD (run-parts /etc/cron.hourly)
+Apr  3 00:01:01 miidai run-parts(/etc/cron.hourly)[737]: starting 0anacron
+Apr  3 00:01:01 miidai anacron[750]: Anacron started on 2024-04-03
+Apr  3 00:01:01 miidai anacron[750]: Jobs will be executed sequentially
+Apr  3 00:01:01 miidai anacron[750]: Normal exit (0 jobs run)
+Apr  3 00:01:01 miidai run-parts(/etc/cron.hourly)[752]: finished 0anacron
+Apr  3 00:01:01 miidai run-parts(/etc/cron.hourly)[737]: starting awstats
+Apr  3 00:01:02 miidai run-parts(/etc/cron.hourly)[772]: finished awstats
+Apr  3 01:01:01 miidai CROND[778]: (root) CMD (run-parts /etc/cron.hourly)
+Apr  3 01:01:01 miidai CROND[779]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=smtp -update >/dev/null)
+Apr  3 01:01:01 miidai CROND[780]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=web -update >/dev/null)
+Apr  3 01:01:01 miidai run-parts(/etc/cron.hourly)[778]: starting 0anacron
+Apr  3 01:01:01 miidai anacron[791]: Anacron started on 2024-04-03
+Apr  3 01:01:01 miidai anacron[791]: Jobs will be executed sequentially
+Apr  3 01:01:01 miidai anacron[791]: Normal exit (0 jobs run)
+Apr  3 01:01:01 miidai run-parts(/etc/cron.hourly)[793]: finished 0anacron
+Apr  3 01:01:01 miidai run-parts(/etc/cron.hourly)[778]: starting awstats
+Apr  3 01:01:02 miidai run-parts(/etc/cron.hourly)[813]: finished awstats
+Apr  3 02:01:01 miidai CROND[819]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=smtp -update >/dev/null)
+Apr  3 02:01:01 miidai CROND[820]: (root) CMD (run-parts /etc/cron.hourly)
+Apr  3 02:01:01 miidai CROND[821]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=web -update >/dev/null)
+Apr  3 02:01:01 miidai run-parts(/etc/cron.hourly)[820]: starting 0anacron
+Apr  3 02:01:01 miidai anacron[832]: Anacron started on 2024-04-03
+Apr  3 02:01:01 miidai anacron[832]: Jobs will be executed sequentially
+Apr  3 02:01:01 miidai anacron[832]: Normal exit (0 jobs run)
+Apr  3 02:01:01 miidai run-parts(/etc/cron.hourly)[834]: finished 0anacron
+Apr  3 02:01:01 miidai run-parts(/etc/cron.hourly)[820]: starting awstats
+Apr  3 02:01:02 miidai run-parts(/etc/cron.hourly)[854]: finished awstats
+Apr  3 03:01:01 miidai CROND[865]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=web -update >/dev/null)
+Apr  3 03:01:01 miidai CROND[868]: (root) CMD (run-parts /etc/cron.hourly)
+Apr  3 03:01:01 miidai CROND[866]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=smtp -update >/dev/null)
+Apr  3 03:01:01 miidai CROND[867]: (root) CMD (/usr/sbin/cbpadmin --config=/etc/policyd/cluebringer.conf --cleanup >/dev/null)
+Apr  3 03:01:01 miidai run-parts(/etc/cron.hourly)[868]: starting 0anacron
+Apr  3 03:01:01 miidai anacron[880]: Anacron started on 2024-04-03
+Apr  3 03:01:01 miidai anacron[880]: Will run job `cron.daily' in 26 min.
+Apr  3 03:01:01 miidai anacron[880]: Jobs will be executed sequentially
+Apr  3 03:01:01 miidai run-parts(/etc/cron.hourly)[882]: finished 0anacron
+Apr  3 03:01:01 miidai run-parts(/etc/cron.hourly)[868]: starting awstats
+Apr  3 03:01:01 miidai run-parts(/etc/cron.hourly)[902]: finished awstats
+Apr  3 03:27:01 miidai anacron[880]: Job `cron.daily' started
+Apr  3 03:27:01 miidai run-parts(/etc/cron.daily)[903]: starting 0logwatch
+Apr  3 03:27:03 miidai run-parts(/etc/cron.daily)[1239]: finished 0logwatch
+Apr  3 03:27:03 miidai run-parts(/etc/cron.daily)[903]: starting amavisd
+Apr  3 03:27:03 miidai run-parts(/etc/cron.daily)[1247]: finished amavisd
+Apr  3 03:27:03 miidai run-parts(/etc/cron.daily)[903]: starting freshclam
+Apr  3 03:27:21 miidai run-parts(/etc/cron.daily)[1266]: finished freshclam
+Apr  3 03:27:21 miidai run-parts(/etc/cron.daily)[903]: starting logrotate
+Apr  3 03:27:21 miidai run-parts(/etc/cron.daily)[1274]: finished logrotate
+Apr  3 03:27:21 miidai run-parts(/etc/cron.daily)[903]: starting tmpwatch
+Apr  3 03:27:21 miidai run-parts(/etc/cron.daily)[1282]: finished tmpwatch
+Apr  3 03:27:21 miidai anacron[880]: Job `cron.daily' terminated (mailing output)
+Apr  3 03:27:21 miidai anacron[880]: Normal exit (1 job run)
+Apr  3 04:01:01 miidai CROND[1294]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=web -update >/dev/null)
+Apr  3 04:01:01 miidai CROND[1295]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=smtp -update >/dev/null)
+Apr  3 04:01:01 miidai CROND[1296]: (root) CMD (run-parts /etc/cron.hourly)
+Apr  3 04:01:01 miidai run-parts(/etc/cron.hourly)[1296]: starting 0anacron
+Apr  3 04:01:01 miidai run-parts(/etc/cron.hourly)[1307]: finished 0anacron
+Apr  3 04:01:01 miidai run-parts(/etc/cron.hourly)[1296]: starting awstats
+Apr  3 04:01:02 miidai run-parts(/etc/cron.hourly)[1327]: finished awstats
+Apr  3 04:10:01 miidai CROND[1329]: (root) CMD (/usr/share/spamassassin/sa-update.cron 2>&1 | tee -a /var/log/sa-update.log)
+Apr  3 05:01:01 miidai CROND[1351]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=smtp -update >/dev/null)
+Apr  3 05:01:01 miidai CROND[1354]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=web -update >/dev/null)
+Apr  3 05:01:01 miidai CROND[1353]: (root) CMD (run-parts /etc/cron.hourly)
+Apr  3 05:01:01 miidai CROND[1352]: (amavis) CMD (touch /var/spool/amavisd/quarantine; find /var/spool/amavisd/quarantine/ -mtime +15 | xargs rm -rf {})
+Apr  3 05:01:01 miidai run-parts(/etc/cron.hourly)[1353]: starting 0anacron
+Apr  3 05:01:01 miidai run-parts(/etc/cron.hourly)[1369]: finished 0anacron
+Apr  3 05:01:01 miidai run-parts(/etc/cron.hourly)[1353]: starting awstats
+Apr  3 05:01:02 miidai run-parts(/etc/cron.hourly)[1389]: finished awstats
+Apr  3 06:01:01 miidai CROND[1505]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=smtp -update >/dev/null)
+Apr  3 06:01:01 miidai CROND[1506]: (root) CMD (run-parts /etc/cron.hourly)
+Apr  3 06:01:01 miidai CROND[1507]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=web -update >/dev/null)
+Apr  3 06:01:01 miidai run-parts(/etc/cron.hourly)[1506]: starting 0anacron
+Apr  3 06:01:01 miidai run-parts(/etc/cron.hourly)[1518]: finished 0anacron
+Apr  3 06:01:01 miidai run-parts(/etc/cron.hourly)[1506]: starting awstats
+Apr  3 06:01:02 miidai run-parts(/etc/cron.hourly)[1538]: finished awstats
+Apr  3 07:01:01 miidai CROND[1544]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=web -update >/dev/null)
+Apr  3 07:01:01 miidai CROND[1545]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=smtp -update >/dev/null)
+Apr  3 07:01:01 miidai CROND[1546]: (root) CMD (run-parts /etc/cron.hourly)
+Apr  3 07:01:01 miidai run-parts(/etc/cron.hourly)[1546]: starting 0anacron
+Apr  3 07:01:01 miidai run-parts(/etc/cron.hourly)[1557]: finished 0anacron
+Apr  3 07:01:01 miidai run-parts(/etc/cron.hourly)[1546]: starting awstats
+Apr  3 07:01:01 miidai run-parts(/etc/cron.hourly)[1577]: finished awstats
+Apr  3 08:01:01 miidai CROND[1583]: (root) CMD (run-parts /etc/cron.hourly)
+Apr  3 08:01:01 miidai CROND[1582]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=web -update >/dev/null)
+Apr  3 08:01:01 miidai CROND[1584]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=smtp -update >/dev/null)
+Apr  3 08:01:01 miidai run-parts(/etc/cron.hourly)[1583]: starting 0anacron
+Apr  3 08:01:01 miidai run-parts(/etc/cron.hourly)[1595]: finished 0anacron
+Apr  3 08:01:01 miidai run-parts(/etc/cron.hourly)[1583]: starting awstats
+Apr  3 08:01:02 miidai run-parts(/etc/cron.hourly)[1615]: finished awstats
+Apr  3 09:01:01 miidai CROND[1626]: (root) CMD (run-parts /etc/cron.hourly)
+Apr  3 09:01:01 miidai CROND[1627]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=web -update >/dev/null)
+Apr  3 09:01:01 miidai CROND[1628]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=smtp -update >/dev/null)
+Apr  3 09:01:01 miidai run-parts(/etc/cron.hourly)[1626]: starting 0anacron
+Apr  3 09:01:01 miidai run-parts(/etc/cron.hourly)[1639]: finished 0anacron
+Apr  3 09:01:01 miidai run-parts(/etc/cron.hourly)[1626]: starting awstats
+Apr  3 09:01:02 miidai run-parts(/etc/cron.hourly)[1659]: finished awstats
+Apr  3 10:01:01 miidai CROND[1665]: (root) CMD (run-parts /etc/cron.hourly)
+Apr  3 10:01:01 miidai CROND[1666]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=web -update >/dev/null)
+Apr  3 10:01:01 miidai CROND[1664]: (root) CMD (perl /usr/share/awstats/wwwroot/cgi-bin/awstats.pl -config=smtp -update >/dev/null)
+Apr  3 10:01:01 miidai run-parts(/etc/cron.hourly)[1665]: starting 0anacron
+Apr  3 10:01:01 miidai run-parts(/etc/cron.hourly)[1677]: finished 0anacron
+Apr  3 10:01:01 miidai run-parts(/etc/cron.hourly)[1665]: starting awstats
+Apr  3 10:01:02 miidai run-parts(/etc/cron.hourly)[1697]: finished awstats

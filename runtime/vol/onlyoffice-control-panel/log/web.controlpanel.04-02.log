@@ -1,0 +1,285 @@
+2024-04-02 13:21:55 - info: bundle generation from 41 files:
+2024-04-02 13:21:55 - info: 0 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/async.js
+2024-04-02 13:21:55 - info: 1 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/clipboard.js
+2024-04-02 13:21:56 - info: 2 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery-1.8.2.min.js
+2024-04-02 13:21:56 - info: 3 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery-ui-1.9.0.min.js
+2024-04-02 13:21:56 - info: 4 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.blockUI.min.js
+2024-04-02 13:21:56 - info: 5 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.cookies.js
+2024-04-02 13:21:56 - info: 6 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.cron.js
+2024-04-02 13:21:56 - info: 7 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.fileupload.js
+2024-04-02 13:21:56 - info: 8 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.json.js
+2024-04-02 13:21:56 - info: 9 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.scrollTo.js
+2024-04-02 13:21:57 - info: 10 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.tmpl.js
+2024-04-02 13:21:57 - info: 11 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/moment.js
+2024-04-02 13:21:59 - info: 12 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/socket.io.js
+2024-04-02 13:22:00 - info: 13 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/toastr.min.js
+2024-04-02 13:22:00 - info: 14 /var/www/onlyoffice/controlpanel/www/public/javascripts/plugins/countries.js
+2024-04-02 13:22:00 - info: 15 /var/www/onlyoffice/controlpanel/www/public/javascripts/plugins/jquery.dropdownToggle.js
+2024-04-02 13:22:00 - info: 16 /var/www/onlyoffice/controlpanel/www/public/javascripts/plugins/jquery.helper.js
+2024-04-02 13:22:00 - info: 17 /var/www/onlyoffice/controlpanel/www/public/javascripts/plugins/jquery.tlcombobox.js
+2024-04-02 13:22:00 - info: 18 /var/www/onlyoffice/controlpanel/www/public/javascripts/plugins/phonecontroller.js
+2024-04-02 13:22:00 - info: 19 /var/www/onlyoffice/controlpanel/www/public/javascripts/common.js
+2024-04-02 13:22:00 - info: 20 /var/www/onlyoffice/controlpanel/www/public/javascripts/upload.js
+2024-04-02 13:22:00 - info: 21 /var/www/onlyoffice/controlpanel/www/public/javascripts/asc.socketio.js
+2024-04-02 13:22:00 - info: 22 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/activate.js
+2024-04-02 13:22:00 - info: 23 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/audittrail.js
+2024-04-02 13:22:00 - info: 24 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/backup.js
+2024-04-02 13:22:01 - info: 25 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/gift.js
+2024-04-02 13:22:01 - info: 26 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/home.js
+2024-04-02 13:22:01 - info: 27 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/https.js
+2024-04-02 13:22:01 - info: 28 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/ldapsettings.js
+2024-04-02 13:22:01 - info: 29 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/login.js
+2024-04-02 13:22:01 - info: 30 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/loginhistory.js
+2024-04-02 13:22:01 - info: 31 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/migration.js
+2024-04-02 13:22:02 - info: 32 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/multiportals.js
+2024-04-02 13:22:02 - info: 33 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/privacyroom.js
+2024-04-02 13:22:02 - info: 34 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/rebranding.js
+2024-04-02 13:22:02 - info: 35 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/restore.js
+2024-04-02 13:22:02 - info: 36 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/search.js
+2024-04-02 13:22:02 - info: 37 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/ssosettings.js
+2024-04-02 13:22:02 - info: 38 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/storage.js
+2024-04-02 13:22:02 - info: 39 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/update.js
+2024-04-02 13:22:02 - info: 40 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/whitelabel.js
+2024-04-02 13:22:05 - info: Express server listening on port 80
+2024-04-02 16:23:50 - info: bundle generation from 41 files:
+2024-04-02 16:23:50 - info: 0 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/async.js
+2024-04-02 16:23:51 - info: 1 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/clipboard.js
+2024-04-02 16:23:51 - info: 2 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery-1.8.2.min.js
+2024-04-02 16:23:51 - info: 3 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery-ui-1.9.0.min.js
+2024-04-02 16:23:51 - info: 4 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.blockUI.min.js
+2024-04-02 16:23:51 - info: 5 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.cookies.js
+2024-04-02 16:23:51 - info: 6 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.cron.js
+2024-04-02 16:23:52 - info: 7 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.fileupload.js
+2024-04-02 16:23:52 - info: 8 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.json.js
+2024-04-02 16:23:52 - info: 9 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.scrollTo.js
+2024-04-02 16:23:52 - info: 10 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.tmpl.js
+2024-04-02 16:23:52 - info: 11 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/moment.js
+2024-04-02 16:23:54 - info: 12 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/socket.io.js
+2024-04-02 16:23:55 - info: 13 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/toastr.min.js
+2024-04-02 16:23:55 - info: 14 /var/www/onlyoffice/controlpanel/www/public/javascripts/plugins/countries.js
+2024-04-02 16:23:55 - info: 15 /var/www/onlyoffice/controlpanel/www/public/javascripts/plugins/jquery.dropdownToggle.js
+2024-04-02 16:23:55 - info: 16 /var/www/onlyoffice/controlpanel/www/public/javascripts/plugins/jquery.helper.js
+2024-04-02 16:23:56 - info: 17 /var/www/onlyoffice/controlpanel/www/public/javascripts/plugins/jquery.tlcombobox.js
+2024-04-02 16:23:56 - info: 18 /var/www/onlyoffice/controlpanel/www/public/javascripts/plugins/phonecontroller.js
+2024-04-02 16:23:56 - info: 19 /var/www/onlyoffice/controlpanel/www/public/javascripts/common.js
+2024-04-02 16:23:56 - info: 20 /var/www/onlyoffice/controlpanel/www/public/javascripts/upload.js
+2024-04-02 16:23:56 - info: 21 /var/www/onlyoffice/controlpanel/www/public/javascripts/asc.socketio.js
+2024-04-02 16:23:56 - info: 22 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/activate.js
+2024-04-02 16:23:56 - info: 23 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/audittrail.js
+2024-04-02 16:23:56 - info: 24 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/backup.js
+2024-04-02 16:23:56 - info: 25 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/gift.js
+2024-04-02 16:23:56 - info: 26 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/home.js
+2024-04-02 16:23:56 - info: 27 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/https.js
+2024-04-02 16:23:56 - info: 28 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/ldapsettings.js
+2024-04-02 16:23:57 - info: 29 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/login.js
+2024-04-02 16:23:57 - info: 30 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/loginhistory.js
+2024-04-02 16:23:57 - info: 31 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/migration.js
+2024-04-02 16:23:57 - info: 32 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/multiportals.js
+2024-04-02 16:23:57 - info: 33 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/privacyroom.js
+2024-04-02 16:23:57 - info: 34 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/rebranding.js
+2024-04-02 16:23:57 - info: 35 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/restore.js
+2024-04-02 16:23:57 - info: 36 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/search.js
+2024-04-02 16:23:57 - info: 37 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/ssosettings.js
+2024-04-02 16:23:58 - info: 38 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/storage.js
+2024-04-02 16:23:58 - info: 39 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/update.js
+2024-04-02 16:23:58 - info: 40 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/whitelabel.js
+2024-04-02 16:24:01 - info: Express server listening on port 80
+2024-04-02 16:26:06 - info: bundle generation from 41 files:
+2024-04-02 16:26:06 - info: 0 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/async.js
+2024-04-02 16:26:07 - info: 1 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/clipboard.js
+2024-04-02 16:26:07 - info: 2 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery-1.8.2.min.js
+2024-04-02 16:26:07 - info: 3 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery-ui-1.9.0.min.js
+2024-04-02 16:26:07 - info: 4 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.blockUI.min.js
+2024-04-02 16:26:07 - info: 5 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.cookies.js
+2024-04-02 16:26:07 - info: 6 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.cron.js
+2024-04-02 16:26:08 - info: 7 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.fileupload.js
+2024-04-02 16:26:08 - info: 8 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.json.js
+2024-04-02 16:26:08 - info: 9 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.scrollTo.js
+2024-04-02 16:26:08 - info: 10 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.tmpl.js
+2024-04-02 16:26:08 - info: 11 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/moment.js
+2024-04-02 16:26:10 - info: 12 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/socket.io.js
+2024-04-02 16:26:11 - info: 13 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/toastr.min.js
+2024-04-02 16:26:11 - info: 14 /var/www/onlyoffice/controlpanel/www/public/javascripts/plugins/countries.js
+2024-04-02 16:26:12 - info: 15 /var/www/onlyoffice/controlpanel/www/public/javascripts/plugins/jquery.dropdownToggle.js
+2024-04-02 16:26:12 - info: 16 /var/www/onlyoffice/controlpanel/www/public/javascripts/plugins/jquery.helper.js
+2024-04-02 16:26:12 - info: 17 /var/www/onlyoffice/controlpanel/www/public/javascripts/plugins/jquery.tlcombobox.js
+2024-04-02 16:26:12 - info: 18 /var/www/onlyoffice/controlpanel/www/public/javascripts/plugins/phonecontroller.js
+2024-04-02 16:26:12 - info: 19 /var/www/onlyoffice/controlpanel/www/public/javascripts/common.js
+2024-04-02 16:26:12 - info: 20 /var/www/onlyoffice/controlpanel/www/public/javascripts/upload.js
+2024-04-02 16:26:12 - info: 21 /var/www/onlyoffice/controlpanel/www/public/javascripts/asc.socketio.js
+2024-04-02 16:26:12 - info: 22 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/activate.js
+2024-04-02 16:26:12 - info: 23 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/audittrail.js
+2024-04-02 16:26:12 - info: 24 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/backup.js
+2024-04-02 16:26:12 - info: 25 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/gift.js
+2024-04-02 16:26:12 - info: 26 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/home.js
+2024-04-02 16:26:12 - info: 27 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/https.js
+2024-04-02 16:26:12 - info: 28 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/ldapsettings.js
+2024-04-02 16:26:13 - info: 29 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/login.js
+2024-04-02 16:26:13 - info: 30 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/loginhistory.js
+2024-04-02 16:26:13 - info: 31 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/migration.js
+2024-04-02 16:26:13 - info: 32 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/multiportals.js
+2024-04-02 16:26:13 - info: 33 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/privacyroom.js
+2024-04-02 16:26:13 - info: 34 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/rebranding.js
+2024-04-02 16:26:13 - info: 35 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/restore.js
+2024-04-02 16:26:13 - info: 36 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/search.js
+2024-04-02 16:26:13 - info: 37 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/ssosettings.js
+2024-04-02 16:26:14 - info: 38 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/storage.js
+2024-04-02 16:26:14 - info: 39 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/update.js
+2024-04-02 16:26:14 - info: 40 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/whitelabel.js
+2024-04-02 16:26:17 - info: Express server listening on port 80
+2024-04-02 16:27:46 - info: bundle generation from 41 files:
+2024-04-02 16:27:46 - info: 0 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/async.js
+2024-04-02 16:27:47 - info: 1 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/clipboard.js
+2024-04-02 16:27:48 - info: 2 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery-1.8.2.min.js
+2024-04-02 16:27:48 - info: 3 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery-ui-1.9.0.min.js
+2024-04-02 16:27:48 - info: 4 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.blockUI.min.js
+2024-04-02 16:27:48 - info: 5 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.cookies.js
+2024-04-02 16:27:48 - info: 6 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.cron.js
+2024-04-02 16:27:48 - info: 7 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.fileupload.js
+2024-04-02 16:27:48 - info: 8 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.json.js
+2024-04-02 16:27:48 - info: 9 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.scrollTo.js
+2024-04-02 16:27:48 - info: 10 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.tmpl.js
+2024-04-02 16:27:49 - info: 11 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/moment.js
+2024-04-02 16:27:50 - info: 12 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/socket.io.js
+2024-04-02 16:27:52 - info: 13 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/toastr.min.js
+2024-04-02 16:27:52 - info: 14 /var/www/onlyoffice/controlpanel/www/public/javascripts/plugins/countries.js
+2024-04-02 16:27:52 - info: 15 /var/www/onlyoffice/controlpanel/www/public/javascripts/plugins/jquery.dropdownToggle.js
+2024-04-02 16:27:52 - info: 16 /var/www/onlyoffice/controlpanel/www/public/javascripts/plugins/jquery.helper.js
+2024-04-02 16:27:52 - info: 17 /var/www/onlyoffice/controlpanel/www/public/javascripts/plugins/jquery.tlcombobox.js
+2024-04-02 16:27:52 - info: 18 /var/www/onlyoffice/controlpanel/www/public/javascripts/plugins/phonecontroller.js
+2024-04-02 16:27:52 - info: 19 /var/www/onlyoffice/controlpanel/www/public/javascripts/common.js
+2024-04-02 16:27:52 - info: 20 /var/www/onlyoffice/controlpanel/www/public/javascripts/upload.js
+2024-04-02 16:27:52 - info: 21 /var/www/onlyoffice/controlpanel/www/public/javascripts/asc.socketio.js
+2024-04-02 16:27:52 - info: 22 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/activate.js
+2024-04-02 16:27:52 - info: 23 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/audittrail.js
+2024-04-02 16:27:52 - info: 24 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/backup.js
+2024-04-02 16:27:52 - info: 25 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/gift.js
+2024-04-02 16:27:52 - info: 26 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/home.js
+2024-04-02 16:27:52 - info: 27 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/https.js
+2024-04-02 16:27:53 - info: 28 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/ldapsettings.js
+2024-04-02 16:27:53 - info: 29 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/login.js
+2024-04-02 16:27:53 - info: 30 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/loginhistory.js
+2024-04-02 16:27:53 - info: 31 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/migration.js
+2024-04-02 16:27:53 - info: 32 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/multiportals.js
+2024-04-02 16:27:53 - info: 33 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/privacyroom.js
+2024-04-02 16:27:53 - info: 34 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/rebranding.js
+2024-04-02 16:27:53 - info: 35 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/restore.js
+2024-04-02 16:27:54 - info: 36 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/search.js
+2024-04-02 16:27:54 - info: 37 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/ssosettings.js
+2024-04-02 16:27:54 - info: 38 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/storage.js
+2024-04-02 16:27:54 - info: 39 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/update.js
+2024-04-02 16:27:54 - info: 40 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/whitelabel.js
+2024-04-02 16:27:57 - info: Express server listening on port 80
+2024-04-02 17:18:46 - info: Express server listening on port 80
+2024-04-02 17:19:29 - info: Express server listening on port 80
+2024-04-02 17:20:59 - info: Express server listening on port 80
+2024-04-02 17:28:06 - info: bundle generation from 41 files:
+2024-04-02 17:28:06 - info: 0 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/async.js
+2024-04-02 17:28:07 - info: 1 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/clipboard.js
+2024-04-02 17:28:07 - info: 2 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery-1.8.2.min.js
+2024-04-02 17:28:07 - info: 3 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery-ui-1.9.0.min.js
+2024-04-02 17:28:07 - info: 4 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.blockUI.min.js
+2024-04-02 17:28:07 - info: 5 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.cookies.js
+2024-04-02 17:28:07 - info: 6 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.cron.js
+2024-04-02 17:28:08 - info: 7 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.fileupload.js
+2024-04-02 17:28:08 - info: 8 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.json.js
+2024-04-02 17:28:08 - info: 9 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.scrollTo.js
+2024-04-02 17:28:08 - info: 10 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.tmpl.js
+2024-04-02 17:28:08 - info: 11 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/moment.js
+2024-04-02 17:28:10 - info: 12 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/socket.io.js
+2024-04-02 17:28:12 - info: 13 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/toastr.min.js
+2024-04-02 17:28:12 - info: 14 /var/www/onlyoffice/controlpanel/www/public/javascripts/plugins/countries.js
+2024-04-02 17:28:12 - info: 15 /var/www/onlyoffice/controlpanel/www/public/javascripts/plugins/jquery.dropdownToggle.js
+2024-04-02 17:28:12 - info: 16 /var/www/onlyoffice/controlpanel/www/public/javascripts/plugins/jquery.helper.js
+2024-04-02 17:28:12 - info: 17 /var/www/onlyoffice/controlpanel/www/public/javascripts/plugins/jquery.tlcombobox.js
+2024-04-02 17:28:12 - info: 18 /var/www/onlyoffice/controlpanel/www/public/javascripts/plugins/phonecontroller.js
+2024-04-02 17:28:12 - info: 19 /var/www/onlyoffice/controlpanel/www/public/javascripts/common.js
+2024-04-02 17:28:12 - info: 20 /var/www/onlyoffice/controlpanel/www/public/javascripts/upload.js
+2024-04-02 17:28:12 - info: 21 /var/www/onlyoffice/controlpanel/www/public/javascripts/asc.socketio.js
+2024-04-02 17:28:12 - info: 22 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/activate.js
+2024-04-02 17:28:12 - info: 23 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/audittrail.js
+2024-04-02 17:28:12 - info: 24 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/backup.js
+2024-04-02 17:28:12 - info: 25 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/gift.js
+2024-04-02 17:28:12 - info: 26 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/home.js
+2024-04-02 17:28:12 - info: 27 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/https.js
+2024-04-02 17:28:12 - info: 28 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/ldapsettings.js
+2024-04-02 17:28:13 - info: 29 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/login.js
+2024-04-02 17:28:13 - info: 30 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/loginhistory.js
+2024-04-02 17:28:13 - info: 31 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/migration.js
+2024-04-02 17:28:13 - info: 32 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/multiportals.js
+2024-04-02 17:28:13 - info: 33 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/privacyroom.js
+2024-04-02 17:28:13 - info: 34 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/rebranding.js
+2024-04-02 17:28:13 - info: 35 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/restore.js
+2024-04-02 17:28:14 - info: 36 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/search.js
+2024-04-02 17:28:14 - info: 37 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/ssosettings.js
+2024-04-02 17:28:14 - info: 38 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/storage.js
+2024-04-02 17:28:14 - info: 39 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/update.js
+2024-04-02 17:28:14 - info: 40 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/whitelabel.js
+2024-04-02 17:28:17 - info: Express server listening on port 80
+2024-04-02 17:35:27 - info: Express server listening on port 80
+2024-04-02 17:38:29 - info: Express server listening on port 80
+2024-04-02 17:55:48 - info: Express server listening on port 80
+2024-04-02 18:13:02 - info: Express server listening on port 80
+2024-04-02 18:18:42 - info: Express server listening on port 80
+2024-04-02 18:28:12 - info: Express server listening on port 80
+2024-04-02 18:31:35 - info: Express server listening on port 80
+2024-04-02 18:43:47 - info: Express server listening on port 80
+2024-04-02 18:45:45 - info: Express server listening on port 80
+2024-04-02 18:49:31 - info: Express server listening on port 80
+2024-04-02 18:50:44 - info: Express server listening on port 80
+2024-04-02 19:06:31 - info: Express server listening on port 80
+2024-04-02 19:07:20 - info: Express server listening on port 80
+2024-04-02 19:20:02 - info: Express server listening on port 80
+2024-04-02 19:27:11 - info: bundle generation from 41 files:
+2024-04-02 19:27:11 - info: 0 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/async.js
+2024-04-02 19:27:12 - info: 1 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/clipboard.js
+2024-04-02 19:27:12 - info: 2 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery-1.8.2.min.js
+2024-04-02 19:27:12 - info: 3 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery-ui-1.9.0.min.js
+2024-04-02 19:27:12 - info: 4 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.blockUI.min.js
+2024-04-02 19:27:12 - info: 5 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.cookies.js
+2024-04-02 19:27:12 - info: 6 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.cron.js
+2024-04-02 19:27:13 - info: 7 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.fileupload.js
+2024-04-02 19:27:13 - info: 8 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.json.js
+2024-04-02 19:27:13 - info: 9 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.scrollTo.js
+2024-04-02 19:27:13 - info: 10 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/jquery.tmpl.js
+2024-04-02 19:27:13 - info: 11 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/moment.js
+2024-04-02 19:27:15 - info: 12 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/socket.io.js
+2024-04-02 19:27:16 - info: 13 /var/www/onlyoffice/controlpanel/www/public/javascripts/third-party/toastr.min.js
+2024-04-02 19:27:16 - info: 14 /var/www/onlyoffice/controlpanel/www/public/javascripts/plugins/countries.js
+2024-04-02 19:27:17 - info: 15 /var/www/onlyoffice/controlpanel/www/public/javascripts/plugins/jquery.dropdownToggle.js
+2024-04-02 19:27:17 - info: 16 /var/www/onlyoffice/controlpanel/www/public/javascripts/plugins/jquery.helper.js
+2024-04-02 19:27:17 - info: 17 /var/www/onlyoffice/controlpanel/www/public/javascripts/plugins/jquery.tlcombobox.js
+2024-04-02 19:27:17 - info: 18 /var/www/onlyoffice/controlpanel/www/public/javascripts/plugins/phonecontroller.js
+2024-04-02 19:27:17 - info: 19 /var/www/onlyoffice/controlpanel/www/public/javascripts/common.js
+2024-04-02 19:27:17 - info: 20 /var/www/onlyoffice/controlpanel/www/public/javascripts/upload.js
+2024-04-02 19:27:17 - info: 21 /var/www/onlyoffice/controlpanel/www/public/javascripts/asc.socketio.js
+2024-04-02 19:27:17 - info: 22 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/activate.js
+2024-04-02 19:27:17 - info: 23 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/audittrail.js
+2024-04-02 19:27:17 - info: 24 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/backup.js
+2024-04-02 19:27:17 - info: 25 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/gift.js
+2024-04-02 19:27:17 - info: 26 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/home.js
+2024-04-02 19:27:17 - info: 27 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/https.js
+2024-04-02 19:27:17 - info: 28 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/ldapsettings.js
+2024-04-02 19:27:18 - info: 29 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/login.js
+2024-04-02 19:27:18 - info: 30 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/loginhistory.js
+2024-04-02 19:27:18 - info: 31 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/migration.js
+2024-04-02 19:27:18 - info: 32 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/multiportals.js
+2024-04-02 19:27:18 - info: 33 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/privacyroom.js
+2024-04-02 19:27:18 - info: 34 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/rebranding.js
+2024-04-02 19:27:18 - info: 35 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/restore.js
+2024-04-02 19:27:19 - info: 36 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/search.js
+2024-04-02 19:27:19 - info: 37 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/ssosettings.js
+2024-04-02 19:27:19 - info: 38 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/storage.js
+2024-04-02 19:27:19 - info: 39 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/update.js
+2024-04-02 19:27:19 - info: 40 /var/www/onlyoffice/controlpanel/www/public/javascripts/views/whitelabel.js
+2024-04-02 19:27:22 - info: Express server listening on port 80
+2024-04-02 19:28:19 - info: Express server listening on port 80
+2024-04-02 19:30:12 - info: Express server listening on port 80
+2024-04-02 19:34:20 - info: Express server listening on port 80
+2024-04-02 19:35:11 - info: Express server listening on port 80
+2024-04-02 19:41:41 - info: Express server listening on port 80
+2024-04-02 20:17:14 - info: Express server listening on port 80
+2024-04-02 20:20:58 - info: Express server listening on port 80
+2024-04-02 20:24:18 - info: Express server listening on port 80
+2024-04-02 20:45:35 - info: Express server listening on port 80
+2024-04-02 20:48:34 - info: Express server listening on port 80

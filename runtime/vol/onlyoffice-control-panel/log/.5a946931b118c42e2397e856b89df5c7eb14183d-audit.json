@@ -1,0 +1,19 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "/var/log/onlyoffice/.5a946931b118c42e2397e856b89df5c7eb14183d-audit.json",
+    "files": [
+        {
+            "date": 1711859986479,
+            "name": "/var/log/onlyoffice/web.controlpanel.03-31.log",
+            "hash": "d3b3247abb1edf61f043e3a71152d5e0"
+        },
+        {
+            "date": 1712064114898,
+            "name": "/var/log/onlyoffice/web.controlpanel.04-02.log",
+            "hash": "7278b45d41f9c2c550ae553d0f710521"
+        }
+    ]
+}
