@@ -1,0 +1,4 @@
+{
+	"logPath": "/var/log/onlyoffice/web.thumbnails.log",
+    "savePath": "../../Data/Thumbs/"
+}

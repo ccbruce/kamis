@@ -1,0 +1,11 @@
+{
+    "port": 9999,
+    "core.machinekey": "M5GJGUIRiLLr",
+	"logPath": "/var/log/onlyoffice/web.urlshortener.log",
+    "sql": {
+        "host": "127.0.0.1",
+        "user": "root",
+        "password": "",
+        "database": "onlyoffice"
+    }
+}
