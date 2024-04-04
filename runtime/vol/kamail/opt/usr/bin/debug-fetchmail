@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# shellcheck source=../scripts/helpers/log.sh
+source /opt/usr/bin/helpers/log.sh
+# shellcheck source=../scripts/startup/setup.d/fetchmail.sh
+source /opt/usr/bin/setup.d/fetchmail.sh
+
+ENABLE_FETCHMAIL=1 _setup_fetchmail
+
+su -s /bin/sh -c "/usr/bin/fetchmail \
+  --verbose \
+  --daemon 0 \
+  --check \
+  --nosyslog \
+  --nodetach \
+  -f /etc/fetchmailrc" fetchmail <&- 2>&1
