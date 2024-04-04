@@ -2,3 +2,13 @@ docker/11.kacloud/ref/nextcloud-28.0.4.tar.bz2
 docker/13.kaerp_odoo/src/odoo-17.0.zip
 docker/11.kacloud/src/nextcloud.tar.bz2
 runtime/vol/kacloud/opt/src/app/nextcloud.tar.bz2
+docker/13.kaerp_odoo/src/odoo-17.0.zip
+docker/11.kacloud/ref/nextcloud-28.0.4.tar.bz2
+.git/objects/pack/pack-f1d4077b2a7b5e69d240bfb70db976302f2c65dd.pack
+runtime/vol/pmtools/opt/app/src/AFFiNE-0.13.4/node_modules/@cloudflare/workerd-linux-64/bin/workerd
+runtime/vol/pmtools/opt/app/src/AFFiNE-0.13.4/node_modules/electron/dist/electron
+runtime/vol/pmtools/opt/app/src/drawio-24.2.1/drawio/.git/objects/pack/pack-21c498cfd7f3b582ee94f0b05ee958807a0b946d.pack
+runtime/vol/kaerp/opt/src/app/odoo-17.0.zip
+runtime/vol/kacloud/opt/src/app/nextcloud.tar.bz2
+runtime/vol/kacloud/opt/src/app/waf/main
+runtime/vol/kacloud/workspace/www-240331-r1.tgz
