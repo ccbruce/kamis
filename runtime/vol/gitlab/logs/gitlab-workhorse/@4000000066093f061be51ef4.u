@@ -1,0 +1,17 @@
+configFile: file: open config.toml: no such file or directory
+{"build_time":"20240327.093123","level":"info","msg":"Starting","time":"2024-03-31T10:45:05Z","version":"v16.10.1"}
+{"address":"localhost:9229","level":"info","msg":"Running metrics server","network":"tcp","time":"2024-03-31T10:45:05Z"}
+{"level":"info","msg":"Using redis/go-redis","time":"2024-03-31T10:45:05Z"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2024-03-31T10:45:05Z"}
+{"address":"/var/opt/gitlab/gitlab-workhorse/sockets/socket","level":"info","msg":"Running upstream server","network":"unix","time":"2024-03-31T10:45:05Z"}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory","level":"error","method":"GET","msg":"","time":"2024-03-31T10:45:05Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory","level":"error","method":"GET","msg":"","time":"2024-03-31T10:45:15Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory","level":"error","method":"GET","msg":"","time":"2024-03-31T10:45:25Z","uri":""}
+{"level":"info","msg":"shutdown initiated","shutdown_timeout_s":0,"signal":"terminated","time":"2024-03-31T10:46:03Z"}
+{"level":"info","msg":"keywatcher: shutting down","time":"2024-03-31T10:46:03Z"}
+{"error":null,"level":"fatal","msg":"shutting down","time":"2024-03-31T10:46:03Z"}
+{"build_time":"20240327.093123","level":"info","msg":"Starting","time":"2024-03-31T10:46:03Z","version":"v16.10.1"}
+{"address":"localhost:9229","level":"info","msg":"Running metrics server","network":"tcp","time":"2024-03-31T10:46:03Z"}
+{"level":"info","msg":"Using redis/go-redis","time":"2024-03-31T10:46:03Z"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2024-03-31T10:46:03Z"}
+{"address":"/var/opt/gitlab/gitlab-workhorse/sockets/socket","level":"info","msg":"Running upstream server","network":"unix","time":"2024-03-31T10:46:03Z"}

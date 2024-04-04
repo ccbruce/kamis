@@ -1,0 +1,9 @@
+{"build_time":"20240327.093123","level":"info","msg":"Starting","time":"2024-03-31T23:04:51Z","version":"v16.10.1"}
+{"address":"localhost:9229","level":"info","msg":"Running metrics server","network":"tcp","time":"2024-03-31T23:04:51Z"}
+{"level":"info","msg":"Using redis/go-redis","time":"2024-03-31T23:04:51Z"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2024-03-31T23:04:51Z"}
+{"address":"/var/opt/gitlab/gitlab-workhorse/sockets/socket","level":"info","msg":"Running upstream server","network":"unix","time":"2024-03-31T23:04:51Z"}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2024-03-31T23:04:51Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2024-03-31T23:05:01Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2024-03-31T23:05:11Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2024-03-31T23:05:21Z","uri":""}

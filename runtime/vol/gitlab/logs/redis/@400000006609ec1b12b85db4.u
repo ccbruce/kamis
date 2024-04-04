@@ -1,0 +1,30 @@
+2024-03-31_10:46:20.47475 348:C 31 Mar 2024 10:46:20.474 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2024-03-31_10:46:20.47486 348:C 31 Mar 2024 10:46:20.474 # Redis version=7.0.15, bits=64, commit=f35f36a2, modified=1, pid=348, just started
+2024-03-31_10:46:20.47486 348:C 31 Mar 2024 10:46:20.474 # Configuration loaded
+2024-03-31_10:46:20.47528 348:M 31 Mar 2024 10:46:20.475 * monotonic clock: POSIX clock_gettime
+2024-03-31_10:46:20.47605                 _._                                                  
+2024-03-31_10:46:20.47606            _.-``__ ''-._                                             
+2024-03-31_10:46:20.47607       _.-``    `.  `_.  ''-._           Redis 7.0.15 (f35f36a2/1) 64 bit
+2024-03-31_10:46:20.47607   .-`` .-```.  ```\/    _.,_ ''-._                                  
+2024-03-31_10:46:20.47607  (    '      ,       .-`  | `,    )     Running in standalone mode
+2024-03-31_10:46:20.47608  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2024-03-31_10:46:20.47608  |    `-._   `._    /     _.-'    |     PID: 348
+2024-03-31_10:46:20.47608   `-._    `-._  `-./  _.-'    _.-'                                   
+2024-03-31_10:46:20.47609  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2024-03-31_10:46:20.47609  |    `-._`-._        _.-'_.-'    |           https://redis.io       
+2024-03-31_10:46:20.47610   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2024-03-31_10:46:20.47610  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2024-03-31_10:46:20.47610  |    `-._`-._        _.-'_.-'    |                                  
+2024-03-31_10:46:20.47611   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2024-03-31_10:46:20.47611       `-._    `-.__.-'    _.-'                                       
+2024-03-31_10:46:20.47612           `-._        _.-'                                           
+2024-03-31_10:46:20.47613               `-.__.-'                                               
+2024-03-31_10:46:20.47614 
+2024-03-31_10:46:20.47614 348:M 31 Mar 2024 10:46:20.476 # Server initialized
+2024-03-31_10:46:20.47614 348:M 31 Mar 2024 10:46:20.476 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+2024-03-31_10:46:20.47676 348:M 31 Mar 2024 10:46:20.476 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2024-03-31_10:51:21.07012 348:M 31 Mar 2024 10:51:21.070 * 10 changes in 300 seconds. Saving...
+2024-03-31_10:51:21.07060 348:M 31 Mar 2024 10:51:21.070 * Background saving started by pid 1727
+2024-03-31_10:51:21.07754 1727:C 31 Mar 2024 10:51:21.077 * DB saved on disk
+2024-03-31_10:51:21.07792 1727:C 31 Mar 2024 10:51:21.077 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-03-31_10:51:21.17121 348:M 31 Mar 2024 10:51:21.171 * Background saving terminated with success

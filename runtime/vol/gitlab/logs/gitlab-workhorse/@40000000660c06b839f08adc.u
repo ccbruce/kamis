@@ -1,0 +1,18 @@
+{"build_time":"20240327.093123","level":"info","msg":"Starting","time":"2024-03-31T23:07:27Z","version":"v16.10.1"}
+{"address":"localhost:9229","level":"info","msg":"Running metrics server","network":"tcp","time":"2024-03-31T23:07:27Z"}
+{"level":"info","msg":"Using redis/go-redis","time":"2024-03-31T23:07:27Z"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2024-03-31T23:07:27Z"}
+{"address":"/var/opt/gitlab/gitlab-workhorse/sockets/socket","level":"info","msg":"Running upstream server","network":"unix","time":"2024-03-31T23:07:27Z"}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2024-03-31T23:07:27Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2024-03-31T23:07:37Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2024-03-31T23:07:47Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2024-03-31T23:07:57Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2024-03-31T23:08:07Z","uri":""}
+{"correlation_id":"01HTBCADGRRY986BYHS3RTM7WN","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2024-03-31T23:08:10Z","uri":"/help"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTBCADGRRY986BYHS3RTM7WN","duration_ms":0,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":502,"system":"http","time":"2024-03-31T23:08:10Z","ttfb_ms":0,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":3216}
+redis: 2024/03/31 23:08:28 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-03-31T23:08:28Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTBCC85R5K8R8EYDWGS9Z0W1","duration_ms":773,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-03-31T23:09:11Z","ttfb_ms":773,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/03/31 23:09:29 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-03-31T23:09:29Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTBCE3JGXYN8Q1CWGEHYW91B","duration_ms":677,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-03-31T23:10:12Z","ttfb_ms":677,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}

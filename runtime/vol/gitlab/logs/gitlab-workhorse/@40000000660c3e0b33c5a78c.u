@@ -1,0 +1,159 @@
+{"build_time":"20240327.093123","level":"info","msg":"Starting","time":"2024-04-02T16:28:04Z","version":"v16.10.1"}
+{"address":"localhost:9229","level":"info","msg":"Running metrics server","network":"tcp","time":"2024-04-02T16:28:04Z"}
+{"level":"info","msg":"Using redis/go-redis","time":"2024-04-02T16:28:04Z"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2024-04-02T16:28:04Z"}
+{"address":"/var/opt/gitlab/gitlab-workhorse/sockets/socket","level":"info","msg":"Running upstream server","network":"unix","time":"2024-04-02T16:28:04Z"}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2024-04-02T16:28:04Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2024-04-02T16:28:14Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2024-04-02T16:28:24Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2024-04-02T16:28:34Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2024-04-02T16:28:44Z","uri":""}
+{"correlation_id":"01HTFT8EVT48A1EPPPFASYYS91","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2024-04-02T16:28:44Z","uri":"/help"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFT8EVT48A1EPPPFASYYS91","duration_ms":0,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":502,"system":"http","time":"2024-04-02T16:28:44Z","ttfb_ms":0,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":3216}
+redis: 2024/04/02 16:29:05 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:29:05Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFTA9GTKGAMPBATNRVPEZ04","duration_ms":776,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:29:45Z","ttfb_ms":775,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 16:30:06 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:30:06Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFTC4XZ7AVHKFBZZ78WS7CE","duration_ms":698,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:30:45Z","ttfb_ms":698,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 16:31:07 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:31:07Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFTE08VXB1KWPX8J65G0CVF","duration_ms":712,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:31:46Z","ttfb_ms":712,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 16:32:08 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:32:08Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFTFVM0EACD23C998HH2F6P","duration_ms":585,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:32:47Z","ttfb_ms":585,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 16:33:10 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:33:10Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFTHPV8M4T44WPX89NWQY82","duration_ms":582,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:33:47Z","ttfb_ms":582,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 16:34:11 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:34:11Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFTKJ2BQ4SV4DQ21A2BP87J","duration_ms":141,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:34:48Z","ttfb_ms":141,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 16:35:12 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:35:12Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFTNCVQJHQVW0RVNJPNNJDF","duration_ms":690,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:35:48Z","ttfb_ms":690,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 16:36:14 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:36:14Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFTQ863YNVY88XECNRNJCHM","duration_ms":491,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:36:49Z","ttfb_ms":491,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 16:37:15 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:37:15Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFTS3AK3P9NEQN7B9B3DWBX","duration_ms":661,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:37:50Z","ttfb_ms":661,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 16:38:17 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:38:17Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFTTYM82942QWT8Y2PGJPXV","duration_ms":543,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:38:50Z","ttfb_ms":543,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 16:39:18 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:39:18Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFTWST0RGCM2PP3Y3HDPPMM","duration_ms":142,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:39:50Z","ttfb_ms":142,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 16:40:19 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:40:19Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFTYMKDBY5GMHM49G0BEK37","duration_ms":129,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:40:51Z","ttfb_ms":129,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 16:41:20 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:41:20Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFV0FCBHCTG54PFMMPTXE8Y","duration_ms":638,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:41:51Z","ttfb_ms":637,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 16:42:21 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:42:21Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFV2AN9DTC6NXF91X61SGVK","duration_ms":583,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:42:52Z","ttfb_ms":582,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 16:43:22 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:43:22Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFV45WFWT9V6C22K68TA91H","duration_ms":580,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:43:53Z","ttfb_ms":580,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 16:44:23 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:44:23Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFV613H01Q937BZ14J4JAK6","duration_ms":160,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:44:53Z","ttfb_ms":159,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 16:45:24 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:45:24Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFV7VXHT2R8T4V5X554H64X","duration_ms":574,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:45:54Z","ttfb_ms":574,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 16:46:26 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:46:26Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFV9Q4D39JN5NRT8AEDHENM","duration_ms":568,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:46:54Z","ttfb_ms":568,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 16:47:27 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:47:27Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFVBJB6HFG8T9ER52A0949Y","duration_ms":480,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:47:55Z","ttfb_ms":480,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 16:48:28 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:48:28Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFVDDF7EVY6AQ7545YC7ESF","duration_ms":601,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:48:55Z","ttfb_ms":601,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 16:49:29 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:49:29Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFVF8PYFWJEWHXA1SGW4JNM","duration_ms":136,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:49:56Z","ttfb_ms":136,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 16:50:30 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:50:30Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFVH3G5BBAMBQ93KR2XHFS5","duration_ms":579,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:50:56Z","ttfb_ms":579,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 16:51:31 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:51:31Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFVJYQ3SCFP0CZTCJC5QP1X","duration_ms":149,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:51:56Z","ttfb_ms":149,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 16:52:32 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:52:32Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFVMSGQNGQHKMRBDHPQDF44","duration_ms":139,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:52:57Z","ttfb_ms":139,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 16:53:33 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:53:33Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFVPMA0R212BX08BNDPYZK3","duration_ms":188,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:53:57Z","ttfb_ms":188,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 16:54:34 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:54:34Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFVRF4RF0KKG5SG17VC5TDD","duration_ms":134,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:54:57Z","ttfb_ms":134,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 16:55:35 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:55:35Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFVT9XYJDK3HKVTY52ER93V","duration_ms":543,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:55:58Z","ttfb_ms":543,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 16:56:36 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:56:36Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFVW53VTNC6CR3XFSKK678E","duration_ms":574,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:56:58Z","ttfb_ms":574,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 16:57:37 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:57:37Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFVY0AR4H8H997WR2XGY5FE","duration_ms":160,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:57:59Z","ttfb_ms":160,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 16:58:38 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:58:38Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFVZV4K5KSCHNRFS6B27P7J","duration_ms":153,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:58:59Z","ttfb_ms":153,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 16:59:39 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:59:39Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFW1NY9RPFZEXQ2V0G7TKAY","duration_ms":159,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T16:59:59Z","ttfb_ms":159,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 17:00:40 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T17:00:40Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFW3GR7MQ2YGTPBYY0CGFEG","duration_ms":561,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T17:01:00Z","ttfb_ms":560,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 17:01:41 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T17:01:41Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFW5BYJ6XKE9R0X2Q8JBWP9","duration_ms":129,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T17:02:00Z","ttfb_ms":129,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 17:02:42 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T17:02:42Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFW76QGAEQSHKGTZVBQHBS8","duration_ms":146,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T17:03:00Z","ttfb_ms":146,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 17:03:43 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T17:03:43Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFW91GZPGQ78S0W657BGYM2","duration_ms":189,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T17:04:00Z","ttfb_ms":189,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 17:04:44 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T17:04:44Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFWAWBWPFVEENS62VYXCJ3V","duration_ms":133,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T17:05:00Z","ttfb_ms":133,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 17:05:46 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T17:05:46Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFWCQ4ZKDY4ZZJSAQT7FTHC","duration_ms":148,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T17:06:01Z","ttfb_ms":148,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 17:06:47 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T17:06:47Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFWEHYJFMYT1RQCK1YTGGMY","duration_ms":165,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T17:07:01Z","ttfb_ms":165,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 17:07:49 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T17:07:49Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFWGCRJWFPD2W1ZEPMC62GF","duration_ms":125,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T17:08:01Z","ttfb_ms":125,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 17:08:50 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T17:08:50Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFWJ7HA08J8PM598302YS0B","duration_ms":510,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T17:09:02Z","ttfb_ms":510,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 17:09:51 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T17:09:51Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFWM2P2N8XZ9WSX4JW1BYBR","duration_ms":127,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T17:10:02Z","ttfb_ms":126,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 17:10:52 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T17:10:52Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFWNXESJMD58E595P3V61SQ","duration_ms":137,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T17:11:02Z","ttfb_ms":137,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 17:11:53 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T17:11:53Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFWQR7Y8FXA99VVTBV65XH6","duration_ms":151,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T17:12:02Z","ttfb_ms":151,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 17:12:54 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T17:12:54Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFWSK1DR34K9F5H3HPNGN9S","duration_ms":131,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T17:13:02Z","ttfb_ms":131,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 17:13:55 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T17:13:55Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFWVDT5HZZ67FSN5TTVXF34","duration_ms":463,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T17:14:03Z","ttfb_ms":463,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 17:14:56 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T17:14:56Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFWX8X9BHXN2X8DXP8B0Q9B","duration_ms":114,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T17:15:03Z","ttfb_ms":114,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 17:15:57 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T17:15:57Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFWZ3NKWCYX7KZ7XWGK0R7V","duration_ms":178,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T17:16:03Z","ttfb_ms":178,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 17:16:58 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T17:16:58Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFX0YFT9HQ39V72CZZRD0JT","duration_ms":189,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T17:17:04Z","ttfb_ms":189,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}
+redis: 2024/04/02 17:17:59 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T17:17:59Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFX2SAA3H3GWJB8GHFR341S","duration_ms":132,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-04-02T17:18:04Z","ttfb_ms":132,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27083}

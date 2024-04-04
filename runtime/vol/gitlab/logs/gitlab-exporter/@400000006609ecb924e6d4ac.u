@@ -1,0 +1,9 @@
+2024-03-31_23:05:48.83454 [2024-03-31 23:05:48] INFO  WEBrick 1.8.1
+2024-03-31_23:05:48.83462 [2024-03-31 23:05:48] INFO  ruby 3.1.4 (2023-03-30) [x86_64-linux]
+2024-03-31_23:05:48.84220 == Sinatra (v2.2.3) has taken the stage on 9168 for development with backup from WEBrick
+2024-03-31_23:05:48.84250 [2024-03-31 23:05:48] INFO  WEBrick::HTTPServer#start: pid=343 port=9168
+2024-03-31_23:05:55.81182 ::1 - - [31/Mar/2024:23:05:55 UTC] "GET /sidekiq HTTP/1.1" 200 99134
+2024-03-31_23:05:55.81185 - -> /sidekiq
+2024-03-31_23:06:06.33756 == Sinatra has ended his set (crowd applauds)
+2024-03-31_23:06:06.33783 [2024-03-31 23:06:06] INFO  going to shutdown ...
+2024-03-31_23:06:06.82351 [2024-03-31 23:06:06] INFO  WEBrick::HTTPServer#start done.

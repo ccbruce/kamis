@@ -1,0 +1,14 @@
+{"build_time":"20240327.093123","level":"info","msg":"Starting","time":"2024-04-02T16:24:05Z","version":"v16.10.1"}
+{"address":"localhost:9229","level":"info","msg":"Running metrics server","network":"tcp","time":"2024-04-02T16:24:05Z"}
+{"level":"info","msg":"Using redis/go-redis","time":"2024-04-02T16:24:05Z"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2024-04-02T16:24:05Z"}
+{"address":"/var/opt/gitlab/gitlab-workhorse/sockets/socket","level":"info","msg":"Running upstream server","network":"unix","time":"2024-04-02T16:24:05Z"}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2024-04-02T16:24:05Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2024-04-02T16:24:15Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2024-04-02T16:24:25Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2024-04-02T16:24:35Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2024-04-02T16:24:45Z","uri":""}
+{"correlation_id":"01HTFT180JQ2EZ8V9B1S3JH85J","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2024-04-02T16:24:47Z","uri":"/help"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HTFT180JQ2EZ8V9B1S3JH85J","duration_ms":0,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":502,"system":"http","time":"2024-04-02T16:24:47Z","ttfb_ms":0,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":3216}
+redis: 2024/04/02 16:25:06 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-04-02T16:25:06Z"}
