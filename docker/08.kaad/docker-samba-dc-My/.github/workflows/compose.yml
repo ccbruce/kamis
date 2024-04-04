@@ -1,0 +1,47 @@
+# samba-dc01 is the container name and samba is the service name in docker-compose file of the samba PDC
+# samba-dc02 is the second domain controller joining the domain of dc01
+name: Docker Compose Actions Workflow
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build the stack
+        run: docker-compose -f docker-compose.yml build
+      - name: Start DC01
+        run: docker-compose -f docker-compose.yml up -d samba
+      - name: Sleep for 30 seconds
+        run: sleep 30
+      - name: Check network
+        run: docker network inspect samba-net
+      - name: Check running containers
+        run: docker ps -a
+      - name: Check logs DC01
+        run: docker logs samba-dc01
+      - name: Check DC01 NTP
+        run: docker exec --tty samba-dc01 /usr/bin/ntpq -p
+      - name: Check DC01 config
+        run: docker exec --tty samba-dc01 /usr/bin/testparm -vs
+      - name: Check DC01 processes
+        run: docker exec --tty samba-dc01 /usr/bin/samba-tool processes
+      - name: Check DC01 domain
+        run: docker exec --tty samba-dc01 /usr/bin/samba-tool domain info 127.0.0.1
+      - name: Check DC01 winbindd
+        run: docker exec --tty samba-dc01 /usr/bin/wbinfo -u        
+      - name: Start DC02
+        run: docker-compose -f docker-compose.yml up -d samba-join
+      - name: Sleep for 30 seconds
+        run: sleep 30
+      - name: Check logs DC02
+        run: docker logs samba-dc02
+      - name: Check DC02 NTP
+        run: docker exec --tty samba-dc02 /usr/bin/ntpq -p
+      - name: Check DC02 config
+        run: docker exec --tty samba-dc02 /usr/bin/testparm -vs
+      - name: Check DC02 processes
+        run: docker exec --tty samba-dc02 /usr/bin/samba-tool processes
+      - name: Check DC02 domain
+        run: docker exec --tty samba-dc02 /usr/bin/samba-tool domain info 127.0.0.1
+      - name: Check DC02 winbindd
+        run: docker exec --tty samba-dc02 /usr/bin/wbinfo -u
