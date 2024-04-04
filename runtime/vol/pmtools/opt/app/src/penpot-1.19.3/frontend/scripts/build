@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+set -ex
+
+CURRENT_VERSION=$1;
+BUILD_DATE=$(date -R);
+CURRENT_HASH=${CURRENT_HASH:-$(git rev-parse --short HEAD)};
+EXTRA_PARAMS=$SHADOWCLJS_EXTRA_PARAMS;
+
+yarn install || exit 1;
+npx gulp clean || exit 1;
+clojure -J-Xms100M -J-Xmx800M -J-XX:+UseSerialGC -M:dev:shadow-cljs release main --config-merge "{:release-version \"${CURRENT_HASH}\"}" $EXTRA_PARAMS || exit 1
+npx gulp build || exit 1;
+npx gulp dist:clean || exit 1;
+npx gulp dist:copy || exit 1;
+
+sed -i -re "s/\%version\%/$CURRENT_VERSION/g" ./target/dist/index.html;
+sed -i -re "s/\%buildDate\%/$BUILD_DATE/g" ./target/dist/index.html;

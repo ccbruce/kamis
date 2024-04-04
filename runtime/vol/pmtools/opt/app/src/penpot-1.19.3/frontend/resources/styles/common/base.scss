@@ -1,0 +1,264 @@
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at http://mozilla.org/MPL/2.0/.
+//
+// Copyright (c) KALEIDOS INC
+
+:root {
+  --font-family: "worksans", sans-serif;
+}
+
+body {
+  background-color: lighten($color-gray-10, 5%);
+  color: $color-gray-20;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-family);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+  // transition: all .4s ease;
+}
+
+.global-zeroclipboard-container {
+  transition: none;
+
+  #global-zeroclipboard-flash-bridge {
+    transition: none;
+  }
+
+  object {
+    transition: none;
+  }
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+svg {
+  * {
+    transition: none;
+  }
+}
+
+a {
+  cursor: pointer;
+  font-weight: $fw500;
+  color: $color-gray-50;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+button {
+  font-family: "worksans", sans-serif;
+}
+
+p {
+  font-size: $fs12;
+  margin-bottom: 1rem;
+  line-height: $lh-133;
+
+  @include bp(baby-bear) {
+    font-size: $fs16;
+    line-height: $lh-143;
+  }
+}
+
+li {
+  line-height: $lh-133;
+
+  @include bp(baby-bear) {
+    line-height: $lh-143;
+  }
+}
+
+ul {
+  margin-bottom: 1rem;
+}
+
+strong {
+  font-weight: $fw700;
+}
+
+.relative {
+  position: relative;
+}
+
+h1 {
+  font-size: $fs34;
+  font-weight: $fw500;
+  line-height: $lh-115;
+
+  @include bp(baby-bear) {
+    font-size: $fs38;
+    line-height: $lh-125;
+  }
+
+  &.supertitle {
+    font-size: $fs44;
+    font-weight: $fw300;
+    line-height: $lh-115;
+
+    @include bp(baby-bear) {
+      font-size: $fs44;
+      line-height: $lh-125;
+    }
+  }
+}
+h2 {
+  font-size: $fs24;
+  font-weight: $fw300;
+  line-height: $lh-115;
+
+  @include bp(baby-bear) {
+    font-size: $fs32;
+    line-height: $lh-125;
+  }
+}
+
+h3 {
+  font-size: $fs24;
+  font-weight: $fw300;
+  padding: 0.5rem 0;
+}
+
+h4 {
+  font-size: $fs18;
+  font-weight: $fw300;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
+@-webkit-keyframes rotation-negative {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-359deg);
+  }
+}
+
+@keyframes tooltipAppear {
+  0% {
+    opacity: 0;
+    display: none;
+  }
+  1% {
+    display: block;
+    opacity: 0;
+    left: 3rem;
+  }
+  100% {
+    opacity: 1;
+    left: 2rem;
+  }
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+    display: none;
+  }
+  1% {
+    display: block;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes hide {
+  0% {
+    opacity: 1;
+    display: block;
+  }
+  99% {
+    opacity: 0;
+    display: block;
+  }
+  100% {
+    display: none;
+  }
+}
+
+.hide {
+  display: none !important;
+  transition: all 0.5s ease;
+}
+
+.visuallyHidden {
+  opacity: 0 !important;
+  transition: all 0.5s ease;
+}
+
+.show {
+  animation: show 0.4s linear;
+  display: block !important;
+}
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hidden-input {
+  display: none;
+}
+
+.bold {
+  font-weight: $fw700 !important;
+}
+
+.nopd {
+  padding: 0 !important;
+}
+
+.move-cursor {
+  cursor: move;
+}
+
+hr {
+  border-top: solid 1px $color-gray-60;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 0;
+  margin: 1rem 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+[contenteditable] {
+  -webkit-user-select: text;
+  user-select: text;
+}

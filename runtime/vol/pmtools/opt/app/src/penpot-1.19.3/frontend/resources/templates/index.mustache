@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Penpot - Design Freedom for Teams</title>
+    <meta name="description" content="The open-source solution for design and prototyping.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="Penpot | Design Freedom for Teams">
+    <meta property="og:description" content="The open-source solution for design and prototyping">
+    <meta property="og:image" content="https://penpot.app/images/workspace-ui.jpg">
+    <meta name="twitter:title" content="Penpot | Design Freedom for Teams">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:description" content="The open-source solution for design and prototyping">
+    <meta name="twitter:image" content="https://penpot.app/images/workspace-ui.jpg">
+    <meta name="twitter:site" content="@penpotapp">
+    <meta name="twitter:creator" content="@penpotapp">
+    <meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
+    <link id="theme" href="css/main.css?ts={{& ts}}" rel="stylesheet" type="text/css" />
+
+    <link rel="icon" href="images/favicon.png" />
+
+    <script>
+      window.penpotTranslations = JSON.parse({{& translations}});
+      window.penpotThemes = {{& themes}};
+      window.penpotVersion = "%version%";
+      window.penpotBuildDate = "%buildDate%";
+    </script>
+
+    {{# manifest}}
+    <script>window.penpotWorkerURI="{{& worker}}"</script>
+    <script src="{{& config}}"></script>
+    <script src="{{& polyfills}}"></script>
+    {{/manifest}}
+
+  </head>
+  <body>
+    {{>../public/images/sprites/symbol/icons.svg}}
+    {{>../public/images/sprites/symbol/cursors.svg}}
+    <div id="app"></div>
+    <section id="modal"></section>
+    {{# manifest}}
+    <script src="{{& shared}}"></script>
+    <script src="{{& main}}"></script>
+    {{/manifest}}
+  </body>
+</html>

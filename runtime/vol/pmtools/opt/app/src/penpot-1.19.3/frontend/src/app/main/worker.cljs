@@ -1,0 +1,39 @@
+;; This Source Code Form is subject to the terms of the Mozilla Public
+;; License, v. 2.0. If a copy of the MPL was not distributed with this
+;; file, You can obtain one at http://mozilla.org/MPL/2.0/.
+;;
+;; Copyright (c) KALEIDOS INC
+
+(ns app.main.worker
+  (:require
+   [app.config :as cf]
+   [app.main.errors :as err]
+   [app.util.worker :as uw]))
+
+(defonce instance nil)
+
+(defn init!
+  []
+  (let [worker (uw/init cf/worker-uri err/on-error)]
+    (uw/ask! worker {:cmd :configure
+                     :key :public-uri
+                     :val cf/public-uri})
+    (set! instance worker)))
+
+(defn ask!
+  ([message]
+   (when instance (uw/ask! instance message)))
+  ([message transfer]
+   (when instance (uw/ask! instance message transfer))))
+
+(defn ask-buffered!
+  ([message]
+   (when instance (uw/ask-buffered! instance message)))
+  ([message transfer]
+   (when instance (uw/ask-buffered! instance message transfer))))
+
+(defn ask-many!
+  ([message]
+   (when instance (uw/ask-many! instance message)))
+  ([message transfer]
+   (when instance (uw/ask-many! instance message transfer))))

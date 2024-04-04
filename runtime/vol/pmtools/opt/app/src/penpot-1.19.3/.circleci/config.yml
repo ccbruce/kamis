@@ -1,0 +1,101 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: penpotapp/devenv:latest
+      - image: cimg/postgres:14.5
+        environment:
+          POSTGRES_USER: penpot_test
+          POSTGRES_PASSWORD: penpot_test
+          POSTGRES_DB: penpot_test
+      - image: cimg/redis:7.0.5
+
+    working_directory: ~/repo
+    resource_class: large
+
+    environment:
+      # Customize the JVM maximum heap limit
+      JVM_OPTS: -Xmx4g
+
+    steps:
+      - checkout
+
+      # Download and cache dependencies
+      - restore_cache:
+         keys:
+           - v1-dependencies-{{ checksum "backend/deps.edn" }}-{{ checksum "frontend/deps.edn"}}-{{ checksum "common/deps.edn"}}
+           # fallback to using the latest cache if no exact match is found
+           - v1-dependencies-
+
+      - run: cd .clj-kondo && cat config.edn
+
+      - run:
+          name: frontend styles prettier
+          working_directory: "./frontend"
+          command: |
+            yarn install
+            yarn run lint-scss
+
+      - run:
+          name: common lint
+          working_directory: "./common"
+          command: |
+            clj-kondo --version
+            clj-kondo --parallel --lint src/
+
+      - run:
+          name: frontend lint
+          working_directory: "./frontend"
+          command: |
+            clj-kondo --version
+            clj-kondo --parallel --lint src/
+
+      - run:
+          name: backend lint
+          working_directory: "./backend"
+          command: |
+            clj-kondo --version
+            clj-kondo --parallel --lint src/
+
+      - run:
+          working_directory: "./common"
+          name: common tests
+          command: |
+            yarn install
+            yarn test
+            clojure -X:dev:test :patterns '["common-tests.*-test"]'
+
+          environment:
+            PATH: /usr/local/nodejs/bin/:/usr/local/bin:/bin:/usr/bin
+            JVM_OPTS: -Xmx4g
+            NODE_OPTIONS: --max-old-space-size=4096
+
+      - run:
+          name: backend test
+          working_directory: "./backend"
+          command: |
+            clojure -X:dev:test :patterns '["backend-tests.*-test"]'
+
+          environment:
+            PENPOT_TEST_DATABASE_URI: "postgresql://localhost/penpot_test"
+            PENPOT_TEST_DATABASE_USERNAME: penpot_test
+            PENPOT_TEST_DATABASE_PASSWORD: penpot_test
+            PENPOT_TEST_REDIS_URI: "redis://localhost/1"
+            JVM_OPTS: -Xmx4g
+
+      - run:
+          name: frontend tests
+          working_directory: "./frontend"
+          command: |
+            yarn install
+            yarn test
+
+          environment:
+            PATH: /usr/local/nodejs/bin/:/usr/local/bin:/bin:/usr/bin
+            NODE_OPTIONS: --max-old-space-size=4096
+
+      - save_cache:
+         paths:
+           - ~/.m2
+         key: v1-dependencies-{{ checksum "backend/deps.edn" }}-{{ checksum "frontend/deps.edn"}}-{{ checksum "common/deps.edn"}}
+
