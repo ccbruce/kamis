@@ -1,0 +1,34 @@
+<ix-label
+  *ngIf="label || tooltip"
+  [label]="label"
+  [tooltip]="tooltip"
+  [required]="required"
+  [ixTestOverride]="controlDirective.name"
+></ix-label>
+
+<div class="input-container" [class.disabled]="isDisabled">
+  <input
+    #addressInput
+    type=""
+    matInput
+    [required]="required"
+    [ixTest]="controlDirective.name"
+    [disabled]="isDisabled"
+    [value]="address"
+    [attr.aria-label]="label"
+    (input)="onAddressInput(addressInput)"
+    (blur)="onTouched()"
+  />
+  <div class="slash">/</div>
+  <mat-select
+    class="select"
+    ixTest="netmasks"
+    [value]="netmask"
+    (selectionChange)="onNetmaskChange($event)"
+  >
+    <mat-option *ngFor="let option of netmaskOptions" [value]="option.value" [ixTest]="['netmask', option.label]">
+      {{ option.label | translate }}
+    </mat-option>
+  </mat-select>
+</div>
+<ix-errors [control]="controlDirective.control" [label]="label"></ix-errors>

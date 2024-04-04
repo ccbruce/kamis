@@ -1,0 +1,13 @@
+<div class="list-item">
+  <button
+    *ngIf="canDelete"
+    mat-icon-button
+    type="button"
+    class="delete-btn"
+    ixTest="remove-from-list"
+    (click)="deleteItem()"
+  >
+    <ix-icon name="clear"></ix-icon>
+  </button>
+  <ng-content></ng-content>
+</div>

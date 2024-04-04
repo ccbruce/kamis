@@ -1,0 +1,84 @@
+<ix-label
+  *ngIf="label || tooltip"
+  [label]="label"
+  [tooltip]="tooltip"
+  [required]="required"
+  [ixTestOverride]="controlDirective.name"
+></ix-label>
+
+<div
+  class="input-container"
+  [class.disabled]="isDisabled"
+  [class.readonly]="readonly"
+>
+  <span *ngIf="prefixIcon" class="prefix-icon">
+    <ix-icon [name]="prefixIcon"></ix-icon>
+  </span>
+  <input
+    #ixInput
+    #trigger="matAutocompleteTrigger"
+    matInput
+    [class.prefix-padding]="prefixIcon"
+    [class.password-field]="isPasswordField()"
+    [class.has-reset-input-icon]="shouldShowResetInput()"
+    [required]="required"
+    [readonly]="readonly"
+    [disabled]="isDisabled"
+    [type]="getType()"
+    [value]="formatted"
+    [autocomplete]="autocomplete"
+    [maxLength]="maxLength"
+    [matAutocomplete]="auto"
+    [placeholder]="placeholder"
+    [ixTest]="controlDirective.name"
+    [attr.aria-label]="label"
+    (input)="input(ixInput)"
+    (focus)="focus(ixInput)"
+    (blur)="blurred()"
+  />
+  <span *ngIf="shouldShowResetInput()" class="reset-input">
+    <ix-icon name="mdi-close-circle" (click)="resetInput(ixInput)"></ix-icon>
+  </span>
+  <button
+    *ngIf="type === 'password'"
+    mat-icon-button
+    type="button"
+    class="toggle_pw"
+    [ixTest]="['toggle-password', controlDirective.name]"
+    (click)="onPasswordToggled()"
+  >
+    <ix-icon
+      *ngIf="showPassword"
+      name="visibility"
+      [matTooltip]="'Hide' | translate"
+    ></ix-icon>
+    <ix-icon
+      *ngIf="!showPassword"
+      name="visibility_off"
+      [matTooltip]="'Show' | translate">
+    </ix-icon>
+  </button>
+
+  <mat-autocomplete #auto="matAutocomplete" (optionSelected)="optionSelected($event.option.value)">
+    <ng-container *ngIf="filteredOptions?.length">
+      <mat-option
+        *ngFor="let option of filteredOptions"
+        class="option"
+        [value]="option"
+        [ixTest]="[controlDirective.name, option.value]"
+      >
+        {{ option.label | translate }}
+      </mat-option>
+    </ng-container>
+  </mat-autocomplete>
+</div>
+
+<div *ngIf="invalid">
+  <mat-error>
+    <div [innerHTML]="invalidMessage()"></div>
+  </mat-error>
+</div>
+
+<ix-errors [control]="controlDirective.control" [label]="label"></ix-errors>
+
+<mat-hint *ngIf="hint">{{ hint }}</mat-hint>

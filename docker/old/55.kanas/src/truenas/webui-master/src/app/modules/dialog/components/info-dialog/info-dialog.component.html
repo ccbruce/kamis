@@ -1,0 +1,24 @@
+<h1 mat-dialog-title>
+  <ix-icon class="information-icon" [name]="icon"></ix-icon>
+  <span class="information-title" [innerHTML]="title | translate"></span>
+</h1>
+<div mat-dialog-content>
+  <div *ngIf="!isHtml" class="info-panel">
+    <div class="textarea" readonly matInput>{{ info | translate }}</div>
+  </div>
+  <div *ngIf="isHtml" class="info-panel ip-overflow-auto">
+    <span [innerHtml]="info | translate"></span>
+  </div>
+</div>
+<div mat-dialog-actions>
+  &nbsp;
+  <span fxFlex></span>
+  <button
+    mat-button
+    class="mat-mdc-button mat-button mat-accent"
+    ixTest="dialog-close"
+    (click)="dialogRef.close(true)"
+  >
+    {{ 'Close' | translate }}
+  </button>
+</div>

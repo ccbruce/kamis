@@ -1,0 +1,44 @@
+<ix-label
+  *ngIf="label || tooltip"
+  [label]="label"
+  [tooltip]="tooltip"
+  [required]="required"
+  [ixTestOverride]="controlDirective.name"
+></ix-label>
+
+<div class="input-container" [class.disabled]="isDisabled">
+  <div>
+    <label tabindex="0" [attr.aria-label]="'Choose File for {label}' | translate: { label }" (keydown.enter)="fileInput.click()">
+      {{ 'Choose File' | translate }}
+      <input
+        #fileInput
+        type="file"
+        [accept]="acceptedFiles"
+        [ixTest]="controlDirective.name"
+        [required]="required"
+        [disabled]="isDisabled"
+        [multiple]="multiple"
+        (change)="onChanged(asFileInput($event.target).files)"
+      />
+    </label>
+  </div>
+  <div *ngIf="value && value.length">
+    <p *ngFor="let file of value" class="file">
+      <span
+        tabindex="0"
+        class="file-action"
+        [matTooltip]="'Remove file' | translate"
+        (click)="removeFile(file)"
+        (keydown.enter)="removeFile(file)"
+      >
+        <ix-icon name="close"></ix-icon>
+      </span>
+      <span class="file-name">{{ file.name }}</span>
+      <span class="file-size">{{ formatSize(file.size) }}</span>
+    </p>
+  </div>
+</div>
+<ix-errors
+  [control]="controlDirective.control"
+  [label]="label"
+></ix-errors>

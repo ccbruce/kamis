@@ -1,0 +1,29 @@
+@import 'scss-imports/splitview';
+
+tr {
+  th {
+    font-size: 12px;
+    height: 48px;
+    overflow: hidden;
+    padding: 0 16px;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    @media(max-width: $breakpoint-sm) {
+      padding: 0 8px;
+    }
+
+    .title-container {
+      align-items: center;
+      display: flex;
+    }
+
+    ix-icon {
+      font-size: 14px;
+      height: 14px;
+      margin-left: 4px;
+      width: 14px;
+    }
+  }
+}

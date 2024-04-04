@@ -1,0 +1,18 @@
+<fieldset>
+  <div *ngIf="title" class="title-container">
+    <legend class="title">
+      {{ title | translate }}
+    </legend>
+
+    <ix-tooltip
+      *ngIf="tooltip"
+      class="tooltip"
+      [header]="title | translate"
+      [message]="tooltip | translate"
+    ></ix-tooltip>
+  </div>
+
+  <ng-content></ng-content>
+
+  <mat-divider *ngIf="divider" class="divider" inset></mat-divider>
+</fieldset>

@@ -1,0 +1,22 @@
+:host {
+  display: block;
+  font-size: 12px;
+
+  margin-bottom: 19px;
+  margin-top: 12px;
+
+  mat-radio-group {
+    display: flex;
+    flex-direction: column;
+
+    > div {
+      align-items: center;
+      display: flex;
+    }
+
+    mat-radio-button {
+      margin: 0 8px 0 -10px;
+      width: initial;
+    }
+  }
+}

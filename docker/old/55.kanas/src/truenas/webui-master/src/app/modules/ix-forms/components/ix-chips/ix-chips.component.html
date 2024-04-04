@@ -1,0 +1,57 @@
+<ix-label
+  *ngIf="label || tooltip"
+  [label]="label"
+  [tooltip]="tooltip"
+  [required]="required"
+  [ixTestOverride]="controlDirective.name"
+></ix-label>
+
+<div class="input-container" [class.disabled]="isDisabled">
+  <mat-chip-grid
+    #chipList
+    class="form-chip"
+    [disabled]="isDisabled"
+    [required]="required"
+    [attr.aria-label]="label"
+  >
+    <mat-chip-row
+      *ngFor="let chipLabel of labels"
+      class="chip"
+      [disabled]="false"
+      [removable]="!isDisabled"
+      [attr.aria-label]="chipLabel"
+      (removed)="onRemove(chipLabel)"
+    >
+      {{ chipLabel }}
+      <ix-icon *ngIf="!isDisabled" name="cancel" matChipRemove></ix-icon>
+    </mat-chip-row>
+
+    <input
+      #chipInput
+      [placeholder]="placeholder"
+      [ixTest]="controlDirective.name"
+      [disabled]="isDisabled"
+      [matAutocomplete]="auto"
+      [matChipInputFor]="chipList"
+      [matChipInputSeparatorKeyCodes]="separatorKeysCodes"
+      (blur)="onInputBlur()"
+      (matChipInputTokenEnd)="allowNewEntries ? onAdd($event.value) : null"
+    />
+  </mat-chip-grid>
+
+  <mat-autocomplete #auto="matAutocomplete" (optionSelected)="onAdd($event.option.value)">
+    <ng-container *ngIf="suggestions$">
+      <mat-option
+        *ngFor="let suggestion of suggestions$ | async"
+        [value]="suggestion"
+        [ixTest]="[controlDirective.name, suggestion]"
+      >
+        {{ suggestion }}
+      </mat-option>
+    </ng-container>
+  </mat-autocomplete>
+</div>
+
+<ix-errors [control]="controlDirective.control" [label]="label"></ix-errors>
+
+<mat-hint *ngIf="hint">{{ hint }}</mat-hint>

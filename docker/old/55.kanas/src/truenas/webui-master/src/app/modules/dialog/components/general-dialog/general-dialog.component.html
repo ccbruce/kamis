@@ -1,0 +1,35 @@
+<h1 mat-dialog-title>
+  <ix-icon *ngIf="conf.icon" class="general-dialog-icon" [name]="conf.icon"></ix-icon>
+  <span *ngIf="conf.title">{{ conf.title | translate }}</span>
+</h1>
+<div mat-dialog-content class="general-dialog-content-container">
+  <div class="generial-dialog-content">
+    <span
+      *ngIf="conf.is_html; else normalContent"
+      [innerHTML]="conf.message | translate"
+    ></span>
+    <ng-template #normalContent>
+      <span>{{ conf.message | translate }}</span>
+    </ng-template>
+  </div>
+</div>
+<div mat-dialog-actions>
+  <span fxFlex></span>
+  <button
+    *ngIf="!conf.hideCancel"
+    mat-button
+    class="mat-mdc-button mat-button mat-accent"
+    ixTest="cancel"
+    (click)="dialogRef.close(false)"
+  >
+    {{ (conf.cancelBtnMsg | translate) || ('Cancel' | translate) }}
+  </button>
+  <button
+    mat-button
+    class="mat-mdc-button mat-button mat-primary"
+    ixTest="close"
+    (click)="dialogRef.close(true)"
+  >
+    {{ (conf.confirmBtnMsg | translate) || ('Close' | translate) }}
+  </button>
+</div>

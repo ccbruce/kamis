@@ -1,0 +1,41 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "./dist/out-tsc",
+    "baseUrl": "src",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictBindCallApply": true,
+    "useUnknownInCatchVariables": true,
+    "module": "es2020",
+    "target": "ES2022",
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "es2020",
+      "dom",
+      "dom.Iterable"
+    ],
+    "useDefineForClassFields": false
+  },
+  "angularCompilerOptions": {
+    "allowEmptyCodegenFiles": true,
+    "strictInjectionParameters": true,
+    "strictTemplates": true,
+    "strictInputAccessModifiers": true
+  },
+  "ts-node": {
+    "experimentalSpecifierResolution": "node",
+    "compilerOptions": {
+      "lib": ["es2017"],
+      "module": "commonjs",
+      "noImplicitAny": false,
+      "esModuleInterop": true
+    }
+  }
+}
