@@ -1,0 +1,1 @@
+Make sure qemu >= 5.0 is installed.
