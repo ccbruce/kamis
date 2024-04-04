@@ -1,0 +1,117 @@
+<div class="widget stats-widget" ngClass.xs="double-height xs">
+  <div class="card-container">
+    <mat-card class="front">
+      <mat-card-content>
+        <ix-drag-handle [showReorderHandle]="showReorderHandle">
+          <ng-content [select]="[cdkDragHandle]"></ng-content>
+
+          <mat-toolbar-row>
+            <button
+              class="mat-card-title-text primary-nav"
+              mat-icon-button
+              color="default"
+              ixTest="memory-back"
+              [attr.aria-label]="'Go back' | translate"
+              (click)="goBack()"
+            >
+              <ix-icon name="chevron_left"></ix-icon>
+            </button>
+
+            <h3 class="mat-card-title-text">
+              <ix-drag-handle [showReorderHandle]="showReorderHandle">
+                <div class="card-title-text">
+                  <span *ngIf="showReorderHandle" class="grip"></span>
+                  <span>{{ 'Memory' | translate }}</span>
+                </div>
+              </ix-drag-handle>
+            </h3>
+
+            <div class="controls">
+              <button
+                mat-icon-button
+                ixTest="memory-go-to-reports"
+                matTooltipPosition="above"
+                [attr.aria-label]="'Memory Reports' | translate"
+                [matTooltip]="'Memory Reports' | translate"
+                [routerLink]="['/reportsdashboard', 'memory']"
+              >
+                <ix-icon name="insert_chart"></ix-icon>
+              </button>
+            </div>
+          </mat-toolbar-row>
+        </ix-drag-handle>
+
+        <div *appLet="isMobile$ | async as isMobile" class="bar-chart-wrapper">
+          <div *ngIf="!memData" class="spinner-wrapper">
+            <mat-spinner class="spinner" [diameter]="40"></mat-spinner>
+          </div>
+
+          <div class="primary-stat-wrapper">
+            <h1 class="memory-used">
+              <span *ngIf="memData">
+                <span>{{ memData.max }}</span>
+                <span class="memory-used-units">GiB</span>
+              </span>
+            </h1>
+            <div class="memory-used-caption">
+              <span *ngIf="memData">
+                {{ 'total available' | translate }}
+                <span *ngIf="ecc$ | async">(ECC)</span>
+              </span>
+            </div>
+
+            <!-- Desktop Legend -->
+            <div *ngIf="!isMobile" class="memory-legend">
+              <div *ngIf="memData; else noLegend" class="memory-legend-values">
+                <div
+                  *ngFor="let legendItem of memData.data; let i = index"
+                  class="legend-item"
+                >
+                  <div
+                    class="legend-swatch"
+                    [style.background-color]="trustedSecurity(colorPattern[i])"
+                  ></div>
+                  <span class="label">{{ legendItem[0] }}:</span>
+                  {{ legendItem[1] }} GiB
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Chart -->
+          <div class="memory-usage-chart bar-chart">
+            <canvas></canvas>
+          </div>
+
+          <!-- Mobile Legend -->
+          <div *ngIf="isMobile" class="memory-legend">
+            <div class="list-subheader">
+              <span>{{ 'Legend' | translate }}</span>
+            </div>
+            <mat-list *ngIf="memData; else noLegend">
+              <mat-list-item
+                *ngFor="let listItem of memData.data; let i = index"
+                class="legend-item"
+              >
+                <div
+                  class="legend-swatch"
+                  [style.background-color]="trustedSecurity(colorPattern[i])"
+                ></div>
+                <span class="label">{{ listItem[0] }}:</span>
+                <span class="value">{{ listItem[1] }} GiB</span>
+              </mat-list-item>
+            </mat-list>
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
+
+<ng-template #noLegend>
+  <div class="no-memory-legend-values">
+    <div class="legend-item chart-label">
+      <span class="label"></span>
+    </div>
+  </div>
+</ng-template>

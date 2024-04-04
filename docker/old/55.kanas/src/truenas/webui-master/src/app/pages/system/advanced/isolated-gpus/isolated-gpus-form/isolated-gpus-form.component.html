@@ -1,0 +1,38 @@
+<ix-modal-header2
+  [requiredRoles]="requiredRoles"
+  [title]="'Isolated GPU PCI Ids' | translate"
+  [loading]="isFormLoading"
+></ix-modal-header2>
+<mat-card>
+  <mat-card-content>
+    <form
+      class="ix-form-container"
+      [formGroup]="formGroup"
+      (submit)="onSubmit()"
+    >
+      <ix-fieldset>
+        <ix-select
+          ixUiSearchableElement
+          formControlName="isolated_gpu_pci_ids"
+          [label]="'GPUs' | translate"
+          [multiple]="true"
+          [options]="options$"
+          [ixSearchConfig]="searchElements.isolatedGpuPciIds"
+        ></ix-select>
+      </ix-fieldset>
+
+      <ix-form-actions>
+        <button
+          *ixRequiresRoles="requiredRoles"
+          mat-button
+          type="submit"
+          color="primary"
+          ixTest="save"
+          [disabled]="formGroup.invalid || isFormLoading"
+        >
+          {{ 'Save' | translate }}
+        </button>
+      </ix-form-actions>
+    </form>
+  </mat-card-content>
+</mat-card>

@@ -1,0 +1,43 @@
+<mat-card>
+  <mat-toolbar-row>
+    <h3>{{ 'Interfaces' | translate }}</h3>
+    <div class="actions">
+      <div [matTooltip]="isHaEnabled ? (helptext.ha_enabled_edit_msg | translate) : ''">
+        <button
+          *ixRequiresRoles="requiredRoles"
+          mat-button
+          [ixTest]="['add', 'interface']"
+          [disabled]="isHaEnabled"
+          (click)="onAddNew()"
+        >
+          {{ 'Add' | translate }}
+        </button>
+      </div>
+    </div>
+  </mat-toolbar-row>
+  <ix-table2 class="interfaces-table">
+    <thead
+      ix-table-head
+      [columns]="columns"
+      [dataProvider]="dataProvider"
+    ></thead>
+    <tbody
+      ix-table-body
+      [columns]="columns"
+      [dataProvider]="dataProvider"
+      [isLoading]="isLoading"
+    >
+      <ng-template
+        let-interface
+        ix-table-cell
+        [columnIndex]="0"
+        [dataProvider]="dataProvider"
+      >
+        <ix-interface-status-icon
+          class="interface-icon"
+          [update]="inOutUpdates?.[interface.name]"
+        ></ix-interface-status-icon>
+      </ng-template>
+    </tbody>
+  </ix-table2>
+</mat-card>

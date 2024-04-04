@@ -1,0 +1,31 @@
+<h1 matDialogTitle>
+  {{ 'Replace' | translate }}
+</h1>
+<form class="ix-form-container" [formGroup]="form" (submit)="onSubmit()">
+  <ix-fieldset>
+    <ix-select
+      [formControlName]="dev.fcName"
+      [label]="dev.label"
+      [options]="dev.options"
+      [required]="true"
+    ></ix-select>
+  </ix-fieldset>
+
+  <ix-form-actions>
+    <button mat-button type="button" ixTest="cancel" [matDialogClose]="false">
+      {{ 'Cancel' | translate }}
+    </button>
+
+    <button
+      *ixRequiresRoles="[Role.FullAdmin]"
+      mat-button
+      type="submit"
+      color="primary"
+      ixTest="save"
+      [disabled]="form.invalid"
+    >
+      {{ 'Save' | translate }}
+    </button>
+  </ix-form-actions>
+</form>
+

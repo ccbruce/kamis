@@ -1,0 +1,25 @@
+<mat-dialog-content>
+  <h3>{{ 'Restart SMB Service' | translate }}</h3>
+  <div>
+    <p>{{ helptext.restartPt1 | translate }}</p>
+    <ul>
+      <li *ngIf="data.homeshare">{{ homeShareMessage | translate }}</li>
+      <li *ngIf="data.timemachine">{{ timemachineMessage | translate }}</li>
+      <li *ngIf="data.hosts">{{ hostsMessage | translate }}</li>
+      <li *ngIf="data.path">{{ pathMessage | translate }}</li>
+    </ul>
+
+    <p><strong>{{ helptext.restartPt2 }}</strong></p>
+  </div>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button ixTest="do-not-restart" [mat-dialog-close]="false">{{ 'No' | translate }}</button>
+  <button
+    *ixRequiresRoles="requiredRoles"
+    mat-button
+    cdkFocusInitial
+    color="primary"
+    ixTest="restart-service"
+    [mat-dialog-close]="true"
+  >{{ 'Restart Service' | translate }}</button>
+</mat-dialog-actions>

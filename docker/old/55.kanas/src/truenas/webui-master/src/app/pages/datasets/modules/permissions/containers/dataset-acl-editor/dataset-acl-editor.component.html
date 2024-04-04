@@ -1,0 +1,166 @@
+<mat-card class="card card-square">
+  <mat-spinner
+    *ngIf="isLoading; else loaded"
+    class="spinner"
+    [diameter]="40"
+  ></mat-spinner>
+
+  <ng-template #loaded>
+    <mat-card-header class="header">
+      <mat-card-title class="header-title">
+        {{ 'ACL Editor' | translate }}
+      </mat-card-title>
+
+      <div class="dataset-path">
+        <label class="header-label">{{ 'Path' | translate }}:</label>
+        <div>{{ datasetPath }}</div>
+      </div>
+
+      <div class="ownership-row" [formGroup]="ownerFormGroup">
+        <div class="control">
+          <label class="header-label">{{ 'Owner' | translate }}:</label>
+          <ix-combobox
+            class="owner-combobox"
+            formControlName="owner"
+            [provider]="userProvider"
+          ></ix-combobox>
+          <ix-checkbox
+            formControlName="applyOwner"
+            [label]="'Apply Owner' | translate"
+            [tooltip]="helptext.apply_user.tooltip | translate"
+          ></ix-checkbox>
+        </div>
+
+        <div class="control">
+          <label class="header-label">{{ 'Owner Group' | translate }}:</label>
+          <ix-combobox
+            class="owner-combobox"
+            formControlName="ownerGroup"
+            [provider]="groupProvider"
+          ></ix-combobox>
+          <ix-checkbox
+            formControlName="applyGroup"
+            [label]="'Apply Group' | translate"
+            [tooltip]="helptext.apply_group.tooltip | translate"
+          ></ix-checkbox>
+        </div>
+      </div>
+    </mat-card-header>
+
+    <div class="content">
+      <div class="columns">
+        <div class="column-left">
+          <ix-acl-editor-list
+            [acl]="acl"
+            [selectedAceIndex]="selectedAceIndex"
+            [acesWithError]="acesWithError"
+            [owner]="ownerFormGroup.get('owner').value"
+            [ownerGroup]="ownerFormGroup.get('ownerGroup').value"
+          ></ix-acl-editor-list>
+
+          <div class="add-item">
+            <button
+              mat-button
+              class="action"
+              ixTest="add-acl-item"
+              (click)="onAddItemPressed()"
+            >
+              <ix-icon name="add"></ix-icon>
+              {{ 'Add Item' | translate }}
+            </button>
+          </div>
+
+          <div class="controls-container">
+            <div class="controls">
+              <div class="checkboxes" [formGroup]="saveParameters">
+                <ix-checkbox
+                  formControlName="recursive"
+                  class="recursive-checkbox"
+                  [label]="helptext.dataset_acl_recursive_placeholder | translate"
+                  [tooltip]="helptext.dataset_acl_recursive_tooltip | translate"
+                ></ix-checkbox>
+
+                <ix-checkbox
+                  *ngIf="saveParameters.get('recursive').value"
+                  formControlName="traverse"
+                  [label]="helptext.dataset_acl_traverse_placeholder | translate"
+                  [tooltip]="helptext.dataset_acl_traverse_tooltip | translate"
+                ></ix-checkbox>
+              </div>
+
+              <div class="control-buttons">
+                <button
+                  *ixRequiresRoles="[Role.FilesystemAttrsWrite, Role.FilesystemFullControl]"
+                  mat-button
+                  color="primary"
+                  class="action"
+                  ixTest="save-acl"
+                  [disabled]="acesWithError.length > 0 || !acl.acl.length || ownerFormGroup.invalid"
+                  (click)="onSavePressed()"
+                >
+                  {{ 'Save Access Control List' | translate }}
+                </button>
+              </div>
+
+              <div class="control-buttons">
+                <a
+                  *ngIf="acl.trivial; else stripButton"
+                  mat-button
+                  class="action"
+                  ixTest="edit-permissions"
+                  [routerLink]="['/datasets', getDatasetPath(), 'permissions', 'edit']"
+                >
+                  {{ 'Permissions Editor' | translate }}
+                </a>
+                <ng-template #stripButton>
+                  <button
+                    *ixRequiresRoles="[Role.FilesystemAttrsWrite, Role.FilesystemFullControl]"
+                    mat-button
+                    color="warn"
+                    class="action"
+                    ixTest="strip-acl"
+                    (click)="onStripAclPressed()"
+                  >
+                    {{ 'Strip ACL' | translate }}
+                  </button>
+                </ng-template>
+              </div>
+
+              <h4 class="presets-label">Presets</h4>
+              <div class="control-buttons">
+                <button
+                  mat-button
+                  class="action"
+                  ixTest="use-preset"
+                  (click)="onUsePresetPressed()"
+                >
+                  {{ 'Use Preset' | translate }}
+                </button>
+                <button
+                  *ixRequiresRoles="[Role.FullAdmin]"
+                  mat-button
+                  class="action"
+                  ixTest="save-as-preset"
+                  (click)="onSavePreset()"
+                >
+                  {{ 'Save As Preset' | translate }}
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column-right">
+          <ng-container *ngIf="acl.acl[selectedAceIndex] as selectedAce">
+            <ix-edit-nfs-ace
+              *ngIf="isNfsAcl; else posixAcl"
+              [ace]="selectedAce | cast"
+            ></ix-edit-nfs-ace>
+            <ng-template #posixAcl>
+              <ix-edit-posix-ace [ace]="selectedAce | cast"></ix-edit-posix-ace>
+            </ng-template>
+          </ng-container>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</mat-card>

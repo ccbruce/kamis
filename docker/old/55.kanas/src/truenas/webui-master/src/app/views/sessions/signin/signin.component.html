@@ -1,0 +1,54 @@
+<!-- TODO: Hack. Mat inputs don't get their styles imported unless mat-form-field is used somewhere -->
+<mat-form-field style="display: none;"><input ixTest="noop" matInput></mat-form-field>
+
+<div class="page-wrap height-100 login-form">
+  <div class="session-form-hold">
+    <mat-progress-bar
+      value="0"
+      class="session-progress"
+      [mode]="(hasLoadingIndicator$ | async) ? 'indeterminate' : 'determinate'"
+    ></mat-progress-bar>
+    <mat-card>
+      <mat-card-content>
+        <div *ngIf="isConnected$ | async; else disconnected">
+          <div class="logo-wrapper">
+            <img
+              class="logo-bg"
+              alt="Logo image background of stars and sky at night"
+              src="assets/images/stars-sky-1200w.jpg"
+              srcset="assets/images/stars-sky-400w.jpg, assets/images/stars-sky-800w.jpg 2x, assets/images/stars-sky-1200w.jpg 3x"
+            >
+            <ix-icon name="ix:logo_truenas_scale_full" class="logo"></ix-icon>
+          </div>
+
+          <div class="card-bottom">
+            <div *ngIf="canLogin$ | async" class="form-container">
+              <ix-signin-form *ngIf="wasAdminSet$ | async; else noAdminSet"></ix-signin-form>
+              <ng-template #noAdminSet>
+                <ix-set-admin-password-form></ix-set-admin-password-form>
+              </ng-template>
+            </div>
+
+            <ng-container *ngIf="failover$ | async as failover">
+              <ix-failover-status
+                *ngIf="hasFailover$ | async"
+                class="failover-status"
+                [status]="failover.status"
+                [failoverIps]="failover.ips"
+                [disabledReasons]="failover.disabledReasons"
+              ></ix-failover-status>
+            </ng-container>
+
+            <ix-true-command-status *ngIf="managedByTrueCommand$ | async"></ix-true-command-status>
+            <ix-copyright-line class="copyright" [withIxLogo]="true"></ix-copyright-line>
+          </div>
+        </div>
+        <ng-template #disconnected>
+          <ix-disconnected-message
+            [hasFailover]="hasFailover$ | async"
+          ></ix-disconnected-message>
+        </ng-template>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

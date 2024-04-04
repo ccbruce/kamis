@@ -1,0 +1,31 @@
+<mat-card>
+  <mat-toolbar-row>
+    <h3>{{ 'Isolated GPU Device(s)' | translate }}</h3>
+    <div class="actions action-icon">
+      <button
+        id="isolated-gpus-settings"
+        mat-button
+        [ixTest]="['isolated-gpus-devices', 'configure']"
+        (click)="onConfigurePressed()"
+      >
+        {{ 'Configure' | translate }}
+      </button>
+    </div>
+  </mat-toolbar-row>
+
+  <mat-card-content>
+    <ix-empty
+      *ngIf="isolatedGpus.length === 0"
+      [conf]="emptyConfig"
+    ></ix-empty>
+
+    <mat-list *ngIf="isolatedGpus.length">
+      <mat-list-item>
+        <span class="label">{{ 'Isolated GPU Device(s)' | translate }}:</span>
+        <span class="value">
+          {{ isolatedGpuNames }}
+        </span>
+      </mat-list-item>
+    </mat-list>
+  </mat-card-content>
+</mat-card>

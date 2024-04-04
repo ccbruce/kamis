@@ -1,0 +1,48 @@
+<div class="widget stats-widget" ngClass.xs="double-height xs">
+  <div class="card-container">
+    <mat-card class="front">
+      <mat-card-content>
+        <mat-toolbar-row>
+          <h3 class="mat-card-title-text">
+            <div class="card-title-text">{{ 'Dashboard' | translate }}</div>
+          </h3>
+        </mat-toolbar-row>
+
+        <div class="mobile">
+          <div *ngIf="!renderedWidgets.length && emptyConfig" class="bottom empty">
+            <ix-empty [conf]="emptyConfig"></ix-empty>
+          </div>
+
+          <div *ngIf="renderedWidgets.length" class="bottom">
+            <div class="list-subheader">
+              <span class="capitalize">
+                {{ 'Widgets ({n, plural, =1 {# item} other {# items}})' | translate: { n: renderedWidgets.length } }}
+              </span>
+            </div>
+            <mat-list>
+              <ng-container *ngFor="let widget of dashState">
+                <mat-list-item
+                  *ngIf="widget.rendered"
+                  class="widget-launcher clickable"
+                  (click)="launchWidget(widget)"
+                >
+                  <span class="label">
+                    {{ widget.name }}
+                    <span *ngIf="widget.identifier && nameFromIdentifier(widget.identifier).length">
+                      :
+                    </span>
+                  </span>
+                  &nbsp;&nbsp;
+                  <span *ngIf="widget.identifier && nameFromIdentifier(widget.identifier).length">
+                    {{ nameFromIdentifier(widget.identifier, widget.name) }}
+                  </span>
+                  <ix-icon class="next-slide" name="chevron_right"></ix-icon>
+                </mat-list-item>
+              </ng-container>
+            </mat-list>
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

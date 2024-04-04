@@ -1,0 +1,58 @@
+<form *ngIf="allTabs.length" class="reports-toolbar" [formGroup]="form">
+  <ng-container *ngIf="activeTab?.value === ReportType.Disk">
+    <ix-select
+      formControlName="devices"
+      [label]="'Devices' | translate"
+      [options]="diskDevices$"
+      [multiple]="true"
+      [showSelectAll]="true"
+    ></ix-select>
+
+    <ix-select
+      formControlName="metrics"
+      [label]="'Metrics' | translate"
+      [options]="diskMetrics$"
+      [multiple]="true"
+    ></ix-select>
+  </ng-container>
+
+  <ix-slide-toggle
+    formControlName="autoRefresh"
+    color="primary"
+    [label]="'Auto Refresh' | translate"
+  ></ix-slide-toggle>
+
+  <button
+    *ngIf="activeTab"
+    mat-button
+    color="primary"
+    class="menu-toggle"
+    ixTest="category-menu"
+    [matMenuTriggerFor]="categoryMenu"
+  >
+    {{ activeTab.label | translate }}
+    <ix-icon name="mdi-menu-down" class="menu-caret"></ix-icon>
+  </button>
+
+  <mat-menu #categoryMenu="matMenu" overlapTrigger="false" class="reports-menu">
+    <div>
+      <button
+        *ngFor="let tab of allTabs"
+        mat-menu-item
+        [ixTest]="['category', tab.label]"
+        [class.selected]="isActiveTab(tab)"
+        [routerLink]="['/reportsdashboard', tab.value]"
+      >{{ tab.label | translate }}</button>
+    </div>
+  </mat-menu>
+  <button
+    mat-button
+    ixTest="exporters-nav"
+    [routerLink]="['/reportsdashboard','exporters']"
+  >{{ 'Exporters' | translate }}</button>
+  <button
+    mat-button
+    ixTest="netdata-nav"
+    (click)="openNetdata()"
+  >{{ 'Netdata' | translate }}</button>
+</form>

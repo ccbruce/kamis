@@ -1,0 +1,47 @@
+<mat-card class="form-card">
+  <mat-progress-bar
+    *ngIf="isFormLoading"
+    mode="indeterminate"
+  ></mat-progress-bar>
+
+  <mat-card-title *ngIf="group?.group">
+    {{ 'Manage members of {name} group' | translate: { name: group.group } }}
+    <ix-readonly-badge *ngIf="requiredRoles?.length && !(hasRequiredRoles | async)"></ix-readonly-badge>
+  </mat-card-title>
+
+  <mat-card-content>
+    <div *ngIf="users.length" class="padding-16">
+      <ix-dual-listbox
+        minHeight="55vh"
+        maxHeight="55vh"
+        [items]="users"
+        [title1]="'All users' | translate"
+        [title2]="'Group members' | translate"
+        [(selectedItems)]="selectedMembers"
+      >
+        <ng-template #templateItem let-item>
+          <ix-icon
+            matListItemIcon
+            name="mdi-account"
+            class="icon account"
+          ></ix-icon>
+          <span matListItemLine>{{ item.username }}</span>
+        </ng-template>
+      </ix-dual-listbox>
+    </div>
+  </mat-card-content>
+
+  <mat-card-actions>
+    <button
+      *ixRequiresRoles="requiredRoles"
+      mat-button
+      color="primary"
+      ixTest="save"
+      [disabled]="isFormLoading"
+      (click)="onSubmit()"
+    >
+      {{ 'Save' | translate }}
+    </button>
+    <button mat-button ixTest="cancel" (click)="onCancel()">{{ 'Cancel' | translate }}</button>
+  </mat-card-actions>
+</mat-card>

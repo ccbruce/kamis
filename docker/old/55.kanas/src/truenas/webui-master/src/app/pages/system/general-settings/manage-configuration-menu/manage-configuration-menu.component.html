@@ -1,0 +1,39 @@
+<button
+  mat-button
+  color="primary"
+  class="menu-toggle"
+  ixTest="manage-configuration-menu"
+  [matMenuTriggerFor]="menu"
+>
+  {{ 'Manage Configuration' | translate }}
+  <ix-icon name="mdi-menu-down" class="menu-caret"></ix-icon>
+</button>
+
+<mat-menu #menu="matMenu">
+  <button
+    *ixRequiresRoles="[Role.FullAdmin]"
+    mat-menu-item
+    ixTest="download-configuration"
+    (click)="onDownloadConfig()"
+  >
+    {{ 'Download File' | translate }}
+  </button>
+  <button
+    *ixRequiresRoles="[Role.FullAdmin]"
+    mat-menu-item
+    ixTest="upload-configuration"
+    (click)="onUploadConfig()"
+  >
+    {{ 'Upload File' | translate }}
+  </button>
+  <ng-container *ngIf="isSysAdmin$ | async">
+    <button
+      *ixRequiresRoles="[Role.FullAdmin]"
+      mat-menu-item
+      ixTest="reset-configuration"
+      (click)="onResetDefaults()"
+    >
+      {{ 'Reset to Defaults' | translate }}
+    </button>
+  </ng-container>
+</mat-menu>

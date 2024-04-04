@@ -1,0 +1,34 @@
+<ix-modal-header2
+  [requiredRoles]="requiredRoles"
+  [title]="'Kernel' | translate"
+  [loading]="isFormLoading"
+></ix-modal-header2>
+
+<mat-card>
+  <mat-card-content>
+    <form class="ix-form-container" [formGroup]="form" (submit)="onSubmit()">
+      <ix-fieldset>
+        <ix-checkbox
+          ixUiSearchableElement
+          formControlName="debugkernel"
+          [label]="'Enable Debug Kernel' | translate"
+          [tooltip]="tooltips.debugkernel"
+          [ixSearchConfig]="searchElements.kernel"
+        ></ix-checkbox>
+      </ix-fieldset>
+
+      <ix-form-actions>
+        <button
+          *ixRequiresRoles="requiredRoles"
+          mat-button
+          type="submit"
+          color="primary"
+          ixTest="save"
+          [disabled]="form.invalid || isFormLoading"
+        >
+          {{ 'Save' | translate }}
+        </button>
+      </ix-form-actions>
+    </form>
+  </mat-card-content>
+</mat-card>

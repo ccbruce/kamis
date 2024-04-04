@@ -1,0 +1,79 @@
+<mat-card class="card">
+  <mat-card-header>
+    <h3 mat-card-title>
+      {{ 'Disk Health' | translate }}
+      <ix-pool-card-icon [type]="iconType" [tooltip]="iconTooltip"></ix-pool-card-icon>
+    </h3>
+
+    <a mat-button ixTest="manage-disks" [routerLink]="['/storage', 'disks']">
+      {{ 'Manage Disks' | translate }}
+    </a>
+  </mat-card-header>
+
+  <mat-card-content fxLayout="column" fxFlex="100">
+    <div class="details-item">
+      <div class="label">
+        {{ 'Disks temperature related alerts' | translate }}:
+      </div>
+      <div class="value">
+        {{ diskState.alerts | number }}
+      </div>
+    </div>
+
+    <div class="details-item">
+      <div class="label">{{ 'Highest Temperature' | translate }}:</div>
+      <div class="value">
+        <ng-container *ngIf="isHighestTempReady; else noData">
+          {{ diskState.highestTemperature | number }}
+          {{ diskState.symbolText }}{{ diskState.unit }}
+        </ng-container>
+      </div>
+    </div>
+
+    <div class="details-item">
+      <div class="label">{{ 'Lowest Temperature' | translate }}:</div>
+      <div class="value">
+        <ng-container *ngIf="isLowestTempReady; else noData">
+          {{ diskState.lowestTemperature | number }}
+          {{ diskState.symbolText }}{{ diskState.unit }}
+        </ng-container>
+      </div>
+    </div>
+
+    <div class="details-item">
+      <div class="label">{{ 'Average Disk Temperature' | translate }}:</div>
+      <div class="value">
+        <ng-container
+          *ngIf="isAverageTempReady; else noData"
+        >
+          {{ diskState.averageTemperature | number }}
+          {{ diskState.symbolText }}{{ diskState.unit }}
+        </ng-container>
+      </div>
+      <a
+        ixTest="view-reports"
+        [routerLink]="['/reportsdashboard', 'disk']"
+        [queryParams]="{ disks: disksNames }"
+      >
+        {{ 'View Reports' | translate }}
+      </a>
+    </div>
+
+    <div class="details-item">
+      <div class="label">{{ 'Failed S.M.A.R.T. Tests' | translate }}:</div>
+      <div class="value">
+        {{ diskState.smartTests | number }}
+      </div>
+      <a
+        ixTest="view-all-smart-tests"
+        [routerLink]="['/storage', 'disks', 'smartresults', SmartTestResultPageType.Pool, poolState.name]"
+      >
+        {{ 'View All S.M.A.R.T. Tests' | translate }}
+      </a>
+    </div>
+
+    <ng-template #noData>
+      {{ 'No Data' | translate }}
+    </ng-template>
+  </mat-card-content>
+</mat-card>

@@ -1,0 +1,36 @@
+@import 'scss-imports/splitview';
+@import 'mixins/layout';
+
+@include tree-node-with-details-container;
+
+:host {
+  display: block;
+
+  &.details-overlay {
+    .table-container {
+      @media (max-width: $breakpoint-hidden) {
+        display: none !important;
+      }
+    }
+  }
+}
+
+ix-dataset-details-panel {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.details-container.details-container-mobile {
+  ix-dataset-details-panel {
+    margin-top: -12px;
+  }
+}
+
+.entity-empty-wrapper {
+  padding: 16px;
+
+  ix-empty {
+    margin: 32px 0;
+  }
+}

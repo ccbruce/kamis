@@ -1,0 +1,41 @@
+<ix-page-header>
+  <ix-search-input1 (search)="onListFiltered($event)"></ix-search-input1>
+  <mat-slide-toggle
+    color="primary"
+    ixTest="show-built-in-users"
+    [checked]="!hideBuiltinUsers"
+    (change)="toggleBuiltins()"
+  >
+    <label>{{ 'Show Built-in Users' | translate }}</label>
+  </mat-slide-toggle>
+  <button *ixRequiresRoles="requiredRoles" mat-button ixTest="add-user" [color]="'primary'" (click)="doAdd()">
+    {{ 'Add' | translate }}
+  </button>
+</ix-page-header>
+
+<div class="table-container">
+  <ix-table2
+    [ix-table2-empty]="!(dataProvider.currentPageCount$ | async)"
+    [emptyConfig]="emptyConfigService.defaultEmptyConfig((emptyType$ | async))"
+  >
+    <thead
+      ix-table-head
+      [columns]="columns"
+      [dataProvider]="dataProvider"
+    ></thead>
+    <tbody
+      ix-table-body
+      [columns]="columns"
+      [dataProvider]="dataProvider"
+      [isLoading]="isLoading$ | async"
+    >
+      <ng-template let-user ix-table-details-row [dataProvider]="dataProvider">
+        <ix-user-details-row
+          [user]="user"
+          (delete)="handleDeletedUser($event)"
+        ></ix-user-details-row>
+      </ng-template>
+    </tbody>
+  </ix-table2>
+  <ix-table-pager [dataProvider]="dataProvider"></ix-table-pager>
+</div>

@@ -1,0 +1,96 @@
+<div
+  class="dashboard"
+  fxLayout="column"
+  fxLayoutGap="8px"
+>
+  <div class="content" fxLayout="column" fxLayout.lg="row" fxLayoutGap="8px">
+    <div class="right-column" fxFlex="100" fxFlex.lg="65">
+      <div fxLayout="column" fxFlexFill fxLayoutGap="8px">
+        <mat-card *ngIf="hasPendingChanges" class="pending-changes-card">
+          <mat-card-content>
+            <div *ngIf="!checkinWaiting; else checkIn">
+              <p>{{ helptext.pending_changes_text | translate }}</p>
+              <p>
+                {{ helptext.checkin_text | translate }}
+                <mat-form-field floatPlaceholder="never" id="timeout-field">
+                  <input
+                    matInput
+                    ixTest="checkin-timeout"
+                    [pattern]="checkinTimeoutPattern"
+                    [(ngModel)]="checkinTimeout"
+                  />
+                </mat-form-field>
+                {{ helptext.checkin_text_2 | translate }}
+              </p>
+            </div>
+
+            <ng-template #checkIn>
+              <div>
+                <p>
+                  {{ helptext.pending_checkin_text | translate: { x: checkinRemaining } }}
+                </p>
+              </div>
+            </ng-template>
+          </mat-card-content>
+
+          <mat-card-actions class="interface-pending-actions">
+            <button
+              *ngIf="!checkinWaiting"
+              mat-button
+              ixTest="test-changes"
+              [disabled]="isHaEnabled"
+              (click)="commitPendingChanges()"
+            >
+              {{ helptext.commit_button | translate }}
+            </button>
+
+            <button
+              *ngIf="checkinWaiting"
+              mat-button
+              ixTest="save-changes"
+              [disabled]="isHaEnabled"
+              (click)="checkInNow()"
+            >
+              {{ helptext.keep_button | translate }}
+            </button>
+
+            <button
+              mat-button
+              ixTest="revert-changes"
+              [disabled]="isHaEnabled"
+              (click)="rollbackPendingChanges()"
+            >
+              {{ helptext.rollback_button | translate }}
+            </button>
+          </mat-card-actions>
+
+          <div *ngIf="isHaEnabled" class="disabled-notice">
+            {{ helptext.ha_enabled_text | translate }}
+            (
+            <span
+              class="pseudolink"
+              (click)="goToHa()"
+            >
+              {{ helptext.go_to_ha | translate }}
+            </span>
+            ).
+          </div>
+        </mat-card>
+        <ix-interfaces-card
+          [isHaEnabled]="isHaEnabled"
+          (interfacesUpdated)="loadCheckinStatusAfterChange()"
+        ></ix-interfaces-card>
+        <ix-network-configuration-card
+          class="dashboard-card"
+        ></ix-network-configuration-card>
+      </div>
+    </div>
+
+    <div class="left-column" fxFlex="100" fxFlex.lg="35">
+      <div fxLayout="column" fxFlexFill fxLayoutGap="8px">
+        <ix-static-routes></ix-static-routes>
+        <ix-ipmi-card></ix-ipmi-card>
+      </div>
+    </div>
+  </div>
+</div>

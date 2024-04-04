@@ -1,0 +1,24 @@
+<mat-card *ngIf="hasIpmi$ | async">
+  <mat-toolbar-row>
+    <h3>IPMI</h3>
+
+    <button
+      mat-button
+      class="actions"
+      ixTest="show-events"
+      (click)="onOpenEvents()"
+    >{{ 'Show Events' | translate }}</button>
+  </mat-toolbar-row>
+
+  <ix-table2
+    [ix-table2-empty]="!(dataProvider.currentPageCount$ | async)"
+    [emptyConfig]="emptyService.defaultEmptyConfig(dataProvider.emptyType$ | async)"
+  >
+    <tbody
+      ix-table-body
+      [columns]="columns"
+      [dataProvider]="dataProvider"
+      [isLoading]="dataProvider.isLoading$ | async"
+    ></tbody>
+  </ix-table2>
+</mat-card>

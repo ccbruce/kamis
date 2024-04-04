@@ -1,0 +1,93 @@
+<ix-modal-header
+  [requiredRoles]="requiredRoles"
+  [title]="'Share ACL for {share}' | translate: { share: shareName }"
+  [loading]="isLoading"
+></ix-modal-header>
+
+<mat-card>
+  <p>{{ helptext.shareAclDescription | translate }}</p>
+
+  <mat-card-content>
+    <form class="ix-form-container" [formGroup]="form" (submit)="onSubmit()">
+      <ix-fieldset [title]="'ACL Entries' | translate">
+        <ix-list
+          formArrayName="entries"
+          [formArray]="form.get('entries')"
+          [empty]="form.controls.entries.length === 0 && !isLoading"
+          [label]="'Add entry' | translate"
+          (add)="addAce()"
+        >
+          <ix-list-item
+            *ngFor="let entry of form.controls.entries.controls; let i = index"
+            [formGroupName]="i"
+            (delete)="removeAce(i)"
+          >
+            <div *ngIf="entry.controls.ae_who_sid.value" class="entry-row">
+              {{ 'SID' | translate }}:
+              {{ entry.controls.ae_who_sid.value }}
+            </div>
+            <div class="entry-row">
+              <ix-select
+                formControlName="ae_who"
+                [label]="'Who' | translate"
+                [options]="tags$"
+                [required]="true"
+              ></ix-select>
+
+              <ix-combobox
+                *ngIf="entry.controls.ae_who.value === nfsAclTag.User"
+                formControlName="user"
+                [label]="'User' | translate"
+                [provider]="userProvider"
+                [required]="true"
+              ></ix-combobox>
+
+              <ix-combobox
+                *ngIf="entry.controls.ae_who.value === nfsAclTag.UserGroup"
+                formControlName="group"
+                [label]="'Group' | translate"
+                [provider]="groupProvider"
+                [required]="true"
+              ></ix-combobox>
+            </div>
+
+            <div class="entry-row">
+              <ix-errors [control]="entry"></ix-errors>
+            </div>
+
+            <div class="entry-row">
+              <ix-select
+                formControlName="ae_perm"
+                [label]="'Permission' | translate"
+                [options]="permissions$"
+                [required]="true"
+                [tooltip]="helptext.ae_perm_tooltip | translate"
+              ></ix-select>
+
+              <ix-select
+                formControlName="ae_type"
+                [label]="'Type' | translate"
+                [options]="types$"
+                [required]="true"
+                [tooltip]="helptext.ae_type_tooltip | translate"
+              ></ix-select>
+            </div>
+          </ix-list-item>
+        </ix-list>
+      </ix-fieldset>
+
+      <ix-form-actions>
+        <button
+          *ixRequiresRoles="requiredRoles"
+          mat-button
+          type="submit"
+          color="primary"
+          ixTest="save"
+          [disabled]="form.invalid || isLoading"
+        >
+          {{ 'Save' | translate }}
+        </button>
+      </ix-form-actions>
+    </form>
+  </mat-card-content>
+</mat-card>

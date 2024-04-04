@@ -1,0 +1,33 @@
+<ix-page-header class="page-header">
+  <ix-reports-global-controls
+    (diskOptionsChanged)="buildDiskReport($event)"
+  ></ix-reports-global-controls>
+</ix-page-header>
+
+<div
+  *ngIf="visibleReports?.length && activeReports; else initialLoader"
+  class="master-container"
+  ixUiSearchableElement
+  [ixSearchConfig]="searchElements.reporting"
+>
+  <cdk-virtual-scroll-viewport [itemSize]="325" [minBufferPx]="325" [maxBufferPx]="325">
+    <div *cdkVirtualFor="let key of visibleReports; let i = index" class="report-container">
+      <ix-report
+        *ngIf="activeReports[key] && activeReports[key].identifiers.length > 0"
+        [report]="activeReports[key]"
+        [identifier]="activeReports[key].identifiers[0]"
+      ></ix-report>
+      <ix-report
+        *ngIf="activeReports[key].identifiers.length === 0"
+        [report]="activeReports[key]"
+      ></ix-report>
+    </div>
+    <div class="bottom-spacer"></div>
+  </cdk-virtual-scroll-viewport>
+</div>
+
+<ng-template #initialLoader>
+  <div *ngFor="let _ of [1,2,3,4]" class="initial-loader">
+    <mat-card fxLayout="row wrap" fxLayoutAlign="space-between stretch"></mat-card>
+  </div>
+</ng-template>
