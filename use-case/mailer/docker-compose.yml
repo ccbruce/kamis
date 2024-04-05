@@ -1,0 +1,60 @@
+version: '3.8'
+services:
+
+  kamail:
+    image: kingasiagroup/kamail:1.01r1
+    command: tail -F /dev/null
+    # command: /usr/sbin/sshd -D
+    # command: /usr/bin/supervisord -c /etc/supervisor/supervisord.conf
+    # hostname: kamail
+    container_name: kamail
+    hostname: mail
+    domainname: miidai.com
+    privileged: true
+    restart: always
+    ports:
+      - "22804:22"  # sshd
+      - "6666:6666" # admin
+      - "6080:80"   # web
+      - "25:25"     # SMTP  (explicit TLS => STARTTLS, Authentication is DISABLED => use port 465/587 instead)
+      - "143:143"   # IMAP4 (explicit TLS => STARTTLS)
+      - "465:465"   # ESMTP (implicit TLS)
+      - "587:587"   # ESMTP (explicit TLS => STARTTLS)
+      - "993:993"   # IMAP4 (implicit TLS)
+    volumes:
+      - "./vol/kamail/workspace:/workspace:Z"
+      - "./vol/kamail/etc/dovecot:/etc/dovecot/:Z"
+      - "./vol/kamail/etc/samba:/etc/samba/:Z"
+      - "./vol/kamail/etc/supervisor:/etc/supervisor/:Z"
+      - "./vol/kamail/root:/root/:Z"
+      - "./vol/kamail/home/ccbruce:/home/ccbruce:Z"
+      - "./vol/kamail/opt/:/opt/:Z"
+      - "/etc/localtime:/etc/localtime:ro"
+      - ./vol/kamail/dms/mail-data/:/var/mail/
+      - ./vol/kamail/dms/mail-state/:/var/mail-state/
+      - ./vol/kamail/dms/mail-logs/:/var/log/mail/
+      - ./vol/kamail/dms/config/:/tmp/docker-mailserver/
+      - /etc/localtime:/etc/localtime:ro
+    networks:
+      kamis-net:
+        ipv4_address: 172.73.1.249
+    logging:
+      driver: json-file
+      options:
+        max-size: 1g
+
+    # certbot:
+    #     container_name: certbot
+    #     image: certbot/certbot:latest
+    #     # command: certonly --webroot --webroot-path=/var/www/html -- email ccbruce@kingasiagroup.com --agree-tos --no-eff-email -d domain.com -d www.domain.com
+    #     volumes:
+    #         - ./vol/certbot/conf:/etc/letsencrypt
+    #         - ./vol/certbot/logs:/var/log/letsencrypt
+    #         - ./vol/certbot/data:/var/www/html
+networks:
+  kamis-net:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.73.1.0/24
