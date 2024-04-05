@@ -72,3 +72,50 @@ ls -lsa
 cd bin
 ls
 exit
+php
+php -version
+find / -name "dovecot-fts-xapian*" -print
+find -name "dovecot-fts-xapian-1.5.5_1.5.5_*.deb" -print
+find / -name "dovecot-fts-xapian-1.5.5_1.5.5_*.deb" -print
+exit
+cd /opt/usr/bin/
+ls
+ls -lsa
+ls
+./addmailuser 
+cd /opt/app/
+s
+ls
+cd src/mailserver-admin/
+ls
+composer install
+exit
+ls -lsa
+ls
+composer version
+composer --version
+composer install --no-dev --prefer-dist -o --apcu-autoloader
+composer install --no-dev --prefer-dist -o --apcu-autoloader
+ls
+rm -fr vendor/
+composer install --no-dev --prefer-dist -o --apcu-autoloader
+ls
+rm -fr vendor/
+composer install
+chmod o+rw composer.json 
+rm composer.lock 
+compose install
+composer install
+composer require symfony/flex
+composer install
+composer install
+composer install --no-dev --prefer-dist -o --apcu-autoloader
+ls
+rm -fr vendor/
+exit
+composer require symfony/flex 
+composer install
+ls
+ls *.php
+php-fpm 
+exit
