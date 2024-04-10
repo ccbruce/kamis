@@ -12,3 +12,5 @@ runtime/vol/kaerp/opt/src/app/odoo-17.0.zip
 runtime/vol/kacloud/opt/src/app/nextcloud.tar.bz2
 runtime/vol/kacloud/opt/src/app/waf/main
 runtime/vol/kacloud/workspace/www-240331-r1.tgz
+use-case/bk-erp-240408.tgz
+use-case/erp/vol/kaerp/opt/src/app/odoo-17.0.zip
