@@ -1,0 +1,133 @@
+version: '3.8'
+services:
+  erp:
+    image: kingasiagroup/kaerp:17-r1
+    # command: tail -F /dev/null
+    # command: /usr/sbin/sshd -D
+    # command: /usr/bin/supervisord -c /etc/supervisor/supervisord.conf
+    hostname: erp
+    container_name: "kaerp-1"
+    depends_on:
+      - postgresql
+    privileged: true
+    restart: always
+    environment:
+      - HOST=mis-postgresql
+      # - USER=odoo
+      - PASSWORD=mithra35
+      - POSTGRES_USER=odoo
+    ports:
+      - "22803:22"
+      - "10017:8069"
+      - "20017:8072" # live chat
+    volumes:
+      - "./vol/kaerp/workspace:/workspace:Z"
+      - "./vol/kaerp/etc/supervisor:/etc/supervisor/:Z"
+      - "./vol/kaerp/root:/root/:Z"
+      - "./vol/kaerp/home/ccbruce:/home/ccbruce:Z"
+      - "./vol/kaerp/opt/:/opt/:Z"
+      - "./vol/kaerp/var/lib/odoo:/var/lib/odoo:Z"
+      - "./vol/kaerp/etc/odoo:/etc/odoo:Z"
+      - "./vol/kaerp/var/log/odoo:/var/log/odoo:Z"
+      - "/etc/localtime:/etc/localtime:ro"
+    networks:
+      kamis-net:
+        ipv4_address: 172.73.1.15
+    logging:
+      driver: json-file
+      options:
+        max-size: 1g
+
+  postgresql:
+    hostname: mis-postgresql
+    user: root
+    image: postgres:16
+    restart: always             # run as a service
+    ports:
+      - "5432:5432"
+    stop_signal: SIGINT
+    stop_grace_period: 3s
+    environment:
+      - POSTGRES_DB=root
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=mithra35
+      - PGDATA=/var/lib/postgresql/data/pgdata
+    volumes:
+      - "./vol/postgresql/var/lib/postgresql/data/pgdata:/var/lib/postgresql/data/pgdata:Z"
+      - "./vol/postgresql/initdb.d/1_db_init.up.sql:/docker-entrypoint-initdb.d/init.sql:Z"
+    networks:
+      kamis-net:
+        ipv4_address: 172.73.1.140
+
+  phpmyadmin:
+    hostname: phpmyadmin
+    container_name: "mis-phpmyadmin-1"
+    depends_on:
+     - mis-mysql
+    image: phpmyadmin
+    restart: always
+    ports:
+      - 15081:80
+    environment:
+      # - PMA_ARBITRARY=1
+      - PMA_HOST=mis-mysql
+    networks:
+      kamis-net:
+        ipv4_address: 172.73.1.120
+
+  pgweb:
+    hostname: pgweb
+    # command: tail -F /dev/null
+  #   #command: /usr/sbin/sshd -D
+  #   command: /usr/bin/supervisord
+    # container_name: "mis-pgweb-1"
+    depends_on:
+     - postgresql
+    image: kingasiagroup/kapgweb:0.98r1
+    restart: always
+    volumes:
+      - "./vol/kapgweb/workspace:/workspace:Z"
+      - "./vol/kapgweb/etc/supervisor:/etc/supervisor/:Z"
+      - "./vol/kapgweb/root:/root/:Z"
+      - "./vol/kapgweb/home/ccbruce:/home/ccbruce:Z"
+      - "./vol/kapgweb/opt/:/opt/:Z"
+      - "/etc/localtime:/etc/localtime:ro"
+    ports:
+      - 38081:8081
+    environment:
+      # - PMA_ARBITRARY=1
+      - PMA_HOST=mis-mysql
+    networks:
+      kamis-net:
+        ipv4_address: 172.73.1.122
+
+  mis-mysql:
+    hostname: mis-mysql
+    # command: mysqld --sql_mode="STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION" --lower_case_table_names=1 --local-infile
+    # image: mariadb:10.2.40
+    image: mariadb:11.3.2
+    # image: mariadb:10.6
+    container_name: mis-mysql
+    # stop_signal: SIGINT
+    # stop_grace_period: 2s
+    ports:
+      - 3306:3306
+    volumes:
+      - "./vol/mysql/etc/mysql/conf.d:/etc/mysql/conf.d:Z"
+      - "./vol/mysql/initdb.d:/docker-entrypoint-initdb.d:Z"
+      - "./vol/mysql/var/lib/mysql:/var/lib/mysql:Z"
+    environment:
+      MYSQL_PORT: 3306
+      MYSQL_ROOT_PASSWORD: mithra35
+      MYSQL_DATABASE: mysql
+      TZ: Asia/Shanghai
+    networks:
+      kamis-net:
+        ipv4_address: 172.73.1.121
+networks:
+  kamis-net:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.73.1.0/24

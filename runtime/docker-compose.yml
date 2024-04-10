@@ -501,7 +501,7 @@ services:
       #TZ: "Asia/Shanghai"
       TZ: "Asia/Taipei"
     restart: unless-stopped
-    
+     
   postgresql:
     hostname: mis-postgresql
     user: root

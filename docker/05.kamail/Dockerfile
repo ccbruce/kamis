@@ -394,7 +394,10 @@ RUN echo "resolvconf resolvconf/linkify-resolvconf boolean false" | debconf-set-
         xz-utils gnupg luajit busybox \
         nodejs npm yarn\
         nginx  python3-certbot-nginx \
-        bind9 bind9-doc\
+        bind9 bind9-doc bind9-utils\
+        libfreetype6-dev \
+        libjpeg62-turbo-dev \
+        libpng-dev libzip-dev \
     # Remove Apt cache to shrink the image size.    
     && npm install -g pnpm \
     && mkdir -p /etc/backup/ \
@@ -432,13 +435,17 @@ COPY mailserver-admin /opt/app/src/mailserver-admin
 COPY docker-entrypoint.sh /opt/startup/docker-entrypoint.sh
 
 RUN pecl install xdebug-3.1.5
-RUN docker-php-ext-enable xdebug
+RUN docker-php-ext-enable xdebug \
+    && docker-php-ext-install zip \
+    && docker-php-ext-configure gd --with-freetype --with-jpeg \
+    && docker-php-ext-install gd
 
 # RUN echo "xdebug.remote_enable = 1" >> /etc/php/8.1/cli/conf.d/20-xdebug.ini && \
 #     echo "xdebug.remote_autostart = 1" >> /etc/php/8.1/cli/conf.d/20-xdebug.ini && \
 # 	  echo "apc.enable_cli=1" >> /etc/php/8.1/cli/conf.d/20-apcu.ini
 RUN echo "xdebug.mode=coverage" >> /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
 
+RUN npm install -g ghost-cli@latest
 # # Autostart XDebug for apache
 # RUN { \
 # 	echo "xdebug.mode=debug"; \
@@ -487,7 +494,8 @@ RUN  echo 'export PATH="/workspace/bin:$PATH:/opt/usr/bin"' >> /home/ccbruce/.ba
     && touch /var/log/supervisor/supervisord.log \
     && chmod 666 /var/log/supervisor/supervisord.log \
     && chmod +x /opt/startup/docker-entrypoint.sh \
-    && rm -rf ~/.cache/pip /var/lib/apt/lists/* /tmp/* /var/tmp/*
+    && rm -rf ~/.cache/pip /var/lib/apt/lists/* /tmp/* /var/tmp/* \
+    && groupadd --gid 3001 ghost 
 
 EXPOSE 53 22
 
