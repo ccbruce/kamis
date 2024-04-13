@@ -438,7 +438,16 @@ RUN pecl install xdebug-3.1.5
 RUN docker-php-ext-enable xdebug \
     && docker-php-ext-install zip \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
-    && docker-php-ext-install gd
+    && docker-php-ext-install gd 
+
+RUN docker-php-ext-install mysqli \
+    && docker-php-ext-enable mysqli \
+    && docker-php-ext-install pdo pdo_mysql \
+    # && docker-php-ext-enable pdo \
+    && docker-php-ext-enable pdo_mysql \
+    && docker-php-ext-install opcache \
+    # && docker-php-ext-install pdo_dblib bcmath fileinfo intl opcache session sysvmsg snmp xml tidy filter  \
+    && docker-php-ext-enable opcache 
 
 # RUN echo "xdebug.remote_enable = 1" >> /etc/php/8.1/cli/conf.d/20-xdebug.ini && \
 #     echo "xdebug.remote_autostart = 1" >> /etc/php/8.1/cli/conf.d/20-xdebug.ini && \
@@ -452,6 +461,13 @@ RUN npm install -g ghost-cli@latest
 # 	echo "xdebug.start_with_request=yes"; \
 # } >> /etc/php/8.1/apache2/conf.d/20-xdebug.ini
 
+RUN apt update \
+  && apt install -y libnginx-mod* \
+  && apt-get clean autoclean \
+  && apt-get autoremove --yes \
+  && rm -rf ~/.cache/pip /var/lib/apt/lists/* /tmp/* /var/tmp/*  \
+  && rm -rf /var/lib/apt/lists/*
+  
 WORKDIR /opt/app/src/mailserver-admin
 # RUN composer require symfony/flex \
 # && composer install
@@ -465,7 +481,6 @@ WORKDIR /opt/app/src/mailserver-admin
     #     /opt/manager/var/log/ \
     #     /var/www/html/webmail/temp/ \
     #     /var/www/html/webmail/logs/
-
 
 RUN  echo 'export PATH="/workspace/bin:$PATH:/opt/usr/bin"' >> /home/ccbruce/.bashrc \
     && echo 'export PATH="/workspace/bin:$PATH:/opt/usr/bin"' >> /root/.bashrc \
