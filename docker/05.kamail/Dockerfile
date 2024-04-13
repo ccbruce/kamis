@@ -434,6 +434,8 @@ COPY mailserver-admin /opt/app/src/mailserver-admin
 
 COPY docker-entrypoint.sh /opt/startup/docker-entrypoint.sh
 
+RUN npm install -g ghost-cli@latest
+
 RUN pecl install xdebug-3.1.5
 RUN docker-php-ext-enable xdebug \
     && docker-php-ext-install zip \
@@ -444,29 +446,52 @@ RUN docker-php-ext-install mysqli \
     && docker-php-ext-enable mysqli \
     && docker-php-ext-install pdo pdo_mysql \
     # && docker-php-ext-enable pdo \
-    && docker-php-ext-enable pdo_mysql \
-    && docker-php-ext-install opcache \
-    # && docker-php-ext-install pdo_dblib bcmath fileinfo intl opcache session sysvmsg snmp xml tidy filter  \
-    && docker-php-ext-enable opcache 
+    && docker-php-ext-enable pdo_mysql  \
+    && docker-php-ext-install exif intl sysvsem bcmath session sysvmsg fileinfo  \
+    && docker-php-ext-enable  exif intl sysvsem bcmath session sysvmsg fileinfo 
+    # && docker-php-ext-install gmp pdo_dblib bcmath fileinfo intl opcache session sysvmsg snmp xml tidy filter  \
 
 # RUN echo "xdebug.remote_enable = 1" >> /etc/php/8.1/cli/conf.d/20-xdebug.ini && \
 #     echo "xdebug.remote_autostart = 1" >> /etc/php/8.1/cli/conf.d/20-xdebug.ini && \
 # 	  echo "apc.enable_cli=1" >> /etc/php/8.1/cli/conf.d/20-apcu.ini
 RUN echo "xdebug.mode=coverage" >> /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
 
-RUN npm install -g ghost-cli@latest
 # # Autostart XDebug for apache
 # RUN { \
 # 	echo "xdebug.mode=debug"; \
 # 	echo "xdebug.start_with_request=yes"; \
 # } >> /etc/php/8.1/apache2/conf.d/20-xdebug.ini
 
+#cache
 RUN apt update \
-  && apt install -y libnginx-mod* \
+  && apt install -y libnginx-mod* memcached libgmp-dev \
   && apt-get clean autoclean \
   && apt-get autoremove --yes \
   && rm -rf ~/.cache/pip /var/lib/apt/lists/* /tmp/* /var/tmp/*  \
-  && rm -rf /var/lib/apt/lists/*
+  && rm -rf /var/lib/apt/lists/* \
+  && docker-php-ext-install gmp \
+  # && git clone https://github.com/php-memcached-dev/php-memcached /usr/src/php/ext/memcached \
+  # && cd /usr/src/php/ext/memcached \ 
+  # ##&& git checkout -b php7 origin/php7 \
+  # && docker-php-ext-configure memcached \
+  # && docker-php-ext-install memcached \
+  # && docker-php-ext-enable memcached \
+  # && docker-php-ext-install opcache \
+  && docker-php-ext-enable opcache 
+
+
+#imagick
+RUN apt update \
+    && apt-get install -y \
+    libmagickwand-dev --no-install-recommends \
+    # && pecl install imagick \
+    # && docker-php-ext-install imagick  \
+    # && docker-php-ext-install php-imagick 
+	  # && docker-php-ext-enable php-imagick
+    && mkdir -p /usr/src/php/ext/imagick \
+    && curl -fsSL https://github.com/Imagick/imagick/archive/06116aa24b76edaf6b1693198f79e6c295eda8a9.tar.gz | tar xvz -C "/usr/src/php/ext/imagick" --strip 1  \
+    && docker-php-ext-install imagick 
+	  # && docker-php-ext-enable php-imagick
   
 WORKDIR /opt/app/src/mailserver-admin
 # RUN composer require symfony/flex \
@@ -482,7 +507,8 @@ WORKDIR /opt/app/src/mailserver-admin
     #     /var/www/html/webmail/temp/ \
     #     /var/www/html/webmail/logs/
 
-RUN  echo 'export PATH="/workspace/bin:$PATH:/opt/usr/bin"' >> /home/ccbruce/.bashrc \
+RUN useradd --uid 21000 memcached \
+    && echo 'export PATH="/workspace/bin:$PATH:/opt/usr/bin"' >> /home/ccbruce/.bashrc \
     && echo 'export PATH="/workspace/bin:$PATH:/opt/usr/bin"' >> /root/.bashrc \
     && echo 'export PATH="/workspace/bin:$PATH:/opt/usr/bin"' >> /home/kag/.bashrc \
     && echo 'export PATH="/workspace/bin:$PATH:/opt/usr/bin"' >> /home/mis/.bashrc \
