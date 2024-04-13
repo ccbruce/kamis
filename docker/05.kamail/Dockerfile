@@ -489,8 +489,11 @@ RUN apt update \
     # && docker-php-ext-install php-imagick 
 	  # && docker-php-ext-enable php-imagick
     && mkdir -p /usr/src/php/ext/imagick \
-    && curl -fsSL https://github.com/Imagick/imagick/archive/06116aa24b76edaf6b1693198f79e6c295eda8a9.tar.gz | tar xvz -C "/usr/src/php/ext/imagick" --strip 1  \
-    && docker-php-ext-install imagick 
+    && curl -fsSL https://pecl.php.net/get/imagick-3.7.0.tgz | tar xvz -C "/usr/src/php/ext/imagick" --strip 1  \
+    # && curl -fsSL https://github.com/Imagick/imagick/archive/06116aa24b76edaf6b1693198f79e6c295eda8a9.tar.gz | tar xvz -C "/usr/src/php/ext/imagick" --strip 1  \
+    && docker-php-ext-install imagick \
+    && docker-php-ext-enable imagick \
+    && docker-php-ext-enable bcmath gmp
 	  # && docker-php-ext-enable php-imagick
   
 WORKDIR /opt/app/src/mailserver-admin
